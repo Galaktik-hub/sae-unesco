@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 
 <html>
@@ -14,32 +13,11 @@
 
         if (language.indexOf('fr') > -1) {
             document.location.href = 'fr/index.html';
-        } else if (language.indexOf('en') > -1) {
-            document.location.href = 'en/index.html';
-        } else {
+        } else if (language.indexOf('cn') > -1) {
             document.location.href = 'cn/index.html';
+        } else {
+            document.location.href = 'en/index.html';
         }
         </script>
     </head>
-=======
-<html>
-    <head>
-    <title> TEST </title>
-    <script type="text/javascript">
-
-    if (navigator.browserLanguage) {
-        var language = navigator.browserLanguage;
-    } else {
-        var language = navigator.language;
-    }
-
-    if (language.indexOf('fr') > -1) {
-        document.location.href = 'fr/index.html';
-    } else if (language.indexOf('en') > -1) {
-        document.location.href = 'en/index.html';
-    } else {
-        document.location.href = 'cn/index.html';
-    }
-    </script>
-</head>
->>>>>>> 83a59ef973a49bbfebbc44aaf227185f46aa9a77
+</html>

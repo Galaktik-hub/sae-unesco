@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 
 <html>
@@ -20,3 +21,25 @@
         }
         </script>
     </head>
+=======
+<html>
+    <head>
+    <title> TEST </title>
+    <script type="text/javascript">
+
+    if (navigator.browserLanguage) {
+        var language = navigator.browserLanguage;
+    } else {
+        var language = navigator.language;
+    }
+
+    if (language.indexOf('fr') > -1) {
+        document.location.href = 'fr/index.html';
+    } else if (language.indexOf('en') > -1) {
+        document.location.href = 'en/index.html';
+    } else {
+        document.location.href = 'cn/index.html';
+    }
+    </script>
+</head>
+>>>>>>> 83a59ef973a49bbfebbc44aaf227185f46aa9a77

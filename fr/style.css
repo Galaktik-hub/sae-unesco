@@ -1,1 +1,113 @@
 
+/* Body */
+
+
+body {
+    margin: 0;
+    background-color: #fdf2e9;
+}
+
+
+body #CoeurCite, #title {
+    color: white;
+}
+
+
+/* Header */
+/* Partie de Julien pour le header, à supprimer aussi si besoin */
+
+header {
+    background-color: #28180a;
+    color: white;
+    padding: 10px;
+}
+
+header #onglets {
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header #onglets div > p {
+    position: relative;
+}
+
+header #onglets div > p::before {
+    position: absolute;
+    content: "";
+    background-color: white;
+    width: 100%;
+    height: 1px;
+    bottom: -50%;
+}
+
+
+/* Boutons */
+
+button {
+    display: inline-block;
+    background-color: #7E603B;
+    border-radius: 20px;
+    color: white;
+    width: 150px;
+    border: 2px double white;
+    position: relative;
+    font-weight: 2;
+}
+
+button:hover {
+    transition: 0.2s;
+    background-color: #28180A;
+}
+
+
+/* Section Au coeur de la cité */
+
+#CoeurCite {
+    background-color: #28180a;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #505050;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer > div {
+    flex: 1;
+    margin: 10px;
+}
+
+#Images_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Images_footer img {
+    padding: 10px;
+}
+
+footer div > h4 {
+    position: relative;
+}
+
+footer div > h4::before {
+    position: absolute;
+    content: "";
+    background-color: white;
+    width: 80%;
+    height: 3px;
+    bottom: -80%;
+}

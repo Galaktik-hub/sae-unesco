@@ -1,3 +1,9 @@
+:root {
+    --primary: #28180A;
+    --background: #191919;
+    --slider: rgba(252, 191, 80, 0.877);
+    --navbar-height: 48px;
+}
 
 /* Body */
 
@@ -30,11 +36,11 @@ header #onglets {
 }
 
 header #onglets div > p {
-    position: relative;
+    position: fixed;
 }
 
 header #onglets div > p::before {
-    position: absolute;
+    position: fixed;
     content: "";
     background-color: white;
     width: 100%;
@@ -42,6 +48,88 @@ header #onglets div > p::before {
     bottom: -50%;
 }
 
+
+.background {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    opacity: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menu__bar {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 16px;
+    gap: 32px;
+    background-color: var(--primary);
+    height: 60px;
+    opacity: 0.9;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+    padding: 0px;
+    background-color: var(--primray);
+}
+
+
+.navigation>li {
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    font-size: 1.25rem;
+}
+
+.navigation>li>a {
+    color: white;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-weight: 500;
+    background-image: linear-gradient(to right,
+            var(--slider),
+            var(--slider) 50%,
+            white 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 3px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.2s ease-in-out;
+}
+
+.navigation>li>a:before {
+    content: '';
+    background: var(--slider);
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    transition: all 0.2s ease-in-out;
+}
+
+.navigation>li>a:hover {
+    background-position: 0;
+}
+
+.navigation>li>a:hover::before {
+    width: 100%;
+}
 
 /* Boutons */
 

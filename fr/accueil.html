@@ -9,10 +9,21 @@
     </head>
     <body>
         <header>
-        <!-- Header de Julien à supprimer par celui d'Alexis  -->
-            <p>
-                MEMPHIS
-            </p>
+            <section id="hautHeader">
+                <div id="choixLangues">
+                    <select name="langues" id="langue">
+                        <option value="fr">Français</option>
+                        <option value="en">English</option>
+                        <option value="ch">中国人</option>
+                    </select>
+                </div>
+                <div id="titleHeader">
+                    <p>MEMPHIS</p>
+                </div>
+                <div class="boutonVisiter">
+                    <button type="button">Visiter</button>
+                </div>
+            </section>
             <hr width="90%">        
             
             <nav id="menu__bar">
@@ -46,24 +57,29 @@
 
         <section id="title">
             <article>
-                <h2>MEMPHIS : PREMIERE CAPITALE D'ÉGYPTE</h2>
-                <img src="assets/image 4.png">
+                <p>MEMPHIS : PREMIERE <br> CAPITALE D'ÉGYPTE</p>
+                <!-- <img src="assets/image 4.png"> -->
                 <div class="bouton">
                     <button type="button"> Découvrez nos parcours</button>
                 </div>
             </article>
         </section>
         
-        <section>
-            <article>
+        <section id="carrousel">
+            <div id="title-map">
                 <h2>Découvrir</h2>
                 <!-- #TODO: Trouver un moyen de faire un carrousel-->
-            </article>
-            <article>
-                <h3>VUE SATELLITE DE MEMPHIS</h3>
+                (Carrousel)
+            </div>
+        </section>
+        <section id="map">
+            <div id="google-map">
+                <article id="title-google-map">
+                    <h3>VUE SATELLITE DE MEMPHIS</h3>
+                </article>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16074.360607992454!2d31.125267624909775!3d29.977201721068788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14584f7de239bbcd%3A0xca7474355a6e368b!2sPyramides%20de%20Gizeh!5e1!3m2!1sfr!2sfr!4v1702293492986!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </article>
-            <article>
+            </div>
+            <article id="descriptif">
                 <h3>LA VILLE DE MEMPHIS</h3>
                 <p>
                    Memphis (en arabe منف) était la capitale du premier nome de <b>Basse-Égypte</b>,
@@ -76,20 +92,38 @@
                 </p>
             </article>
         </section>
-        <img src="assets/image 9.png">
+        <section id="img-transition">
+        </section>
         <section id="CoeurCite">
             <article>
                 <h1>AU COEUR DE LA CITÉ</h1>
-                <hr>
-                
             </article>
             <article>
                 <!-- #TODO: Mettre toutes les photos-->
                 <button type="button">En voir plus</button>
             </article>
         </section>
-        <section>
+
+        <section id="infos-pratiques">
             <h2>Informations pratiques</h2>
+            <div id="container-infos-pratiques">
+                <table id="menu-liste" cellpadding="20" cellspacing="20">
+                    <tr>
+                        <td><a href="#">Les lieux</a></td>
+                        <td><a href="#">Locations</a></td>
+                        
+                    </tr>
+                    <tr>
+                        <td><a href="#">Gastronomie</a></td>
+                        <td><a href="#">Accès handicapés</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Parcours</a></td>
+                        <td><a href="#">Ressources historique</a></td>
+                    </tr>
+                </table>
+                <img src="./assets/image 2.jpg" alt="Image de touristes">
+            </div>
         </section>
 
         <footer>

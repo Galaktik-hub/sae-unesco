@@ -18,10 +18,30 @@ body #CoeurCite, #title {
 
 
 /* Header */
-/* Partie de Julien pour le header, à supprimer aussi si besoin */
+
+header #hautHeader {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+header #hautHeader #choixLangues, .boutonVisiter {
+    display: flex;
+    align-items: end;
+}
+
+header #hautHeader #titleHeader {
+    display: flex;
+}
+
+#hautHeader p {
+    font-size: 1.5em;
+}
+
 
 header {
-    background-color: #28180a;
+    background-color: var(--primary);
     color: white;
     position: fixed;
     top: 0;
@@ -34,6 +54,8 @@ header #menu__bar {
     padding-right: 15%;
     display: flex;
     justify-content: space-evenly;
+    margin-top: -1%;
+    margin-bottom: -0.5%;
 }
 
 header #menu__bar a {
@@ -62,7 +84,7 @@ header #menu__bar a:before {
     background: var(--slider);
     display: block;
     position: absolute;
-    bottom: 10px;
+    bottom: 15px;
     left: 0;
     width: 0;
     height: 2px;
@@ -82,6 +104,45 @@ header #menu__bar > a:hover::before {
 
 #title {
     margin-top: 10%;
+    background-image: url('assets/image 4.png');
+    background-size: cover;
+    display: block;
+    padding: 5%;
+    height: 300px;
+
+    p {
+        font-size: 35px;
+    }
+}
+
+/* Section Map */
+
+#map > div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+iframe {
+    width: 100%;
+}
+
+#map #descriptif {
+    padding: 2%;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+/* Image de transition */
+
+#img-transition {
+    background-image: url('assets/image 9.png');
+    background-size: cover;
+    background-position: center;
+    display: block;
+    padding: 5%;
+    height: 5%;
 }
 
 
@@ -108,6 +169,57 @@ button:hover {
 
 #CoeurCite {
     background-color: #28180a;
+    padding: 5%;
+}
+
+#CoeurCite h1 {
+    position: relative;
+}
+
+#CoeurCite h1::before {
+    position: absolute;
+    content: "";
+    background-color: white;
+    width: 50%;
+    height: 2px;
+    opacity: 0.5;
+    right: 5%;
+}
+
+
+/* Section Infos pratiques */
+
+#infos-pratiques {
+    padding: 3%;
+}
+
+#infos-pratiques h2 {
+    position: relative;
+}
+
+#infos-pratiques h2::before {
+    position: absolute;
+    content: "";
+    background-color: var(--primary);
+    width: 50%;
+    height: 2px;
+    right: 5%;
+}
+
+#infos-pratiques #container-infos-pratiques{
+    display: flex;
+    justify-content: space-around;
+
+    a {
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    img {
+        max-width: 40%;
+        display: block;
+    }
 }
 
 

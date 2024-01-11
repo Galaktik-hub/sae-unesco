@@ -12,10 +12,10 @@
         <header>
             <section id="hautHeader">
                 <div id="choixLangues">
-                    <select name="langues" id="langue">
-                        <option value="fr">Français</option>
-                        <option value="en">English</option>
-                        <option value="ch">中国人</option>
+                    <select name="langues" id="langue" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+                        <option value="">Français</option>
+                        <option value="../en/accueil.html">English</option>
+                        <option value="../ch/accueil.html">中国人</option>
                     </select>
                 </div>
                 <div id="titleHeader">

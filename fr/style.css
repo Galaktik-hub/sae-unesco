@@ -35,7 +35,10 @@ header #hautHeader #titleHeader {
     display: flex;
 }
 
-#hautHeader p {
+#hautHeader a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
     font-size: 1.5em;
 }
 
@@ -154,7 +157,7 @@ button {
     border-radius: 20px;
     color: white;
     width: 150px;
-    border: 2px double white;
+    border: 1px solid white;
     position: relative;
     font-weight: 2;
 }
@@ -174,6 +177,7 @@ button:hover {
 
 #CoeurCite h1 {
     position: relative;
+    font-size: 25px;
 }
 
 #CoeurCite h1::before {
@@ -184,6 +188,17 @@ button:hover {
     height: 2px;
     opacity: 0.5;
     right: 5%;
+}
+
+#CoeurCite #set-images {
+    background-image: url("./assets/image 5.png");
+    background-position: center;
+    background-size: cover;
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 30px;
 }
 
 
@@ -215,18 +230,18 @@ button:hover {
     margin: 0;
 }
 
-#infos-pratiques a {
+#infos-pratiques table a {
     color: black;
     font-size: 20px;
     font-weight: bold;
 }
 
-#infos-pratiques a:hover i {
+#infos-pratiques table a:hover i {
     transform: translate(7px);
     transition: 0.3s;
 }
 
-#infos-pratiques i {
+#infos-pratiques table a i {
     font-size: 15px;
     transition: 0.3s;
 }

@@ -107,7 +107,7 @@ header #menu__bar > a:hover::before {
 
 #title {
     margin-top: 10%;
-    background-image: url('assets/image 4.png');
+    background-image: url('../assets/image 4.png');
     background-size: cover;
     display: block;
     padding: 5%;
@@ -140,7 +140,7 @@ iframe {
 /* Image de transition */
 
 #img-transition {
-    background-image: url('assets/image 9.png');
+    background-image: url('../assets/image 9.png');
     background-size: cover;
     background-position: center;
     display: block;
@@ -191,7 +191,7 @@ button:hover {
 }
 
 #CoeurCite #set-images {
-    background-image: url("./assets/image 5.png");
+    background-image: url("../assets/image 5.png");
     background-position: center;
     background-size: cover;
     height: 1200px;

@@ -190,73 +190,73 @@ button:hover {
 
 .b1 {
     top: 80px;
-    left: calc(50% - 270px);
+    left: calc(50% - 470px);
 }
 .b2 {
     top: 380px;
-    left: calc(50% + 270px);
+    left: calc(50% + 70px);
 }
 .b3 {
     top: 680px;
-    left: calc(50% - 270px);
+    left: calc(50% - 470px);
 }
 .b4 {
     top: 980px;
-    left: calc(50% + 270px);
+    left: calc(50% + 70px);
 }
 
 .b5 {
     top: 1280px;
-    left: calc(50% - 270px);
+    left: calc(50% - 470px);
 }
 .b6 {
     top: 1580px;
-    left: calc(50% + 270px);
+    left: calc(50% + 70px);
 }
 .b7 {
     top: 1880px;
-    left: calc(50% - 270px);
+    left: calc(50% - 470px);
 }
 .b8 {
     top: 2180px;
-    left: calc(50% + 270px);
+    left: calc(50% + 70px);
 }
 .b9 {
     top: 2480px;
-    left: calc(50% - 270px);
+    left: calc(50% - 470px);
 }
 .b10 {
     top: 2780px;
-    left: calc(50% + 270px);
+    left: calc(50% + 70px);
 }
 .b11 {
     top: 3080px;
-    left: calc(50% - 270px);
+    left: calc(50% - 470px);
 }
 .b12 {
     top: 3380px;
-    left: calc(50% + 270px);
+    left: calc(50% + 70px);
 }
 
 .b13 {
     top: 3680px;
-    left: calc(50% - 270px);
+    left: calc(50% - 470px);
 }
 .b14 {
     top: 3980px;
-    left: calc(50% + 270px);
+    left: calc(50% + 70px);
 }
 .b15 {
     top: 4280px;
-    left: calc(50% - 270px);
+    left: calc(50% - 470px);
 }
 .b16 {
     top: 4580px;
-    left: calc(50% + 270px);
+    left: calc(50% + 70px);
 }
 .b17 {
     top: 4880px;
-    left: calc(50% - 270px);
+    left: calc(50% - 470px);
 }
 
 .box p {
@@ -287,7 +287,7 @@ button:hover {
         left: calc(50% + 200px);
     }
     .box {
-        left: calc(50% - 50px)
+        left: calc(50% - 270px)
     }
 
 }

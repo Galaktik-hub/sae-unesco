@@ -710,6 +710,10 @@ custom-slider {
 }
 
 .slide-text {
+    border: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: #7E603B;
     position: absolute;
     color: #ffffff;
     font-weight: bold;
@@ -718,7 +722,7 @@ custom-slider {
     bottom: 10; 
     width: 50%;
     text-align: center;
-    background: rgba(0, 0, 0, 0.7); /* Ajouter un fond semi-transparent */
+    background: #28180A;
     margin-bottom: 10%;
     margin-left: 110%;
     margin-top: -50%;

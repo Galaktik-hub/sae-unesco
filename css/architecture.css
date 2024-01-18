@@ -120,12 +120,9 @@ button:hover {
 }
 
 
-
-
 /* Section Monuments */
 
 .monuments {
-    margin-top: 20%;
     background-color: var(--primary);
     color: #fdf2e9;
     padding: 5%;
@@ -279,6 +276,7 @@ input[type=radio] {
     font-size: 37px;
     color:#fdf2e9;
 }
+
 .footer-container {
     border: solid;
     border-width: 5px;
@@ -316,7 +314,7 @@ input[type=radio] {
 }
   
 .info-area label {
-    padding-bottom: 300px;
+    padding-bottom: 100px;
 }
 
 
@@ -326,19 +324,19 @@ input[type=radio] {
 }
   
 #item-2:checked ~ .footer-container #test  {
-    transform: translateY(-430px); /* Changer les valeurs une fois les textes finis */
+    transform: translateY(-250px); /* Changer les valeurs une fois les textes finis */
 }
   
 #item-3:checked ~ .footer-container #test  {
-    transform: translateY(-870px); /* Changer les valeurs une fois les textes finis */
+    transform: translateY(-500px); /* Changer les valeurs une fois les textes finis */
 }
   
 #item-4:checked ~ .footer-container #test  {
-    transform: translateY(-1300px); /* Changer les valeurs une fois les textes finis */
+    transform: translateY(-750px); /* Changer les valeurs une fois les textes finis */
 }
 
 #item-5:checked ~ .footer-container #test  {
-    transform: translateY(-1750px); /* Changer les valeurs une fois les textes finis */
+    transform: translateY(-990px); /* Changer les valeurs une fois les textes finis */
 }
 
 #item-1:checked ~ .nom-container .info-area-nom {

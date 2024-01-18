@@ -469,6 +469,7 @@ input[type=radio] {
     font-size: 40px;
     color:#fdf2e9;
 }
+
 .footer-container {
     border: solid;
     border-width: 5px;
@@ -528,7 +529,7 @@ input[type=radio] {
 }
 
 #item-5:checked ~ .footer-container #test  {
-    transform: translateY(-1750px); /* Changer les valeurs une fois les textes finis */
+    transform: translateY(-1780px); /* Changer les valeurs une fois les textes finis */
 }
 
 #item-1:checked ~ .nom-container .info-area-nom {

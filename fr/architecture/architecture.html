@@ -267,17 +267,17 @@
             AOS.init();
 
             function afficherTexteComplet() {
-            var moreText = document.getElementById("moreText");
-            var btn = document.getElementById("lirePlusBtn");
+                var moreText = document.getElementById("moreText");
+                var btn = document.getElementById("lirePlusBtn");
 
-            if (moreText.style.display === "none") {
-                moreText.style.display = "inline";
-                btn.innerHTML = "Lire moins";
-            } else {
-                moreText.style.display = "none";
-                btn.innerHTML = "Lire plus";
+                if (moreText.style.display == "inline") {
+                    moreText.style.display = "none";
+                    btn.innerHTML = "Lire plus";
+                } else {
+                    moreText.style.display = "inline";
+                    btn.innerHTML = "Lire moins";
+                }
             }
-        }
         var slideIndex = 1;
 
     function showSlides(n) {

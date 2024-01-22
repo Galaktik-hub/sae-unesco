@@ -413,58 +413,58 @@
 
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
+        <script defer>
             AOS.init();
 
             function afficherTexteComplet() {
-            var moreText = document.getElementById("moreText");
-            var btn = document.getElementById("lirePlusBtn");
+                var moreText = document.getElementById("moreText");
+                var btn = document.getElementById("lirePlusBtn");
 
-            if (moreText.style.display === "none") {
-                moreText.style.display = "inline";
-                btn.innerHTML = "Lire moins";
-            } else {
-                moreText.style.display = "none";
-                btn.innerHTML = "Lire plus";
+                if (moreText.style.display == "inline") {
+                    moreText.style.display = "none";
+                    btn.innerHTML = "Lire plus";
+                } else {
+                    moreText.style.display = "inline";
+                    btn.innerHTML = "Lire moins";
+                }
             }
-        }
-        var slideIndex = 1;
+            var slideIndex = 1;
 
-    function showSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("custom-slider");
-        var dots = document.getElementsByClassName("dot");
-        var texts = document.querySelectorAll('.slide-text .text-item');
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("custom-slider");
+                var dots = document.getElementsByClassName("dot");
+                var texts = document.querySelectorAll('.slide-text .text-item');
 
-        if (n > slides.length) {
-            slideIndex = 1
-        }
-        if (n < 1) {
-            slideIndex = slides.length
-        }
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        for (i = 0; i < texts.length; i++) {
-            texts[i].classList.remove("active");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
-        texts[slideIndex - 1].classList.add("active");
-    }
+                if (n > slides.length) {
+                    slideIndex = 1
+                }
+                if (n < 1) {
+                    slideIndex = slides.length
+                }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                for (i = 0; i < texts.length; i++) {
+                    texts[i].classList.remove("active");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+                texts[slideIndex - 1].classList.add("active");
+            }
 
-    function plusSlides(n) {
-        showSlides(slideIndex += n);
-    }
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
 
-    function currentSlide(n) {
-        showSlides(slideIndex = n);
-    }
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
 
-    showSlides(slideIndex);
+            showSlides(slideIndex);
         </script>
     </body>
 </html>

@@ -15,16 +15,19 @@
         }
     }
 ?>
-
-<form action="contact.php" method="post">
-	<table>
-		<tr><td><label for="nom">Nom*</label></td><td><input type="text" name="nom" maxlength="30" required/></td></tr>
-		<tr><td><label for="prenom">Prénom*</label></td><td><input type="text" name="prenom" maxlength="30" required/></td></tr>
-        <tr><td><label for="email">E-mail*</label></td><td><input type="email" name="email" maxlength="320" required/></td></tr>
-        <tr><td><label for="contenu">Contenu du message*</label></td><td><input type="text" name="contenu" required/></td></tr>
-	</table>
-	<br />
-	<input type="reset" name="reset" value="Effacer" /> 
-	<input type="submit" name="submit" value="Valider" />
-    <p>* Champ obligatoire</p>
-</form>
+<link rel="stylesheet" href="style.css">
+<div id="wrapper">
+    <form action="contact.php" method="post">
+        <h1>Nous contacter</h1>
+        <table>
+            <tr><td><label for="nom">Nom*</label></td><td><input type="text" name="nom" maxlength="30" required/></td></tr>
+            <tr><td><label for="prenom">Prénom*</label></td><td><input type="text" name="prenom" maxlength="30" required/></td></tr>
+            <tr><td><label for="email">E-mail*</label></td><td><input type="email" name="email" maxlength="320" required/></td></tr>
+            <tr><td><label for="contenu">Contenu du message*</label></td><td><input type="text" name="contenu" required/></td></tr>
+        </table>
+        <br />
+        <input type="reset" class="button" name="reset" value="Effacer" /> 
+        <input type="submit" class="button" name="submit" value="Valider" />
+        <p>* Champ obligatoire</p>
+    </form>
+</div>

@@ -13,7 +13,7 @@
 }
 
 /* Header */
-header {
+nav {
     background-color: var(--primary);
     color: white;
     height: 120px;
@@ -22,15 +22,16 @@ header {
     align-items: center;
 }
 
-header .titre {
+nav .titre {
     font-size: 2em;
     text-decoration: underline;
     font-family: "Inknut Antiqua";
     padding: 0.2em 0 0 0;
+    min-width: 200px;
 }
 
 /* Header - Menu */
-header .menu a {
+nav .menu a.page {
     color: white;
     border-bottom: 1px solid transparent;
     transition: all 0.3s ease;
@@ -51,7 +52,7 @@ header .menu a {
     transition: all 0.2s ease-in-out;
 }
 
-header .menu a:before {
+nav .menu a.page:before {
     content: '';
     background: var(--slider);
     display: block;
@@ -63,32 +64,34 @@ header .menu a:before {
     transition: all 0.2s ease-in-out;
 }
 
-header .menu a:hover {
+nav .menu a.page:hover {
     background-position: 0;
 }
 
-header .menu a:hover::before {
+nav .menu a:hover::before {
     width: 100%;
 } 
 
-header .menu {
+nav .menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-header .menu li {
+nav .menu li {
     display: flex;
+    list-style: none;
     justify-content: center;
     align-items: center;
     font-size: 1.1em;
 }
 
-header .menu i {
+nav .menu i {
     margin: 0 0.5em 0 0;
 }
 
-header .line {
+nav .line {
+    /* display: block; */
     width: 2px;
     height: 30px;
     border-radius: 50px;
@@ -97,13 +100,67 @@ header .line {
 }
 
 /* Header - Langues */
+nav .flag {
+    display: none;
+}
 
-header .langue a {
+nav .langue a, .flag {
     text-decoration: none;
 }
 
-header .langue img {
+nav .langue img, .flag img {
     width: 2.5vw;
     margin: 5px;
 }
 
+/* Menu burger */
+#icons {
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 1400px) {
+    nav {
+        justify-content: space-between;
+        padding: 0 20px 0 20px;
+    }
+    #icons {
+        display: block;
+    }
+    #icons:before {
+        content: "\2630";
+    }
+    .active #icons:before {
+        content: "\2715";
+    }
+    nav ul:not(.flag) {
+        position: fixed;
+        left: -150%;
+        top: 120px;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        transition: 0.5s;
+        background-color: var(--primary);
+        opacity: 0.9;
+    }
+    nav .flag {
+        display: flex;
+        flex-direction: row;
+    }
+    nav li {
+        padding: 3px 0;
+    }
+    .langue {
+        /* top: 5%;
+        left: 35px;
+        max-width: 200px; */
+        display: none;
+    }
+    .line {
+        display: none;
+    }
+    nav.active ul {
+        left: 0;
+    }
+}

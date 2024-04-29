@@ -1,0 +1,23 @@
+.button {
+    padding: 0px 1% 0px 1%;
+    cursor:pointer;
+    border: 0;
+    border-radius: 30px;
+    background: #7E603B;
+    color: white;
+}
+
+#wrapper {
+    padding: 0px 1% 0px 1%;
+    border: 0;
+    border-radius: 10px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    height: fit-content;
+    width: fit-content;
+}

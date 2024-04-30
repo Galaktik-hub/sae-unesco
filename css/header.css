@@ -13,13 +13,14 @@
 }
 
 /* Header */
+
 nav {
     background-color: var(--primary);
     color: white;
-    height: 120px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    height: 100px;
 }
 
 nav .titre {
@@ -123,7 +124,6 @@ nav .langue img, .flag img {
     nav {
         justify-content: space-between;
         padding: 0 20px 0 20px;
-        height: 1%;
     }
     #icons {
         display: block;
@@ -139,7 +139,7 @@ nav .langue img, .flag img {
     nav ul {
         position: fixed;
         left: -150%;
-        top: 12%;
+        top: 100px;
         padding: 5px 0 5px 0;
         flex-direction: column;
         width: 100%;

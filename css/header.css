@@ -113,7 +113,7 @@ nav .langue img, .flag img {
     width: calc(1rem + 1.5vw);
     margin: 5px;
     max-width: 100px;
-    min-width: 50px;
+    min-width: 40px;
 }
 
 /* Menu burger */
@@ -151,6 +151,10 @@ nav .langue img, .flag img {
         opacity: 0.9;
     }
     nav .flag {
+        display: flex;
+        flex-direction: row;
+    }
+    nav ul .flag:not(.page) {
         display: flex;
         flex-direction: row;
     }

@@ -23,7 +23,7 @@ nav {
 }
 
 nav .titre {
-    font-size: 2em;
+    font-size: calc(0.5rem + 1.5vw);
     text-decoration: underline;
     font-family: "Inknut Antiqua";
     padding: 0.2em 0 0 0;
@@ -83,7 +83,7 @@ nav .menu li {
     list-style: none;
     justify-content: center;
     align-items: center;
-    font-size: 1.1em;
+    font-size: calc(0.5rem + 0.8vw);
 }
 
 nav .menu i {
@@ -129,11 +129,13 @@ nav .langue img, .flag img {
     }
     #icons:before {
         content: "\2630";
+        font-size: calc(1.5rem + 4vw);
     }
     .active #icons:before {
         content: "\2715";
+        font-size: calc(1.5rem + 2vw);
     }
-    nav ul:not(.flag) {
+    nav ul {
         position: fixed;
         left: -150%;
         top: 120px;

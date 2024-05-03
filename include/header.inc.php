@@ -52,6 +52,11 @@
                 min-width: 200px;
             }
 
+            nav .titre a {
+                text-decoration: none;
+                color: white;
+            }
+
             /* Header - Menu */
             nav .menu a.page {
                 color: white;
@@ -204,7 +209,7 @@
         <header>
             <nav id="nav" class="">
                 <div class="titre">
-                    <p>MEMPHIS</p>
+                    <a href="">MEMPHIS</a>
                 </div>
                 <ul class="menu">
                     <a href="" class="flag" id="fr">

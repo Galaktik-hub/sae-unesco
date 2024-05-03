@@ -117,6 +117,9 @@ footer .container .logos img.iut {
 
 /**** Footer - Responsive ****/
 @media (max-width: 1200px) {
+    footer {
+        border-radius: 30px 30px 0 0;
+    }
     footer .container {
         width: 90%;
     }
@@ -131,15 +134,16 @@ footer .container .logos img.iut {
 }
 
 @media (max-width: 800px) {
+    footer {
+        border-radius: 15px 15px 0 0;
+    }
 
     footer .container .links ul {
         flex-direction: column;
         align-items: baseline;
-        background-color: red;
     }
 
     footer .container .links li {
-        background-color: skyblue;
         position: relative;
         left: 10%;
     }

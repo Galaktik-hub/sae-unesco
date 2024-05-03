@@ -64,14 +64,16 @@ footer .container .ligne {
 footer .container .links {
     width: 100%;
     margin: 10px 0 10px 0;
-    /* background-color: skyblue; */
 }
 
 footer .container .links ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    /* background-color: red; */
+}
+
+footer .container .links ul li {
+    margin: 10px;
 }
 
 footer .container .links a {
@@ -103,7 +105,6 @@ footer .container .logos img.mcn {
     max-width: 180px;
     max-height: 120px;
     height: 100%;
-    /* width: 100%; */
 }
 
 footer .container .logos img.unesco {
@@ -125,11 +126,9 @@ footer .container .logos img.iut {
     footer .container {
         width: 90%;
     }
-
     footer .container .ligne {
         width: 100%;
     }
-
     footer .container .links a {
         font-size: calc(0.8rem + 0.8vw);
     }
@@ -141,14 +140,18 @@ footer .container .logos img.iut {
         height: auto;
         padding: 15px 0;
     }
-
+    footer .container .social a {
+        font-size: calc(1.7rem + 1.7vw);
+    }
     footer .container .links ul {
         flex-direction: column;
         align-items: baseline;
         position: relative;
         left: 20%;
     }
-
+    footer .container .links ul li {
+        margin: 20px;
+    }
     footer .container .logos {
         flex-direction: column;
     }

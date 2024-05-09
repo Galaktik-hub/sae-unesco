@@ -23,8 +23,8 @@
                             $id = $_GET['id'];
                             $result=$cnx->query("SELECT titre FROM article WHERE id=$id");
                             if ($result) {
-                                $titre=$req->fetch(PDO::FETCH_OBJ);
-                                echo "$titre";
+                                $titre=$result->fetch(PDO::FETCH_OBJ);
+                                echo $titre->titre;
                             }
                         }
                     ?>
@@ -35,8 +35,7 @@
                                 $id = $_GET['id'];
                                 $result=$cnx->query("SELECT titre FROM article WHERE id=$id");
                                 if ($result) {
-                                    $titre=$req->fetch(PDO::FETCH_OBJ);
-                                    echo "<img src='../assets/Img_Accueil/$id.jpg' alt='Image de l'article'>";
+                                    echo "<img src='../assets/Img_Article/$id.jpg' alt='Image de l'article'>";
                                 }
                             }
                         ?>
@@ -45,21 +44,22 @@
                <div class="content-article">
                     <?php
                         function articleNotFound() {
-                            echo "<h1>Désolé, l'article que vous recherchez n'existe pas</h1>"
+                            echo "<h1>Désolé, l'article que vous recherchez n'existe pas</h1>";
                         }
 
                         if (isset($_GET['id'])) {
                             $id = $_GET['id'];
-                            $result=$cnx->query("SELECT contenu FROM article WHERE id=$id");
+                            $result = $cnx->query("SELECT contenu FROM article WHERE id=$id");
                             if ($result) {
-                                $contenu=$req->fetch(PDO::FETCH_OBJ);
-                                echo "$contenu";
-                            }
-                            else {
+                                $contenu = $result->fetch(PDO::FETCH_OBJ);
+                                if ($contenu) {
+                                    echo $contenu->contenu;
+                                } else {
+                                    articleNotFound();
+                                }
+                            } else {
                                 articleNotFound();
                             }
-                        } else {
-                            articleNotFound();
                         }
                     ?>
                </div>

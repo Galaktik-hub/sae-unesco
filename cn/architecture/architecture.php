@@ -8,77 +8,10 @@
         
     </head>
     <body>
-        <header>
-            <section id="hautHeader">
-                <div class="choixLangues" id="FR">
-                    <a href="" id="fr">
-                        <img src="../../assets/Header-Footer/Fr.png" alt="Drapeau Français">
-                    </a>
-                    <a href="../../en/architecture/architecture.html" id="en">
-                        <img src="../../assets/Header-Footer/En.png" alt="Drapeau Anglais">
-                    </a>
-                    <a href="../../cn/architecture/architecture.html" id="cn">
-                        <img src="../../assets/Header-Footer/Cn.png" alt="Drapeau Chinois">
-                    </a>
-                </div>
-                <div id="titleHeader">
-                    <a href="../../fr/accueil/accueil.html">MEMPHIS</a>
-                </div>
-                <div class="boutonVisiter">
-                    <button type="button">Visiter</button>
-                </div>
-            </section>
-            <hr width="90%">
-            <nav id="menu_bar">
-                <a href="../histoire/histoire.html" title="Histoire">
-                    <div id="ongletHistoire">
-                        <p>Histoire</p>
-                    </div>
-                </a>
-                <a href="../architecture/architecture.html" title="Architecture">
-                    <div id="ongletArchi">
-                        <p>Architecture</p>
-                    </div>
-                </a>
-                <a href="#carte" title="Carte">
-                    <div id="ongletCarte">
-                        <p>Carte</p>
-                    </div>
-                </a>
-                <a href="../activites/activites.html" title="Activités">
-                    <div id="ongletActivites">
-                        <p>Activites</p>
-                    </div>
-                </a>
-                <a href="#infos" title="Infos pratiques">
-                    <div id="ongletInfosPratiques">
-                        <p>Infos Pratiques</p>
-                    </div>
-                </a>
-            </nav>
-        </header>
-
-        <section class="urbanism">
-            <div class="titre"><p>STYLE ET <br> ARCHITECTURE</p></div>
-            
-            <div class="cadre">
-                <div class="texte">
-                    <p>
-                        L'architecture de Memphis, berceau de l'Égypte antique, fascine par son style majestueux et sa grandeur intemporelle. </p>
-                    <p id="moreText">
-                        Les monuments de cette ancienne capitale se distinguent par leurs formes monumentales et leurs structures imposantes.
-                        <br><br> Une symétrie rigoureuse caractérise les temples et les palais, témoignant d'une conception architecturale équilibrée et harmonieuse. 
-                        <br><br> Richement décorés de sculptures et de reliefs, ces édifices arborent des motifs symboliques chargés de sens religieux et politique. 
-                        <br><br> La pierre calcaire, abondamment utilisée dans la région, confère aux monuments une solidité et une durabilité remarquables. 
-                        <br><br> Chaque structure raconte une histoire captivante de pouvoir et de spiritualité, reflétant l'ingéniosité des anciens Égyptiens. 
-                        <br><br> Les hiéroglyphes gravés dans la pierre permettent de perpétuer le récit de cette civilisation avancée. 
-                        <br><br> Aujourd'hui encore, l'architecture de Memphis continue d'impressionner et d'inspirer, offrant aux visiteurs un voyage inoubliable dans l'histoire de l'humanité.
-                        
-                    <div id="lirePlusBtnContainer">
-                        <button id="lirePlusBtn" onclick="afficherTexteComplet()">Lire plus</button>
-                    </div>
-        </section>
-
+        
+        <?php
+            include("../../include/header.inc.php");
+        ?>
 
         <section class="monuments">
             <p>LES PRINCIPAUX <br> MONUMENTS</p>
@@ -241,49 +174,9 @@
         </section>      
         
         
-        
-
-        <footer>
-            <div id="Images_footer">
-                <a href="https://whc.unesco.org/fr/list/86/" target="_blank" id="logoUnesco">
-                    <img src="../../logo/png-transparent-unesco-hd-logo-thumbnail.png" alt="Logo Unesco">
-                </a>
-                <a href="https://iut.univ-gustave-eiffel.fr/" target="_blank" id="IUT">
-                    <img src="../../logo/IUT-CMJN-couleurs-300dpi.png" alt="Logo Université/IUT">
-                </a>
-            </div>
-            <div id="Contact">
-                <h4>
-                    Contact
-                </h4>
-                <p>
-                    tel +33
-                </p>
-            </div>
-            <div id="NousSuivre">
-                <h4>
-                    Nous suivre
-                </h4>
-                <nav>
-                    <!-- #TODO Logos des réseaux UNESCO -->
-                </nav>
-            </div>
-            <div id="Ressources">
-                <h4>
-                    Ressources
-                </h4>
-                <p>
-                    <ul>
-                        <li>
-                            <a href="#quisommesnous">Qui sommes nous ?</a>
-                        </li>
-                        <li>
-                            <a href="#mentionslégales">Mentions légales</a>
-                        </li>
-                    </ul>
-                </p>
-            </div>
-        </footer>
+        <?php
+            include("../../include/footer.inc.php");
+        ?>
 
 
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -292,17 +185,17 @@
             AOS.init();
 
             function afficherTexteComplet() {
-                var moreText = document.getElementById("moreText");
-                var btn = document.getElementById("lirePlusBtn");
+            var moreText = document.getElementById("moreText");
+            var btn = document.getElementById("lirePlusBtn");
 
-                if (moreText.style.display == "inline") {
-                    moreText.style.display = "none";
-                    btn.innerHTML = "Lire plus";
-                } else {
-                    moreText.style.display = "inline";
-                    btn.innerHTML = "Lire moins";
-                }
+            if (moreText.style.display === "none") {
+                moreText.style.display = "inline";
+                btn.innerHTML = "Lire moins";
+            } else {
+                moreText.style.display = "none";
+                btn.innerHTML = "Lire plus";
             }
+        }
         var slideIndex = 1;
 
     function showSlides(n) {

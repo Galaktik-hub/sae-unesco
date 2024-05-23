@@ -26,7 +26,7 @@
             /**** Footer ****/
             footer {
                 background-color: var(--bg-footer);
-                background-image: url("../assets/Header-Footer/background.png");
+                background-image: url("http://perso-etudiant.u-pem.fr/~julien.synaeve/assets/Header-Footer/background.png");
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;
@@ -199,12 +199,12 @@
                     </ul>
                 </div>
                 <div class="logos">
-                    <img src="../logo/logo_MCN_blanc.png" alt="Logo MCN" class="mcn">
-                    <a href="https://whc.unesco.org/fr/list/86/" class="link-img">
-                        <img src="../logo/png-transparent-unesco-hd-logo-thumbnail.png" alt="Logo UNESCO" class="unesco">
+                    <img src="http://perso-etudiant.u-pem.fr/~julien.synaeve/logo/logo_MCN_blanc.png" alt="Logo MCN" class="mcn">
+                    <a href="https://whc.unesco.org/fr/list/86/" class="link-img" targer="_blank" rel="noopener noreferrer">
+                        <img src="http://perso-etudiant.u-pem.fr/~julien.synaeve/logo/png-transparent-unesco-hd-logo-thumbnail.png" alt="Logo UNESCO" class="unesco">
                     </a>
-                    <a href="https://iut.univ-gustave-eiffel.fr/" class="link-img">
-                        <img src="../logo/IUT-CMJN-couleurs-300dpi.png" alt="Logo IUT" class="iut">
+                    <a href="https://iut.univ-gustave-eiffel.fr/" class="link-img" targer="_blank" rel="noopener noreferrer">
+                        <img src="http://perso-etudiant.u-pem.fr/~julien.synaeve/logo/IUT-CMJN-couleurs-300dpi.png" alt="Logo IUT" class="iut">
                     </a>
                 </div>
             </div>

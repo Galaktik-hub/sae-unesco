@@ -8,55 +8,10 @@
         
     </head>
     <body>
-        <header>
-            <section id="hautHeader">
-                <div class="choixLangues" id="FR">
-                    <a href="" id="fr">
-                        <img src="../../assets/Header-Footer/Fr.png" alt="Drapeau Français">
-                    </a>
-                    <a href="../../en/histoire/histoire.html" id="en">
-                        <img src="../../assets/Header-Footer/En.png" alt="Drapeau Anglais">
-                    </a>
-                    <a href="../../cn/histoire/histoire.html" id="cn">
-                        <img src="../../assets/Header-Footer/Cn.png" alt="Drapeau Chinois">
-                    </a>
-                </div>
-                <div id="titleHeader">
-                    <a href="../../fr/accueil/accueil.html">MEMPHIS</a>
-                </div>
-                <div class="boutonVisiter">
-                    <button type="button">Visiter</button>
-                </div>
-            </section>
-            <hr width="90%">
-            <nav id="menu_bar">
-                <a href="../histoire/histoire.html" title="Histoire">
-                    <div id="ongletHistoire">
-                        <p>Histoire</p>
-                    </div>
-                </a>
-                <a href="../architecture/architecture.html" title="Architecture">
-                    <div id="ongletArchi">
-                        <p>Architecture</p>
-                    </div>
-                </a>
-                <a href="#carte" title="Carte">
-                    <div id="ongletCarte">
-                        <p>Carte</p>
-                    </div>
-                </a>
-                <a href="../activites/activites.html" title="Activités">
-                    <div id="ongletActivites">
-                        <p>Activites</p>
-                    </div>
-                </a>
-                <a href="#infos" title="Infos pratiques">
-                    <div id="ongletInfosPratiques">
-                        <p>Infos Pratiques</p>
-                    </div>
-                </a>
-            </nav>
-        </header>
+        
+        <?php
+            include("../../include/header.inc.php");
+        ?>
 
         <section class="timeline">
             <div class="box-timeline">
@@ -363,109 +318,66 @@
                     <span class="dot" onclick="currentSlide(3)"></span> 
                 </div>
             </div>
-        </section>      
-        
-        
-        
+        </section>
 
-        <footer>
-            <div id="Images_footer">
-                <a href="https://whc.unesco.org/fr/list/86/" target="_blank" id="logoUnesco">
-                    <img src="../../logo/png-transparent-unesco-hd-logo-thumbnail.png" alt="Logo Unesco">
-                </a>
-                <a href="https://iut.univ-gustave-eiffel.fr/" target="_blank" id="IUT">
-                    <img src="../../logo/IUT-CMJN-couleurs-300dpi.png" alt="Logo Université/IUT">
-                </a>
-            </div>
-            <div id="Contact">
-                <h4>
-                    Contact
-                </h4>
-                <p>
-                    tel +33
-                </p>
-            </div>
-            <div id="NousSuivre">
-                <h4>
-                    Nous suivre
-                </h4>
-                <nav>
-                    <!-- #TODO Logos des réseaux UNESCO -->
-                </nav>
-            </div>
-            <div id="Ressources">
-                <h4>
-                    Ressources
-                </h4>
-                <p>
-                    <ul>
-                        <li>
-                            <a href="#quisommesnous">Qui sommes nous ?</a>
-                        </li>
-                        <li>
-                            <a href="#mentionslégales">Mentions légales</a>
-                        </li>
-                    </ul>
-                </p>
-            </div>
-        </footer>
-
+        <?php
+            include("../../include/footer.inc.php");
+        ?>
 
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script defer>
+        <script>
             AOS.init();
 
-            
             function afficherTexteComplet() {
-                var moreText = document.getElementById("moreText");
-                var btn = document.getElementById("lirePlusBtn");
+            var moreText = document.getElementById("moreText");
+            var btn = document.getElementById("lirePlusBtn");
 
-                if (moreText.style.display == "inline") {
-                    moreText.style.display = "none";
-                    btn.innerHTML = "Lire plus";
-                } else {
-                    moreText.style.display = "inline";
-                    btn.innerHTML = "Lire moins";
-                }
+            if (moreText.style.display === "none") {
+                moreText.style.display = "inline";
+                btn.innerHTML = "Lire moins";
+            } else {
+                moreText.style.display = "none";
+                btn.innerHTML = "Lire plus";
             }
-            var slideIndex = 1;
+        }
+        var slideIndex = 1;
 
-            function showSlides(n) {
-                var i;
-                var slides = document.getElementsByClassName("custom-slider");
-                var dots = document.getElementsByClassName("dot");
-                var texts = document.querySelectorAll('.slide-text .text-item');
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("custom-slider");
+        var dots = document.getElementsByClassName("dot");
+        var texts = document.querySelectorAll('.slide-text .text-item');
 
-                if (n > slides.length) {
-                    slideIndex = 1
-                }
-                if (n < 1) {
-                    slideIndex = slides.length
-                }
-                for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";
-                }
-                for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" active", "");
-                }
-                for (i = 0; i < texts.length; i++) {
-                    texts[i].classList.remove("active");
-                }
-                slides[slideIndex - 1].style.display = "block";
-                dots[slideIndex - 1].className += " active";
-                texts[slideIndex - 1].classList.add("active");
-            }
+        if (n > slides.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        for (i = 0; i < texts.length; i++) {
+            texts[i].classList.remove("active");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        texts[slideIndex - 1].classList.add("active");
+    }
 
-            function plusSlides(n) {
-                showSlides(slideIndex += n);
-            }
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
 
-            function currentSlide(n) {
-                showSlides(slideIndex = n);
-            }
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
 
-            showSlides(slideIndex);
+    showSlides(slideIndex);
         </script>
     </body>
 </html>

@@ -14,138 +14,6 @@ body {
 }
 
 
-/* Header */
-
-header #hautHeader {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 2%;
-    padding-right: 2%;
-}
-
-header #hautHeader #choixLangues, .boutonVisiter {
-    display: flex;
-    align-items: end;
-}
-
-#hautHeader .choixLangues {
-    /* background-color: red; */
-    width: 10vw;
-    display: flex;
-    justify-content: space-between;
-}
-
-#hautHeader .choixLangues img {
-    width: 2.5vw;
-    margin: 5px;
-}
-
-#hautHeader .choixLangues a {
-    position: relative;
-}
-
-#hautHeader #FR #fr::before {
-    position: absolute;
-    content: "";
-    background-color: white;
-    width: 80%;
-    left: 10%;
-    height: 2px;
-    bottom: 0.2vw;
-}
-
-#hautHeader #EN #en::before {
-    position: absolute;
-    content: "";
-    background-color: white;
-    width: 80%;
-    left: 10%;
-    height: 2px;
-    bottom: 0.2vw;
-}
-
-#hautHeader #CN #cn::before {
-    position: absolute;
-    content: "";
-    background-color: white;
-    width: 80%;
-    left: 10%;
-    height: 2px;
-    bottom: 0.2vw;
-}
-
-header #hautHeader #titleHeader {
-    display: flex;
-}
-
-#hautHeader #titleHeader a {
-    text-decoration: none;
-    color: white;
-    margin: 10px;
-    font-size: 1.5em;
-}
-
-
-header {
-    background-color: var(--primary);
-    color: white;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-}
-
-header #menu_bar {
-    padding-left: 15%;
-    padding-right: 15%;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: -1%;
-    margin-bottom: -0.5%;
-}
-
-header #menu_bar a {
-    color: white;
-    border-bottom: 2px solid transparent;
-    transition: all 0.3s ease;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 1.1em;
-    background-image: linear-gradient(to right,
-            var(--slider),
-            var(--slider) 50%,
-            white 50%);
-    background-size: 200% 100%;
-    background-position: -100%;
-    display: inline-block;
-    padding: 3px 0;
-    position: relative;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: all 0.2s ease-in-out;
-}
-
-header #menu_bar a:before {
-    content: '';
-    background: var(--slider);
-    display: block;
-    position: absolute;
-    bottom: 25%;
-    left: 0;
-    width: 0;
-    height: 4%;
-    transition: all 0.2s ease-in-out;
-}
-
-header #menu_bar a:hover {
-    background-position: 0;
-}
-
-header #menu_bar a:hover::before {
-    width: 100%;
-}
-
-
 /* Boutons */
 
 button {
@@ -177,7 +45,6 @@ main {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    
 }
 
 #activites {
@@ -408,81 +275,12 @@ main {
 }
 
 /* -----------------------------------------------------------------------------------------------------------------*/
-/* Footer */
-
-footer {
-    background-color: #505050;
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-footer a {
-    text-decoration: none;
-    color: white;
-}
-
-footer div {
-    flex: 1;
-    margin: 10px;
-    min-width: 200px;
-}
-
-#Images_footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#Images_footer img {
-    padding: 10px;
-}
-
-#logoUnesco img {
-    max-height: 80px;
-    height: 100%;
-}
-
-#IUT img{
-    max-height: 40px;
-    height: 100%;
-}
-
-footer div h4 {
-    position: relative;
-}
-
-footer div h4::before {
-    position: absolute;
-    content: "";
-    background-color: white;
-    width: 80%;
-    height: 3px;
-    bottom: -80%;
-}
-
 
 /* Responsive */
 
 @media only screen and (max-width: 700px) {
     body {
         padding-top: 80px;
-    }
-
-
-    #hautHeader #titleHeader {
-        font-size: 2.8vw;
-    }
-
-    header #menu_bar {
-        flex-wrap: wrap;
-        margin-right: 5px;
-        margin-left: 5px;
-    }
-
-    header #menu_bar p {
-        font-size: 2vw;
     }
 
     button {

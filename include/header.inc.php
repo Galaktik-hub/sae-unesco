@@ -194,47 +194,38 @@
                     left: 0;
                 }
             }
-
-            /**** Body ****/
-            main {
-                width: 100%;
-                background-color: red;
-                height: 1650px;
-                position: relative;
-                top: var(--navbar-height);
-            }
         </style>
     </head>
     <body>
         <header>
             <nav id="nav" class="">
                 <div class="titre">
-                    <a href="">MEMPHIS</a>
+                    <a href="http://perso-etudiant.u-pem.fr/~julien.synaeve/fr/accueil/accueil.php">MEMPHIS</a>
                 </div>
                 <ul class="menu">
-                    <a href="" class="flag" id="fr">
+                    <a href="http://perso-etudiant.u-pem.fr/~julien.synaeve/fr/accueil/accueil.php" class="flag" id="fr">
                         <li>
-                            <img src="../assets/Header-Footer/Fr.png" alt="Drapeau Français">
-                        </li>                    
-                    </a>
-                    <a href="../en/accueil/accueil.html" class="flag" id="en">
-                        <li>
-                            <img src="../assets/Header-Footer/En.png" alt="Drapeau Anglais">
+                            <img src="http://perso-etudiant.u-pem.fr/~julien.synaeve/assets/Header-Footer/Fr.png" alt="Drapeau Français">
                         </li>
                     </a>
-                    <a href="../cn/accueil/accueil.html" class="flag" id="cn">
+                    <a href="http://perso-etudiant.u-pem.fr/~julien.synaeve/en/accueil/accueil.php" class="flag" id="en">
                         <li>
-                            <img src="../assets/Header-Footer/Cn.png" alt="Drapeau Chinois">
+                            <img src="http://perso-etudiant.u-pem.fr/~julien.synaeve/assets/Header-Footer/En.png" alt="Drapeau Anglais">
                         </li>
                     </a>
-                    <a href="#" class="page">
+                    <a href="http://perso-etudiant.u-pem.fr/~julien.synaeve/cn/accueil/accueil.php" class="flag" id="cn">
+                        <li>
+                            <img src="http://perso-etudiant.u-pem.fr/~julien.synaeve/assets/Header-Footer/Cn.png" alt="Drapeau Chinois">
+                        </li>
+                    </a>
+                    <a href="http://perso-etudiant.u-pem.fr/~julien.synaeve/fr/architecture/architecture.php" class="page">
                         <li class="menu-item">
                             <i class="fa-solid fa-monument"></i>
                             <p>Architecture</p>
                         </li>
                     </a>
                     <div class="line"></div>
-                    <a href="" class="page">
+                    <a href="http://perso-etudiant.u-pem.fr/~julien.synaeve/fr/histoire/histoire.php" class="page">
                         <li class="menu-item">
                             <i class="fa-solid fa-landmark"></i>
                             <p>Histoire</p>
@@ -248,14 +239,14 @@
                         </li>
                     </a>
                     <div class="line"></div>
-                    <a href="" class="page">
+                    <a href="http://perso-etudiant.u-pem.fr/~julien.synaeve/fr/activites/activites.php" class="page">
                         <li class="menu-item">
                             <i class="fa-solid fa-person-walking"></i>
                             <p>Activités</p>
                         </li>
                     </a>
                     <div class="line"></div>
-                    <a href="" class="page">
+                    <a href="http://perso-etudiant.u-pem.fr/~julien.synaeve/php/infos.php" class="page">
                         <li class="menu-item">
                             <i class="fa-solid fa-info"></i>
                             <p>Infos pratiques</p>
@@ -263,14 +254,14 @@
                     </a>
                 </ul>
                 <div class="langue">
-                    <a href="" id="fr">
-                        <img src="../assets/Header-Footer/Fr.png" alt="Drapeau Français">
+                    <a href="http://perso-etudiant.u-pem.fr/~julien.synaeve/fr/accueil/accueil.php" id="fr">
+                        <img src="http://perso-etudiant.u-pem.fr/~julien.synaeve/assets/Header-Footer/Fr.png" alt="Drapeau Français">
                     </a>
-                    <a href="../en/accueil/accueil.html" id="en">
-                        <img src="../assets/Header-Footer/En.png" alt="Drapeau Anglais">
+                    <a href="http://perso-etudiant.u-pem.fr/~julien.synaeve/en/accueil/accueil.php" id="en">
+                        <img src="http://perso-etudiant.u-pem.fr/~julien.synaeve/assets/Header-Footer/En.png" alt="Drapeau Anglais">
                     </a>
-                    <a href="../cn/accueil/accueil.html" id="cn">
-                        <img src="../assets/Header-Footer/Cn.png" alt="Drapeau Chinois">
+                    <a href="http://perso-etudiant.u-pem.fr/~julien.synaeve/cn/accueil/accueil.php" id="cn">
+                        <img src="http://perso-etudiant.u-pem.fr/~julien.synaeve/assets/Header-Footer/Cn.png" alt="Drapeau Chinois">
                     </a>
                 </div>
                 <div id="icons"></div>

@@ -8,55 +8,9 @@
         
     </head>
     <body>
-        <header>
-            <section id="hautHeader">
-                <div class="choixLangues" id="FR">
-                    <a href="" id="fr">
-                        <img src="../../assets/Header-Footer/Fr.png" alt="Drapeau Français">
-                    </a>
-                    <a href="../../en/accueil/accueil.html" id="en">
-                        <img src="../../assets/Header-Footer/En.png" alt="Drapeau Anglais">
-                    </a>
-                    <a href="../../cn/accueil/accueil.html" id="cn">
-                        <img src="../../assets/Header-Footer/Cn.png" alt="Drapeau Chinois">
-                    </a>
-                </div>
-                <div id="titleHeader">
-                    <a href="../../fr/accueil/accueil.html">MEMPHIS</a>
-                </div>
-                <div class="boutonVisiter">
-                    <button type="button">Visiter</button>
-                </div>
-            </section>
-            <hr width="90%">
-            <nav id="menu_bar">
-                <a href="../histoire/histoire.html" title="Histoire">
-                    <div id="ongletHistoire">
-                        <p>Histoire</p>
-                    </div>
-                </a>
-                <a href="../architecture/architecture.html" title="Architecture">
-                    <div id="ongletArchi">
-                        <p>Architecture</p>
-                    </div>
-                </a>
-                <a href="#carte" title="Carte">
-                    <div id="ongletCarte">
-                        <p>Carte</p>
-                    </div>
-                </a>
-                <a href="../activites/activites.html" title="Activités">
-                    <div id="ongletActivites">
-                        <p>Activites</p>
-                    </div>
-                </a>
-                <a href="#infos" title="Infos pratiques">
-                    <div id="ongletInfosPratiques">
-                        <p>Infos Pratiques</p>
-                    </div>
-                </a>
-            </nav>
-        </header>
+        <?php
+            include("../../include/header.inc.php");
+        ?>
 
         <main>
             <section id="img-intro">QUE FAIRE DURANT VOTRE SÉJOUR?</section>
@@ -226,49 +180,10 @@
                     </div>
                 </section>
             </section>
-          </main>    
-        
-        <footer>
-            <div id="Images_footer">
-                <a href="https://whc.unesco.org/fr/list/86/" target="_blank" id="logoUnesco">
-                    <img src="../../logo/png-transparent-unesco-hd-logo-thumbnail.png" alt="Logo Unesco">
-                </a>
-                <a href="https://iut.univ-gustave-eiffel.fr/" target="_blank" id="IUT">
-                    <img src="../../logo/IUT-CMJN-couleurs-300dpi.png" alt="Logo Université/IUT">
-                </a>
-            </div>
-            <div id="Contact">
-                <h4>
-                    Contact
-                </h4>
-                <p>
-                    tel +33
-                </p>
-            </div>
-            <div id="NousSuivre">
-                <h4>
-                    Nous suivre
-                </h4>
-                <nav>
-                    <!-- #TODO Logos des réseaux UNESCO -->
-                </nav>
-            </div>
-            <div id="Ressources">
-                <h4>
-                    Ressources
-                </h4>
-                <p>
-                    <ul>
-                        <li>
-                            <a href="#quisommesnous">Qui sommes nous ?</a>
-                        </li>
-                        <li>
-                            <a href="#mentionslégales">Mentions légales</a>
-                        </li>
-                    </ul>
-                </p>
-            </div>
-        </footer>
+        </main>    
 
+        <?php
+            include("../../include/footer.inc.php");
+        ?>
     </body>
 </html>

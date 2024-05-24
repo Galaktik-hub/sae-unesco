@@ -192,15 +192,11 @@
                     <span class="dot" onclick="currentSlide(3)"></span> 
                 </div>
             </div>
-        </section>      
-        
-        
-        
+        </section>         
 
         <?php
             include("../../include/footer.inc.php");
         ?>
-
 
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -211,12 +207,12 @@
                 var moreText = document.getElementById("moreText");
                 var btn = document.getElementById("lirePlusBtn");
 
-                if (moreText.style.display == "inline") {
+                if (moreText.style.display === "none" || moreText.style.display === "") {
+                    moreText.style.display = "block";
+                    btn.innerHTML = "Lire moins";
+                } else {
                     moreText.style.display = "none";
                     btn.innerHTML = "Lire plus";
-                } else {
-                    moreText.style.display = "inline";
-                    btn.innerHTML = "Lire moins";
                 }
             }
         var slideIndex = 1;

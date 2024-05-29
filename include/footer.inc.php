@@ -31,7 +31,7 @@
                 background-size: cover;
                 background-position: center;
                 height: auto;
-                border-radius: 50px 50px 0 0;
+                /* border-radius: 50px 50px 0 0; */
                 display: flex;
                 justify-content: center;
                 align-items: center;

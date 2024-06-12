@@ -15,7 +15,7 @@
         }
     }
 ?>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../css/contact.css">
 <div id="wrapper">
     <form action="contact.php" method="post">
         <h1>Nous contacter</h1>
@@ -23,7 +23,7 @@
             <tr><td><label for="nom">Nom*</label></td><td><input type="text" name="nom" maxlength="30" required/></td></tr>
             <tr><td><label for="prenom">Prénom*</label></td><td><input type="text" name="prenom" maxlength="30" required/></td></tr>
             <tr><td><label for="email">E-mail*</label></td><td><input type="email" name="email" maxlength="320" required/></td></tr>
-            <tr><td><label for="contenu">Contenu du message*</label></td><td><input type="text" name="contenu" required/></td></tr>
+            <tr><td><label for="contenu">Contenu du message*</label></td><td><input type="text" name="contenu" maxlength="1000" required/></td></tr>
         </table>
         <br />
         <input type="reset" class="button" name="reset" value="Effacer" /> 

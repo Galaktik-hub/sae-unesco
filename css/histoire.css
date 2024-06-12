@@ -2,14 +2,13 @@
     --primary: #28180A;
     --background: #191919;
     --slider: rgba(252, 191, 80, 0.877);
-    --navbar-height: 48px;
+    --navbar-height: 80px;
 }
 
 /* Body */
 
 body {
-    margin: 0;
-    padding-top: 100px;
+    margin-top: var(--navbar-height);
     background-color: #fdf2e9;
 }
 

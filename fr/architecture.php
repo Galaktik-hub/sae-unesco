@@ -3,13 +3,14 @@
 <html lang="français">
     <head>
         <meta charset="utf-8">
-        <title> Architecture </title>
+        <title>Memphis | Architecture</title>
+        <link rel="icon" type="image/png" href="../assets/Header-Footer/pyramide.png">
         <link rel="stylesheet" href="../css/architecture.css">
         
     </head>
     <body>
         <?php
-            include("../include/header_fr.inc.php");
+            include("../include/header.inc.php");
         ?>
 
         <section class="urbanism">
@@ -20,16 +21,16 @@
                     <p>
                         L'architecture de Memphis, berceau de l'Égypte antique, fascine par son style majestueux et sa grandeur intemporelle. </p>
                     <p id="moreText">
-                        Les monuments de cette ancienne capitale se distinguent par leurs formes monumentales et leurs structures imposantes.
-                        <br><br> Une symétrie rigoureuse caractérise les temples et les palais, témoignant d'une conception architecturale équilibrée et harmonieuse. 
-                        <br><br> Richement décorés de sculptures et de reliefs, ces édifices arborent des motifs symboliques chargés de sens religieux et politique. 
+                        <br>Les monuments de cette ancienne capitale se distinguent par leurs formes monumentales et leurs structures imposantes.
+                        Une symétrie rigoureuse caractérise les temples et les palais, témoignant d'une conception architecturale équilibrée et harmonieuse. 
+                        Richement décorés de sculptures et de reliefs, ces édifices arborent des motifs symboliques chargés de sens religieux et politique. 
                         <br><br> La pierre calcaire, abondamment utilisée dans la région, confère aux monuments une solidité et une durabilité remarquables. 
-                        <br><br> Chaque structure raconte une histoire captivante de pouvoir et de spiritualité, reflétant l'ingéniosité des anciens Égyptiens. 
-                        <br><br> Les hiéroglyphes gravés dans la pierre permettent de perpétuer le récit de cette civilisation avancée. 
-                        <br><br> Aujourd'hui encore, l'architecture de Memphis continue d'impressionner et d'inspirer, offrant aux visiteurs un voyage inoubliable dans l'histoire de l'humanité.
+                        Chaque structure raconte une histoire captivante de pouvoir et de spiritualité, reflétant l'ingéniosité des anciens Égyptiens. 
+                        Les hiéroglyphes gravés dans la pierre permettent de perpétuer le récit de cette civilisation avancée. 
+                        Aujourd'hui encore, l'architecture de Memphis continue d'impressionner et d'inspirer, offrant aux visiteurs un voyage inoubliable dans l'histoire de l'humanité.
                         
                     <div id="lirePlusBtnContainer">
-                        <button id="lirePlusBtn" onclick="afficherTexteComplet()">Lire plus</button>
+                        <button class="lirePlusBtn" id="lirePlusBtn" onclick="afficherTexteComplet()">Lire plus</button>
                     </div>
         </section>
 
@@ -132,19 +133,22 @@
             <div class="cadre">
                 <div class="texte">
                     <p>
-                        À Memphis, en Égypte, l'urbanisme et le patrimoine s'entrelacent dans une danse intemporelle, reflétant les millénaires d'histoire qui ont façonné cette ancienne cité. </p>
-                    <p id="moreText">
-                        Fondée il y a plus de 4 000 ans, Memphis fut la capitale de l'Égypte antique, berceau de la civilisation pharaonique. 
-                        <br><br> Aujourd'hui, ses ruines et vestiges archéologiques témoignent de son passé glorieux. 
-                        <br><br> L'urbanisme à Memphis se traduit par les vestiges du grand temple de Ptah, dédié au dieu créateur, et par l'alignement majestueux des sphinx qui jadis bordaient l'entrée de la ville. 
+                        À Memphis, en Égypte, l'urbanisme et le patrimoine s'entrelacent dans une danse intemporelle, reflétant les millénaires d'histoire qui ont façonné cette ancienne cité. 
+                    </p>
+                    <p id="moreText2">
+                        <br>Fondée il y a plus de 4 000 ans, Memphis fut la capitale de l'Égypte antique, berceau de la civilisation pharaonique. 
+                        Aujourd'hui, ses ruines et vestiges archéologiques témoignent de son passé glorieux. 
+                        L'urbanisme à Memphis se traduit par les vestiges du grand temple de Ptah, dédié au dieu créateur, et par l'alignement majestueux des sphinx qui jadis bordaient l'entrée de la ville. 
                         <br><br> Ces structures imposantes racontent l'histoire de l'urbanisme planifié et de l'ingéniosité architecturale qui caractérisaient l'Égypte antique. 
-                        <br><br> Le patrimoine de Memphis est palpable dans le musée en plein air qu'est devenu le site archéologique, abritant des statues colossales, des stèles gravées et des sépultures royales. 
-                        <br><br> Chaque pierre, chaque hiéroglyphe, évoque la grandeur passée de Memphis en tant que centre politique, religieux et culturel. 
-                        <br><br> Ainsi, l'urbanisme et le patrimoine de Memphis se conjuguent pour offrir aux visiteurs une plongée captivante dans les racines de la civilisation égyptienne.
-                        
+                        Le patrimoine de Memphis est palpable dans le musée en plein air qu'est devenu le site archéologique, abritant des statues colossales, des stèles gravées et des sépultures royales. 
+                        Chaque pierre, chaque hiéroglyphe, évoque la grandeur passée de Memphis en tant que centre politique, religieux et culturel. 
+                        Ainsi, l'urbanisme et le patrimoine de Memphis se conjuguent pour offrir aux visiteurs une plongée captivante dans les racines de la civilisation égyptienne.
+                    </p> 
                     <div id="lirePlusBtnContainer">
-                        <button id="lirePlusBtn" onclick="afficherTexteComplet()">Lire plus</button>
+                        <button class="lirePlusBtn" id="lirePlusBtn2" onclick="afficherTexteComplet2()">Lire plus</button>
                     </div>
+                </div>
+            </div>
         </section>
 
         <section class="A_lire">
@@ -195,17 +199,26 @@
         </section>         
 
         <?php
-            include("../include/footer_fr.inc.php");
+            include("../include/footer.inc.php");
         ?>
 
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
-            AOS.init();
-
             function afficherTexteComplet() {
                 var moreText = document.getElementById("moreText");
                 var btn = document.getElementById("lirePlusBtn");
+
+                if (moreText.style.display === "none" || moreText.style.display === "") {
+                    moreText.style.display = "block";
+                    btn.innerHTML = "Lire moins";
+                } else {
+                    moreText.style.display = "none";
+                    btn.innerHTML = "Lire plus";
+                }
+            }
+
+            function afficherTexteComplet2() {
+                var moreText = document.getElementById("moreText2");
+                var btn = document.getElementById("lirePlusBtn2");
 
                 if (moreText.style.display === "none" || moreText.style.display === "") {
                     moreText.style.display = "block";

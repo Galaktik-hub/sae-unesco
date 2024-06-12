@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Italiana&family=Krona+One&display=swap');
+
 :root {
     --primary: #28180A;
     --background: #191919;
@@ -50,7 +52,7 @@ button:hover {
 }
 
 .ligne {
-    height: 5680px;
+    height: 7460px;
     width: 8px;
     margin: 0 auto;
     background: #333;
@@ -73,22 +75,22 @@ button:hover {
 }
 
 .r1{top: 80px;}
-.r2{top: 430px;}
-.r3{top: 780px;}
-.r4{top: 1130px;}
-.r5{top: 1480px;}
-.r6{top: 1830px;}
-.r7{top: 2180px;}
-.r8{top: 2530px;}
-.r9{top: 2880px;}
-.r10{top: 3230px;}
-.r11{top: 3580px;}
-.r12{top: 3930px;}
-.r13{top: 4280px;}
-.r14{top: 4630px;}
-.r15{top: 4980px;}
-.r16{top: 5330px;}
-.r17{top: 5680px;}
+.r2{top: 530px;}
+.r3{top: 1030px;}
+.r4{top: 1580px;}
+.r5{top: 2030px;}
+.r6{top: 2480px;}
+.r7{top: 2960px;}
+.r8{top: 3410px;}
+.r9{top: 3860px;}
+.r10{top: 4310px;}
+.r11{top: 4760px;}
+.r12{top: 5230px;}
+.r13{top: 5680px;}
+.r14{top: 6130px;}
+.r15{top: 6580px;}
+.r16{top: 7030px;}
+.r17{top: 7480px;}
 
 .box {
     color: #fdf2e9;
@@ -118,69 +120,68 @@ button:hover {
     left: calc(50% - 470px);
 }
 .b2 {
-    top: 430px;
+    top: 530px;
     left: calc(50% + 70px);
 }
 .b3 {
-    top: 780px;
+    top: 1030px;
     left: calc(50% - 470px);
 }
 .b4 {
-    top: 1130px;
+    top: 1580px;
     left: calc(50% + 70px);
 }
 
 .b5 {
-    top: 1480px;
+    top: 2030px;
     left: calc(50% - 470px);
 }
 .b6 {
-    top: 1830px;
+    top: 2480px;
     left: calc(50% + 70px);
 }
 .b7 {
-    top: 2180px;
+    top: 2960px;
     left: calc(50% - 470px);
 }
 .b8 {
-    top: 2530px;
+    top: 3410px;
     left: calc(50% + 70px);
 }
 .b9 {
-    top: 2880px;
+    top: 3860px;
     left: calc(50% - 470px);
 }
 .b10 {
-    top: 3230px;
+    top: 4310px;
     left: calc(50% + 70px);
 }
 .b11 {
-    top: 3580px;
+    top: 4760px;
     left: calc(50% - 470px);
 }
 .b12 {
-    top: 3930px;
+    top: 5230px;
     left: calc(50% + 70px);
 }
-
 .b13 {
-    top: 4280px;
+    top: 5680px;
     left: calc(50% - 470px);
 }
 .b14 {
-    top: 4630px;
+    top: 6130px;
     left: calc(50% + 70px);
 }
 .b15 {
-    top: 4980px;
+    top: 6580px;
     left: calc(50% - 470px);
 }
 .b16 {
-    top: 5330px;
+    top: 7030px;
     left: calc(50% + 70px);
 }
 .b17 {
-    top: 5680px;
+    top: 7480px;
     left: calc(50% - 470px);
 }
 
@@ -484,19 +485,19 @@ input[type=radio] {
 .fouilles{
     background-color: #fdf2e9;
 }
-.titre {
+.fouilles .titre {
     color: #28180A;
     padding: 5%;
 }
 
-.titre p {
+.fouilles .titre p {
     margin-left: 5%;
     position: relative;
     font-size: 3vw;
     font-weight: bold;
 }
 
-.titre p::before {
+.fouilles .titre p::before {
     position: absolute;
     content: "";
     background-color: #28180A;
@@ -519,11 +520,11 @@ input[type=radio] {
     margin-bottom: 10%;
 }
 
-.texte {
+.fouilles .texte {
     overflow: hidden;
 }
 
-.texte p{
+.fouilles .texte p{
     font-size: 25px;
 }
 #moreText {
@@ -541,6 +542,7 @@ input[type=radio] {
     background-color: #7E603B;
     color: white;
     padding: 10px 20px;
+    margin-top: 10px; 
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -704,21 +706,6 @@ custom-slider {
 @media only screen and (max-width: 700px) {
     body {
         padding-top: 80px;
-    }
-
-
-    #hautHeader #titleHeader {
-        font-size: 2.8vw;
-    }
-
-    header #menu_bar {
-        flex-wrap: wrap;
-        margin-right: 5px;
-        margin-left: 5px;
-    }
-
-    header #menu_bar p {
-        font-size: 2vw;
     }
 
     button {

@@ -3,7 +3,7 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8">
-        <title>Memphis | Activités</title>
+        <title>孟非斯 | Activités</title>
         <link rel="icon" type="image/png" href="../assets/Header-Footer/pyramide.png">
         <link rel="stylesheet" href="../css/activites.css">        
     </head>
@@ -78,7 +78,7 @@
                                 
                 </div>
 
-                <h2>Cuisine et gastronomie locales</h2>
+                <h2>Cuisine et gastronomie local</h2>
                 <div class="carousel-container">
                 
                     
@@ -127,7 +127,7 @@
                 </div>
                 <div class="carousel-slide">
                     <img src="../assets/Img_Activites/shopping4.jpg" alt="Image 1">
-                    <p>Visite d'une fabrique de papyrus</p>
+                    <p>Visite d'une fabrique de papyrus et atelier de création de papyrus</p>
                     
                 </div>
                 <div class="carousel-slide">

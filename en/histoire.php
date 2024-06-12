@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 
-<html lang="français">
+<html lang="fr">
     <head>
         <meta charset="utf-8">
-        <title>Memphis | Histoire</title>
+        <title>Memphis | History</title>
         <link rel="icon" type="image/png" href="../assets/Header-Footer/pyramide.png">
         <link rel="stylesheet" href="../css/histoire.css">        
     </head>
@@ -36,106 +36,88 @@
 
 
                 <div class="box b1" data-aos="fade-down">
-                    <h2>Fondation de Memphis</h2>
-                    <p>
-                        Memphis est fondée par le roi Narmer, unifiant la Haute et la Basse-Égypte. La ville devient rapidement le centre politique et économique de l'empire naissant.                    </p>
+                    <h2>Memphis' foundation</h2>
+                    <p>Memphis was founded by King Narmer, unifying Upper and Lower Egypt. The city quickly became the political and economic center of the nascent empire.                    </p>
                         <img src="../assets/Img_Histoire/frise1.jpg" alt="song">
                 </div>
                 <div class="box b2" data-aos="fade-down">
-                    <h2>Construction de la Grande Enceinte de Memphis</h2>
-                    <p>
-                        Sous le règne du pharaon Djoser, la construction de la Grande Enceinte débute, établissant une muraille défensive autour de la cité, marquant un jalon dans l'urbanisation égyptienne.                    </p>
+                    <h2>Construction of the Great Wall of Memphis</h2>
+                    <p>Under the reign of Pharaoh Djoser, construction of the Great Wall began, establishing a defensive wall around the city and marking a milestone in Egyptian urbanization.                    </p>
                         <img src="../assets/Img_Histoire/frise2.gif" alt="song">
                 </div>
                 <div class="box b3" data-aos="fade-down">
-                    <h2>Construction des premières Pyramides </h2>
-                    <p>
-                        L'architecte Imhotep conçoit la première pyramide à degrés pour le pharaon Djoser. Cette structure révolutionnaire préfigure les pyramides ultérieures de l'Ancien Empire. Par la suite, construite vers 2560 av. J.-C., la Pyramide de Khéops à Gizeh incarne l'apogée de l'architecture égyptienne antique, érigée sous le règne du pharaon Khéops en tant que monument funéraire.                    </p>
+                    <h2>Building of the first Pyramids </h2>
+                    <p>Architect Imhotep designs the first step pyramid for Pharaoh Djoser. This revolutionary structure prefigured the later pyramids of the Old Kingdom. Later, built around 2560 BC, the Pyramid of Cheops at Giza embodies the apogee of ancient Egyptian architecture, erected under the reign of Pharaoh Cheops as a funerary monument.                    </p>
                         <img src="../assets/Img_Histoire/frise3.jpg" alt="song">
                 </div>
                 <div class="box b4" data-aos="fade-down">
-                    <h2>Règne de Pépi II</h2>
-                    <p>
-                        Pépi II devient le dernier pharaon de la VIe dynastie, marquant la fin de l'Ancien Empire. Cela ouvre la voie à une période d'instabilité et de déclin.                    </p>
-                    </p>
+                    <h2>Pepi II reign</h2>
+                    <p>Pepi II became the last pharaoh of the 6th dynasty, marking the end of the Old Kingdom. This ushered in a period of instability and decline.                    </p></p>
                     <img src="../assets/Img_Histoire/frise4.jpg" alt="song">
                 </div>
                 <div class="box b5" data-aos="fade-down">
-                    <h2> Période d'instabilité </h2>
-                    <p>
-                        Memphis perd de son importance politique pendant la Première Période intermédiaire, marquée par des luttes internes et des invasions étrangères.  </p>
+                    <h2>Period of instability</h2>
+                    <p>Memphis lost its political importance during the First Intermediate Period, marked by internal struggles and foreign invasions.</p>
                         <img src="../assets/Img_Histoire/frise5.jpg" alt="song">
                     </div>
                 <div class="box b6" data-aos="fade-down">
-                    <h2>Réunification de l'Égypte par Mentuhotep II </h2>
-                    <p>
-                        Le pharaon Mentuhotep II rétablit l'unité en égypte et consolide le pouvoir central, inaugurant le Moyen Empire et redonnant à Memphis son rôle central.                    </p>
+                    <h2>Reunification of Egypt by Mentuhotep II</h2>
+                    <p>Pharaoh Mentuhotep II re-established unity in Egypt and consolidated central power, celebrating the Middle Kingdom and restoring Memphis to its central role.                    </p>
                         <img src="../assets/Img_Histoire/frise6.jpg" alt="song">
                 </div>
                 <div class="box b7" data-aos="fade-down">
-                    <h2>Akhénaton et le culte d'Aton</h2>
-                    <p>
-                        Akhénaton déplace la capitale à Amarna, délaissant brièvement Memphis pour Aton, marquant une période de transition religieuse et politique dans l'histoire égyptienne.                    </p>
+                    <h2>Akhenaten and the cult of Aten</h2>
+                    <p>Akhenaten moved the capital to Amarna, briefly abandoning Memphis for Aten, marking a period of religious and political transition in Egyptian history.                    </p>
                         <img src="../assets/Img_Histoire/frise7.jpg" alt="song">
                 </div>
                 <div class="box b8" data-aos="fade-down">
-                    <h2>Règne de Ramsès II</h2>
-                    <p>
-                        Ramsès II, l'un des pharaons les plus puissants, étend l'empire et construit des monuments impressionnants à Memphis, dont le célèbre temple de Ptah.                    </p>
+                    <h2>Reign of Ramses II</h2>
+                    <p>Ramses II, one of the most powerful pharaohs, expanded the empire and built impressive monuments at Memphis, including the famous Temple of Ptah.                    </p>
                         <img src="../assets/Img_Histoire/frise8.jpg" alt="song">
                 </div>
                 <div class="box b9" data-aos="fade-down">
-                    <h2> Invasion assyrienne</h2>
-                    <p>
-                        Memphis est brièvement conquise par les Assyriens sous le règne d'Ashurbanipal, marquant une période de turbulence et d'instabilité.                    </p>
+                    <h2>Assyrian invasion</h2>
+                    <p>Memphis was briefly conquered by the Assyrians under the reign of Ashurbanipal, marking a period of turbulence and instability.                    </p>
                         <img src="../assets/Img_Histoire/frise9.jpg" alt="song">
                 </div>
                 <div class="box b10" data-aos="fade-down">
-                    <h2>Invasion perse</h2>
-                    <p>
-                        Memphis tombe sous la domination perse après la conquête de Cambyse II, entraînant des changements culturels et politiques dans la région.                    </p>
+                    <h2>Persian invasion</h2>
+                    <p>Memphis fell under Persian domination after the conquest of Cambyses II, bringing cultural and political changes to the region.                    </p>
                         <img src="../assets/Img_Histoire/frise10.jpg" alt="song">
                 </div>
                 <div class="box b11" data-aos="fade-down">
-                    <h2>Conquête d'Alexandre le Grand</h2>
-                    <p>
-                        Memphis est prise par Alexandre le Grand, marquant le début de la période hellénistique en Égypte. La ville continue de jouer un rôle important sous la domination grecque.                    </p>
+                    <h2>Conquest of Alexander the Great</h2>
+                    <p>Memphis was taken by Alexander the Great, marking the beginning of the Hellenistic period in Egypt. The city continued to play an important role under Greek rule.                    </p>
                         <img src="../assets/Img_Histoire/frise11.jpg" alt="song">
                 </div>
                 <div class="box b12" data-aos="fade-down">
-                    <h2>Règne d'Auguste</h2>
-                    <p>
-                        Memphis prospère sous le règne de l'empereur romain Auguste, témoignant de l'importance continue de la ville dans le commerce et la culture régionale.                    </p>
+                    <h2>Augustus' reign</h2>
+                    <p>Memphis prospered under the reign of the Roman emperor Augustus, testifying to the city's continuing importance in regional trade and culture.                    </p>
                         <img src="../assets/Img_Histoire/frise12.jpeg" alt="song">
                 </div>
                 <div class="box b13" data-aos="fade-down">
-                    <h2>Conquête musulmane</h2>
-                    <p>
-                        Memphis est capturée par les forces arabes menées par Amr ibn al-As, marquant le début de l'ère islamique en Égypte et le déclin progressif de Memphis.                    </p>
+                    <h2>Muslim conquest</h2>
+                    <p>Memphis was captured by Arab forces led by Amr ibn al-As, marking the beginning of the Islamic era in Egypt and the gradual decline of Memphis.                    </p>
                         <img src="../assets/Img_Histoire/frise13.jpg" alt="song">
                 </div>
                 <div class="box b14" data-aos="fade-down">
-                    <h2>Fondation du Fustat </h2>
-                    <p>
-                        La ville voisine de Fustat est fondée, marquant le début du déclin de Memphis en tant que centre urbain majeur au profit d'autres cités égyptiennes.                    </p>
+                    <h2>Fustat Foundation</h2>
+                    <p>The neighboring city of Fustat was founded, marking the beginning of Memphis' decline as a major urban center in favor of other Egyptian cities.                    </p>
                         <img src="../assets/Img_Histoire/frise14.jpg" alt="song">
                 </div>
                 <div class="box b15" data-aos="fade-down">
-                    <h2>Destruction par les croisés</h2>
-                    <p>
-                        Les croisés détruisent partiellement Memphis lors de la Deuxième croisade, marquant un autre coup pour la ville déjà en déclin.                    </p>
+                    <h2>Destruction by the Crusaders</h2>
+                    <p>The Crusaders partially destroyed Memphis during the Second Crusade, marking another blow for the city already in decline.                    </p>
                         <img src="../assets/Img_Histoire/frise15.jpg" alt="song">
                 </div>
                 <div class="box b16" data-aos="fade-down">
-                    <h2>Déclin continu</h2>
-                    <p>
-                        Memphis continue de décliner en importance au profit du Caire, établi par les Fatimides, signalant la fin de son statut de grande cité égyptienne.                    </p>
+                    <h2>Continuous decline</h2>
+                    <p>Memphis continued to decline in favor of Cairo, established by the Fatimids, signaling the end of its status as a major Egyptian city.                    </p>
                         <img src="../assets/Img_Histoire/frise16.jpg" alt="song">
                 </div>
                 <div class="box b17" data-aos="fade-down">
-                    <h2>Occupation ottomane</h2>
-                    <p>
-                        L'Empire ottoman prend le contrôle de l'Égypte, scellant le destin de Memphis en tant que ville majeure. La région continue de jouer un rôle historique, mais plus en tant que site archéologique que centre urbain vibrant.                    </p>
+                    <h2>Ottoman occupation</h2>
+                    <p>The Ottoman Empire took control of Egypt, sealing Memphis' fate as a major city. The area continues to play a historic role, but more as an archaeological site than a vibrant urban center.                    </p>
                         <img src="../assets/Img_Histoire/frise17.jpg" alt="song">
                 </div>
 
@@ -143,7 +125,7 @@
         </section>
 
         <section class="monarques">
-            <p>LES PRINCIPAUX <br> MONARQUES</p>
+            <p>THE MAIN <br> MONARCHS</p>
             <div class="carrousel">
                 <div class="container">
                     <input type="radio" name="slider" id="item-1" checked>
@@ -186,11 +168,11 @@
                                 </label>
 
                                 <label class="nom" id="text-4">
-                                    <div class="nom">Akhénaton</div>
+                                    <div class="nom">Akhenaton</div>
                                 </label>
 
                                 <label class="nom" id="text-5">
-                                    <div class="nom">Cléopâtre</div>
+                                    <div class="nom">Cleopatra</div>
                                 </label>
                                 
                             </div>
@@ -202,23 +184,23 @@
                             <div class="info-area" id="test">
 
                                 <label class="text" id="text-1">
-                                    <div class="title">Narmer, également connu sous le nom de Ménès, est considéré comme le fondateur de Memphis. Vers 3100 av. J.-C., il réussit à unifier la Haute et la Basse-Égypte, établissant ainsi les fondations de l'empire égyptien. Memphis devient la première capitale de cette nouvelle nation unifiée sous son règne.</div>
+                                    <div class="title">Narmer, also known as Menes, is considered the founder of Memphis. Around 3100 BC, he succeeded in unifying Upper and Lower Egypt, laying the foundations of the Egyptian empire. Memphis became the first capital of this new unified nation under his reign.</div>
                                 </label>
 
                                 <label class="text" id="text-2">
-                                    <div class="title">Le pharaon Djoser est particulièrement célèbre pour avoir ordonné la construction de la Pyramide à degrés de Saqqarah, conçue par l'architecte Imhotep. Cette structure novatrice marque une étape cruciale dans l'évolution des pyramides égyptiennes et renforce le statut de Memphis comme centre architectural majeur.</div>
+                                    <div class="title">Pharaoh Djoser is particularly famous for having ordered the construction of the Saqqara Step Pyramid, designed by the architect Imhotep. This innovative structure marks a crucial stage in the evolution of Egyptian pyramids and reinforces Memphis' status as a major architectural center.</div>
                                 </label>
 
                                 <label class="text" id="text-3">
-                                    <div class="title">Ramsès II, également connu sous le nom de Ramsès le Grand, règne pendant la XIXe dynastie et laisse un héritage impressionnant à Memphis. Il étend l'empire égyptien, construit des temples et des monuments, dont le célèbre temple de Ptah à Memphis, consolidant la ville en tant que centre religieux et politique.</div>
+                                    <div class="title">Ramses II, also known as Ramses the Great, reigned during the 19th dynasty and left an impressive legacy in Memphis. He expanded the Egyptian empire, building temples and monuments, including the famous Temple of Ptah at Memphis, consolidating the city as a religious and political center.</div>
                                 </label>
 
                                 <label class="text" id="text-4">
-                                    <div class="title">Akhénaton, souvent associé à la révolution religieuse de l'Égypte ancienne, déplace brièvement la capitale à Amarna. Bien que sa période de règne soit courte, ses actions ont des répercussions significatives sur Memphis en perturbant les traditions religieuses établies.</div>
+                                    <div class="title">Akhenaten, often associated with ancient Egypt's religious revolution, briefly moved the capital to Amarna. Although his reign was short, his actions had a significant impact on Memphis, disrupting established religious traditions.</div>
                                 </label>
 
                                 <label class="text" id="text-5">
-                                    <div class="title">Cléopâtre, la dernière reine de l'Égypte ptolémaïque, a également joué un rôle dans l'histoire de Memphis. Elle était connue pour son intelligence politique et sa liaison avec les dirigeants romains, notamment Jules César et Marc Antoine. Bien que son règne marque la fin de l'indépendance de l'Égypte, il a une influence notable sur l'histoire de Memphis et de l'Égypte antique.</div>
+                                    <div class="title">Cleopatra, the last queen of Ptolemaic Egypt, also played a role in the history of Memphis. She was known for her political intelligence and her liaison with Roman rulers, notably Julius Caesar and Mark Antony. Although her reign marked the end of Egypt's independence, it had a notable influence on the history of Memphis and ancient Egypt.</div>
                                 </label>
                                 
                             </div>
@@ -234,23 +216,23 @@
 
 
 
-        <section class="fouilles">
-            <div class="titre"><p>LES FOUILLES ET <br> DÉCOUVERTES</p></div>
+        <section class="fouilles">            
+            <div class="titre"><p>EXCAVATIONS AND <br> DISCOVERIES</p></div>
             
             <div class="cadre">
                 <div class="texte">
                     <p>
-                        Memphis, l'antique cité égyptienne, se dresse comme un joyau dans le temps, révélant son histoire à travers des décennies de recherches archéologiques. Les fouilles effectuées sur le site de Memphis ont apporté à la lumière des découvertes qui transcendent les époques, jetant un éclairage précieux sur la grandeur passée de cette cité emblématique.                    </p>
+                    Memphis, the ancient Egyptian city, stands like a jewel in time, revealing its history through decades of archaeological research. Excavations on the Memphis site have brought to light discoveries that transcend the ages, shedding valuable light on the past grandeur of this emblematic city.                    </p>
                     <p id="moreText">
-                        <br>L'histoire de Memphis, étroitement liée à l'Égypte antique, s'étend sur des millénaires, offrant une fenêtre unique sur les développements culturels, politiques et religieux de cette civilisation légendaire. Les principales recherches menées sur le site ont révélé un éventail impressionnant de trésors, réaffirmant l'importance de Memphis dans l'histoire mondiale. 
-                        Les archéologues ont mis au jour les vestiges imposants du temple de Ptah, dédié au dieu créateur Ptah, attestant de l'importance religieuse de Memphis. Des inscriptions, statues et stèles découvertes dans cette région offrent un aperçu des croyances et pratiques religieuses de l'Égypte ancienne. 
-                        Une des découvertes les plus emblématiques est le Sphinx d'Albâtre, représentant le pharaon Amenhotep II. Ce colossal sphinx en albâtre, actuellement exposé au musée égyptien du Caire, témoigne de la grandeur artistique et architecturale de Memphis à l'époque du Nouvel Empire. 
-                        <br><br>Les nécropoles de Memphis ont également livré des trésors archéologiques, avec des milliers de sépultures, mastabas et tombes royales. Ces découvertes ont jeté une lumière précieuse sur les pratiques funéraires et la vie après la mort dans l'Égypte antique. 
-                        Au-delà de l'Antiquité, les archives diplomatiques découvertes sur différents sites révèlent les échanges entre Memphis et d'autres civilisations. Les lettres d'Amarna, les archives de Boğazkale et d'autres documents témoignent des relations internationales dynamiques de la cité, reflétant son statut politique et commercial. 
-                        La mention fréquente et détaillée de Memphis dans les écrits de voyageurs tels qu'Hérodote et Diodore de Sicile atteste de la fascination continue pour cette cité à travers les âges. Leurs récits, remontant au Ve siècle avant notre ère, contribuent à la préservation de la mémoire de Memphis au-delà de son déclin politique. 
-                        En conclusion, les recherches sur le site de Memphis ont ouvert une fenêtre sur l'Égypte antique, dévoilant des trésors qui transcendent le temps. Des temples majestueux aux témoignages diplomatiques, en passant par les mystères des nécropoles, chaque découverte façonne un récit captivant de la grandeur passée de Memphis, rappelant son rôle central dans l'histoire ancienne. Ces recherches continuent de nous livrer des clés pour comprendre et apprécier l'héritage exceptionnel de cette cité légendaire.                    </p>
+                        <br> The history of Memphis, closely linked to ancient Egypt, spans millennia, offering a unique window on the cultural, political and religious developments of this legendary civilization. Major research on the site has revealed an impressive array of treasures, reaffirming Memphis' importance in world history. 
+                        Archaeologists have uncovered the imposing remains of the Temple of Ptah, dedicated to the creator god Ptah, attesting to the religious importance of Memphis. Inscriptions, statues and stelae discovered in this region offer a glimpse into the religious beliefs and practices of ancient Egypt.
+                        One of the most emblematic discoveries is the Alabaster Sphinx, representing Pharaoh Amenhotep II. This colossal alabaster sphinx, currently on display at the Egyptian Museum in Cairo, bears witness to the artistic and architectural grandeur of Memphis during the New Kingdom. 
+                        <br><br>The necropolises of Memphis have also brought archaeological treasures, with thousands of burials, mastabas and royal tombs. These discoveries have shed valuable light on funerary practices and life after death in ancient Egypt. 
+                        Beyond antiquity, diplomatic archives discovered at various sites reveal exchanges between Memphis and other civilizations. Letters from Amarna, archives from Boğazkale and other documents testify to the city's dynamic international relations, reflecting its political and commercial status.
+                        The frequent and detailed mention of Memphis in the writings of travellers such as Herodotus and Diodorus of Sicily attests to the city's continuing fascination throughout the ages. Their accounts, dating back to the 5th century BC, help to preserve the memory of Memphis beyond its political decline. 
+                        In conclusion, research on the Memphis site has opened a window on ancient Egypt, revealing treasures that transcend time. From majestic temples to diplomatic testimonies and the mysteries of necropolises, each discovery shapes a captivating narrative of Memphis' past grandeur, reminding us of its central role in ancient history. This research continues to provide us with the keys to understanding and appreciating the exceptional heritage of this legendary city.                    </p>
                     <div id="lirePlusBtnContainer">
-                        <button id="lirePlusBtn" onclick="afficherTexteComplet()">Lire plus</button>
+                        <button id="lirePlusBtn" onclick="afficherTexteComplet()">Read more</button>
                     </div>
                 </div>
             </div>
@@ -258,7 +240,7 @@
 
         <section class="A_lire">
             <div class="titre2">
-                <p>A LIRE AUSSI</p>
+                <p>ALSO READ</p>
             </div>
             <div id="title-map">
                 <div class="slide-container">
@@ -268,8 +250,8 @@
                             <img class="slide-img" src="../assets/Img_Histoire/article1.jpg">
                         </a>
                         <div class="slide-text">
-                            <div>Archéologie</div>
-                            <p>Découverte d'une momie de 4300 ans enveloppée d’or</p>
+                            <div>Archaeology</div>
+                            <p>Discovery of a 4,300-year-old mummy wrapped in gold</p>
                         </div>
                     </div>
                     <div class="custom-slider fade">
@@ -278,8 +260,8 @@
                             <img class="slide-img" src="../assets/Img_Histoire/article2.jpg">
                         </a>
                         <div class="slide-text">
-                            <div>Recherche</div>
-                            <p>Des scientifiques "déballent" numériquement la momie d'Amenhotep Ier pour la première fois en 3000 ans</p>
+                            <div>Research</div>
+                            <p>Scientists digitally "unpack" the mummy of Amenhotep I for the first time in 3,000 years</p>
                         </div>
                     </div>
                     <div class="custom-slider fade">
@@ -288,8 +270,8 @@
                             <img class="slide-img" src="../assets/Img_Histoire/article3.png">
                         </a>
                         <div class="slide-text">
-                            <div>Découverte</div>
-                            <p>Trois momies avec une langue en or découvertes en Egypte</p>
+                            <div>Discovery</div>
+                            <p>Three mummies with golden tongues discovered in Egypt</p>
                         </div>
                     </div>
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>

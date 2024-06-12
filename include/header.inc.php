@@ -10,7 +10,6 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         />
-        <title>Header</title>
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Inknut Antiqua:wght@500&display=swap');
             @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
@@ -150,7 +149,7 @@
             @media (max-width: 1100px) {
                 nav {
                     justify-content: space-between;
-                    padding: 0 20px;
+                    padding: 0 20px 0 20px;
                 }
                 #icons {
                     display: block;
@@ -207,62 +206,93 @@
     <body>
         <header>
             <nav id="nav" class="">
-                <div class="titre">
-                    <a href="accueil.php?lang=en">MEMPHIS</a>
-                </div>
-                <ul class="menu">
-                    <ul class="flags-responsive">
-                        <a href="?lang=fr" class="flag" id="fr">
-                            <li>
-                                <img src="../assets/Header-Footer/Fr.png" alt="Drapeau Français">
-                            </li>
-                        </a>
-                        <a href="?lang=en" class="flag" id="en">
-                            <li>
-                                <img src="../assets/Header-Footer/En.png" alt="Drapeau Anglais">
-                            </li>
-                        </a>
-                        <a href="?lang=cn" class="flag" id="cn">
-                            <li>
-                                <img src="../assets/Header-Footer/Cn.png" alt="Drapeau Chinois">
-                            </li>
-                        </a>
-                    </ul>
-                    <a href="architecture.php?lang=en" class="page">
-                        <li class="menu-item">
-                            <i class="fa-solid fa-monument"></i>
-                            <p>Architecture</p>
+            <?php
+                $lang = isset($_GET['lang']) ? $_GET['lang'] : 'en';
+                $translations = [
+                    'en' => [
+                        'title' => 'MEMPHIS',
+                        'architecture' => 'Architecture',
+                        'history' => 'History',
+                        'map' => 'Map',
+                        'activities' => 'Activities',
+                        'info' => 'Practical Info'
+                    ],
+                    'fr' => [
+                        'title' => 'MEMPHIS',
+                        'architecture' => 'Architecture',
+                        'history' => 'Histoire',
+                        'map' => 'Carte',
+                        'activities' => 'Activités',
+                        'info' => 'Infos pratiques'
+                    ],
+                    'cn' => [
+                        'title' => '孟非斯',
+                        'architecture' => '建筑',
+                        'history' => '历史',
+                        'map' => '地图',
+                        'activities' => '活动',
+                        'info' => '有用信息'
+                    ]
+                ];
+                $t = $translations[$lang];
+            ?>
+
+            <div class="titre">
+                <a href="accueil.php?lang=<?php echo $lang; ?>"><?php echo $t['title']; ?></a>
+            </div>
+            <ul class="menu">
+                <ul class="flags-responsive">
+                    <a href="?lang=fr" class="flag" id="fr">
+                        <li>
+                            <img src="../assets/Header-Footer/Fr.png" alt="Drapeau Français">
                         </li>
                     </a>
-                    <div class="line"></div>
-                    <a href="histoire.php?lang=en" class="page">
-                        <li class="menu-item">
-                            <i class="fa-solid fa-landmark"></i>
-                            <p>Histoire</p>
+                    <a href="?lang=en" class="flag" id="en">
+                        <li>
+                            <img src="../assets/Header-Footer/En.png" alt="Drapeau Anglais">
                         </li>
                     </a>
-                    <div class="line"></div>
-                    <a href="" class="page">
-                        <li class="menu-item">
-                            <i class="fa-regular fa-map"></i>
-                            <p>Carte</p>
-                        </li>
-                    </a>
-                    <div class="line"></div>
-                    <a href="activites.php?lang=en" class="page">
-                        <li class="menu-item">
-                            <i class="fa-solid fa-person-walking"></i>
-                            <p>Activités</p>
-                        </li>
-                    </a>
-                    <div class="line"></div>
-                    <a href="infos.php?lang=en" class="page">
-                        <li class="menu-item">
-                            <i class="fa-solid fa-info"></i>
-                            <p>Infos pratiques</p>
+                    <a href="?lang=cn" class="flag" id="cn">
+                        <li>
+                            <img src="../assets/Header-Footer/Cn.png" alt="Drapeau Chinois">
                         </li>
                     </a>
                 </ul>
+                <a href="architecture.php?lang=<?php echo $lang; ?>" class="page">
+                    <li class="menu-item">
+                        <i class="fa-solid fa-monument"></i>
+                        <p><?php echo $t['architecture']; ?></p>
+                    </li>
+                </a>
+                <div class="line"></div>
+                <a href="histoire.php?lang=<?php echo $lang; ?>" class="page">
+                    <li class="menu-item">
+                        <i class="fa-solid fa-landmark"></i>
+                        <p><?php echo $t['history']; ?></p>
+                    </li>
+                </a>
+                <div class="line"></div>
+                <a href="carte.php?lang=<?php echo $lang; ?>" class="page">
+                    <li class="menu-item">
+                        <i class="fa-regular fa-map"></i>
+                        <p><?php echo $t['map']; ?></p>
+                    </li>
+                </a>
+                <div class="line"></div>
+                <a href="activites.php?lang=<?php echo $lang; ?>" class="page">
+                    <li class="menu-item">
+                        <i class="fa-solid fa-person-walking"></i>
+                        <p><?php echo $t['activities']; ?></p>
+                    </li>
+                </a>
+                <div class="line"></div>
+                <a href="infos.php?lang=<?php echo $lang; ?>" class="page">
+                    <li class="menu-item">
+                        <i class="fa-solid fa-info"></i>
+                        <p><?php echo $t['info']; ?></p>
+                    </li>
+                </a>
+            </ul>
                 <div class="langue">
                     <a href="?lang=fr" id="fr">
                         <img src="../assets/Header-Footer/Fr.png" alt="Drapeau Français">

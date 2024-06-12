@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 
-<html lang="français">
+<html lang="fr">
     <head>
         <meta charset="utf-8">
-        <title> Page Chinoise </title>
-        <link rel="stylesheet" href="../../css/accueil.css">
+        <title>孟非斯 | Accueil</title>
+        <link rel="icon" type="image/png" href="../assets/Header-Footer/pyramide.png">
+        <link rel="stylesheet" href="../css/accueil.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <script type="text/javascript" src="../../js/accueil.js" defer></script>
+        <script type="text/javascript" src="../js/accueil.js" defer></script>
     </head>
     <body>
 
         <?php
-            include("../../include/header.inc.php");
+            include("../include/header.inc.php");
         ?>
 
         <section id="title">
             <article>
                 <p>MEMPHIS : PREMIERE <br> CAPITALE D'ÉGYPTE</p>
                 <div class="bouton">
-                    <button type="button"> Découvrez nos parcours</button>
+                    <button type="button" href="activites#parcours.php?lang=fr"> Découvrez nos parcours</button>
                 </div>
             </article>
         </section>
@@ -30,21 +31,21 @@
                     <div class="custom-slider fade">
                         <div class="slide-index">1 / 3</div>
                         <a href="../article_gastro.html">
-                            <img class="slide-img" src="../../assets/Img_Accueil/Caroussel_gastronomie.jpg">
+                            <img class="slide-img" src="../assets/Img_Accueil/Caroussel_gastronomie.jpg">
                         </a>
                         <div class="slide-text">Découvrez la gastronomie égyptienne</div>
                     </div>
                     <div class="custom-slider fade">
                         <div class="slide-index">2 / 3</div>
                         <a href="#monument_sphinx">
-                            <img class="slide-img" src="../../assets/Img_Accueil/Caroussel_sphinx.jpg">
+                            <img class="slide-img" src="../assets/Img_Accueil/Caroussel_sphinx.jpg">
                         </a>
                         <div class="slide-text">Sphinx d'Âlbatre</div>
                     </div>
                     <div class="custom-slider fade">
                         <div class="slide-index">3 / 3</div>
                         <a href="#parcours">
-                            <img class="slide-img" src="../../assets/Img_Accueil/Caroussel_chameau.jpg">
+                            <img class="slide-img" src="../assets/Img_Accueil/Caroussel_chameau.jpg">
                         </a>
                         <div class="slide-text">Découvrez les balades à dos de chameaux</div>
                     </div>
@@ -100,19 +101,19 @@
                         
                     </tr>
                     <tr>
-                        <td><a href="../article_gastro.html">Gastronomie <i class="fa-solid fa-arrow-right"></i></a></td>
+                        <td><a href="../php/article.php">Gastronomie <i class="fa-solid fa-arrow-right"></i></a></td>
                         <td><a href="#">Accès handicapés <i class="fa-solid fa-arrow-right"></i></a></td>
                     </tr>
                     <tr>
                         <td><a href="#">Parcours <i class="fa-solid fa-arrow-right"></i></a></td>
                     </tr>
                 </table>
-                <img src="../../assets/Img_Accueil/Infos_pratiques.jpg" alt="Image de touristes">
+                <img src="../assets/Img_Accueil/Infos_pratiques.jpg" alt="Image de touristes">
             </div>
         </section>
 
         <?php
-            include("../../include/footer.inc.php");
+            include("../include/footer.inc.php");
         ?>
     </body>
 </html>

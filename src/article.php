@@ -3,6 +3,7 @@
 <html lang="français">
     <head>
         <meta charset="utf-8">
+        <link rel="icon" type="image/png" href="../assets/Header-Footer/pyramide.png">
         <title><?php
             if (isset($_GET['lang'])) {
                 if ($_GET['lang'] == "cn") {

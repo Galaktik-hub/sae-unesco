@@ -3,7 +3,7 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8">
-        <title>Memphis | Activités</title>
+        <title>Memphis | Activities</title>
         <link rel="icon" type="image/png" href="../assets/Header-Footer/pyramide.png">
         <link rel="stylesheet" href="../css/activites.css">        
     </head>
@@ -13,130 +13,129 @@
         ?>
 
         <main>
-            <section id="img-intro">QUE FAIRE DURANT VOTRE SÉJOUR?</section>
+            <section id="img-intro">WHAT TO DO DURING YOUR STAY?</section>
             
             <section id="activites">
-            <h1>LES ACTIVITÉS AUTOUR DE MEMPHIS</h1>    
-                <h2>Sites historiques et culturels</h2>
+            <h1>ACTIVITIES AROUND MEMPHIS</h1>    
+                <h2>Historical and cultural areas</h2>
                 <div class="carousel-container">
                     <div class="carousel-slide">
                         <img src="../assets/Img_Activites/histoire1.jpg" alt="Image 1">
-                        <p>Visite des ruines de Memphis</p>
+                        <p>Memphis' ruins tour</p>
                     </div>
                     
                 <div class="carousel-slide">
-                        <img src="../assets/Img_Activites/histoire2.jpg" alt="Image 1">
-                        <p>Exploration du Musée de Mit Rahina</p>
+                    <img src="../assets/Img_Activites/histoire2.jpg" alt="Image 1">
+                    <p>Mit Rahina museum exploration</p>
                 </div>
                 <div class="carousel-slide">
                     <img src="../assets/Img_Activites/histoire3.jpg" alt="Image 1">
-                    <p>Excursion à Saqqarah</p>
+                    <p>Excursion to Saqqarah</p>
                 </div>
                 <div class="carousel-slide">
                     <img src="../assets/Img_Activites/histoire4.jpg" alt="Image 1">
-                    <p>Balade dans la nécropole de Gizeh</p>
+                    <p>Tour in Gizeh's necropolis</p>
                 </div>
                 <div class="carousel-slide">
                     <img src="../assets/Img_Activites/histoire5.jpg" alt="Image 1">
-                    <p>Visite du Grand musée égyptien de Memphis</p>
+                    <p>The new Grand Egyptian Museum</p>
                 </div>
                 <div class="carousel-slide">
                     <img src="../assets/Img_Activites/histoire6.jpg" alt="Image 1">
-                    <p>Découverte des ruines du temple de Ptah</p>
+                    <p>Discover the ruins of Ptah's temple</p>
                 </div>
                                 
                 </div>
 
-                <h2>Loisirs et divertissements</h2>
+                <h2>Entertainment</h2>
                 <div class="carousel-container">
                     <div class="carousel-slide">
                         <img src="../assets/Img_Activites/loisir1.jpg" alt="Image 1">
-                        <p>Balade en felouque sur le Nil</p>
+                        <p>Felluca around the Nil</p>
                     </div>
                     
                 <div class="carousel-slide">
-                        <img src="../assets/Img_Activites/loisir2.jpg" alt="Image 1">
-                        <p>Spectacle de son et lumière aux pyramides de Gizeh</p>
+                    <img src="../assets/Img_Activites/loisir2.jpg" alt="Image 1">
+                    <p>Gizeh's pyramid sound and light show</p>
                 </div>
                 <div class="carousel-slide">
                     <img src="../assets/Img_Activites/loisir3.jpg" alt="Image 1">
-                    <p>Excursion en quad dans le désert</p>
+                    <p>Discover the desert by quad bike</p>
                 </div>
                 <div class="carousel-slide">
                     <img src="../assets/Img_Activites/loisir4.jpg" alt="Image 1">
-                    <p>Safari en chameau dans le désert</p>
-                    
+                    <p>Safari by chameau in the desert</p>
                 </div>
                 <div class="carousel-slide">
                     <img src="../assets/Img_Activites/loisir5.jpg" alt="Image 1">
-                    <p>Tour en montgolfière au-dessus des pyramides</p>
+                    <p>Circuit in hot ballon above the pyramids</p>
                 </div>
                 <div class="carousel-slide">
                     <img src="../assets/Img_Activites/loisir6.jpg" alt="Image 1">
-                    <p>Spectacle de danse orientale traditionnelle</p>
+                    <p>Oriental dance show</p>
                 </div>
                                 
                 </div>
 
-                <h2>Cuisine et gastronomie locales</h2>
+                <h2>Cooking and local gastronomy</h2>
                 <div class="carousel-container">
                 
                     
                 <div class="carousel-slide">
                         <img src="../assets/Img_Activites/cuisine2.jpeg" alt="Image 1">
-                        <p><b>Felfela</b> <br>Spécialités: 'Mezze', 'Shawarma' et 'Molokhia'</p>
+                        <p><b>Felfela</b> <br>Specialties: 'Mezze', 'Shawarma' and 'Molokhia'</p>
                 </div>
                 <div class="carousel-slide">
                     <img src="../assets/Img_Activites/cuisine3.jpg" alt="Image 1">
-                    <p><b>Naguib Mahfouz Café</b> <br>Spécialités: 'Hawawshi', 'Fattah' et 'Mahshi'</p>
+                    <p><b>Naguib Mahfouz Café</b> <br>Specialties: 'Hawawshi', 'Fattah' and 'Mahshi'</p>
                 </div>
                 <div class="carousel-slide">
                     <img src="../assets/Img_Activites/cuisine4.jpeg" alt="Image 1">
-                    <p><b>Kazaz </b> <br>Spécialités: 'Kofta', 'Wara'Enab' et 'Kebab'</p>
+                    <p><b>Kazaz</b> <br>Specialties: 'Kofta', 'Wara'Enab' and 'Kebab'</p>
                     
                 </div>
                 <div class="carousel-slide">
                     <img src="../assets/Img_Activites/cuisine1.jpg" alt="Image 1">
-                    <p><b>Abu Shakra</b> <br>Spécialités: 'Foul', 'Tameya' et 'Koshari'</p>
+                    <p><b>Abu Shakra</b> <br>Specialties: 'Foul', 'Tameya' and 'Koshari'</p>
                 </div>
                 <div class="carousel-slide">
                     <img src="../assets/Img_Activites/cuisine5.jpg" alt="Image 1">
-                    <p><b>Andrea el-Marei </b> <br>Spécialités: 'Feseekh', 'Sayadeyab' et 'Mulukhiyah'</p>
+                    <p><b>Andrea el-Marei </b> <br>Specialties: 'Feseekh', 'Sayadeyab' and 'Mulukhiyah'</p>
                 </div>
                 <div class="carousel-slide">
                     <img src="../assets/Img_Activites/cuisine6.jpg" alt="Image 1">
-                    <p><b>Zooba </b> <br>Spécialités: 'Ta'ameya', 'Basbousa' et 'Hawawshi'</p>
+                    <p><b>Zooba </b> <br>Specialties: 'Ta'ameya', 'Basbousa' and 'Hawawshi'</p>
                 </div>
                                 
                 </div>
 
-                <h2>Artisanat et shopping</h2>
+                <h2>Craftmanship and shopping</h2>
                 <div class="carousel-container">
                     <div class="carousel-slide">
                         <img src="../assets/Img_Activites/shopping1.jpg" alt="Image 1">
-                        <p>Cours de poterie traditionnelle</p>
+                        <p>Traditionnal pottery lesson</p>
                     </div>
                     
                 <div class="carousel-slide">
                         <img src="../assets/Img_Activites/shopping2.jpg" alt="Image 1">
-                        <p>Fabrication de bijoux égyptiens</p>
+                        <p>Crafting of egyptian jewelry</p>
                 </div>
                 <div class="carousel-slide">
                     <img src="../assets/Img_Activites/shopping3.jpg" alt="Image 1">
-                    <p>Exploration des marchés aux épices et aux tissus</p>
+                    <p>Exploring the spice and cloth market</p>
                 </div>
                 <div class="carousel-slide">
                     <img src="../assets/Img_Activites/shopping4.jpg" alt="Image 1">
-                    <p>Visite d'une fabrique de papyrus</p>
+                    <p>Papyrus fabric tour</p>
                     
                 </div>
                 <div class="carousel-slide">
                     <img src="../assets/Img_Activites/shopping5.jpeg" alt="Image 1">
-                    <p>Shopping de tapis et de tissus traditionnels</p>
+                    <p>Shopping of traditional carpet and cloths</p>
                 </div>
                 <div class="carousel-slide">
                     <img src="../assets/Img_Activites/shopping6.jpg" alt="Image 1">
-                    <p>Achat de parfums égyptiens traditionnels</p>
+                    <p>Buy traditional egyptian perfume</p>
                 </div>
                                 
                 </div>
@@ -145,37 +144,37 @@
             <section id="parcours">
             <section id="img-transition"></section>    
                 <section id="activites2">
-                <h1>NOS PARCOURS</h1> 
+                <h1>OUR ROUTES</h1> 
                     <h2>Parcours à thèmes</h2>
                     <div class="carousel-container">
                         <div class="carousel-slide2">
                             <img src="../assets/Img_Activites/parcours1.jpg">
-                            <p>Parcours historique</p>
+                            <p>Historical route</p>
                         </div>
                         <div class="carousel-slide2">
                             <img src="../assets/Img_Activites/parcours2.jpeg">
-                            <p>Parcours aventure</p>
+                            <p>Adventurous route</p>
                         </div>
                         <div class="carousel-slide2">
                             <img src="../assets/Img_Activites/parcours3.jpg">
-                            <p>Parcours culinaire</p>
+                            <p>Culinary route</p>
                         </div>
                         <div class="carousel-slide2">
                             <img src="../assets/Img_Activites/parcours4.jpeg">
-                            <p>Parcours romantique</p>
+                            <p>Romantic route</p>
                         </div>
                         <div class="carousel-slide2">
                             <img src="../assets/Img_Activites/parcours5.jpeg">
-                            <p>Parcours familial</p>
+                            <p>Family route</p>
                         </div>          
                     </div>
 
-                    <h2>Parcours à durée</h2>
+                    <h2>Time-based routes</h2>
                     <div class="carousel-container3">
-                        <div class="carousel-slide3"><img src="../assets/Img_Activites/parcours6.jpg"></img><p>Parcours d'<b>1</b> journée </p></div>
-                        <div class="carousel-slide3"><img src="../assets/Img_Activites/parcours7.jpg"></img><p>Parcours de <b>2</b> jours</p> </div>
-                        <div class="carousel-slide3"><img src="../assets/Img_Activites/parcours8.jpg"></img><p>Parcours de <b>3</b> jours</p></div>                 
-                        <div class="carousel-slide3"><img src="../assets/Img_Activites/parcours9.jpg"></img><p>Parcours d'<b>1</b> semaine</p> </div>
+                        <div class="carousel-slide3"><img src="../assets/Img_Activites/parcours6.jpg"></img><p><b>1</b>-day route</p></div>
+                        <div class="carousel-slide3"><img src="../assets/Img_Activites/parcours7.jpg"></img><p><b>2</b>-day route</p></div>
+                        <div class="carousel-slide3"><img src="../assets/Img_Activites/parcours8.jpg"></img><p><b>3</b>-day route</p></div>                 
+                        <div class="carousel-slide3"><img src="../assets/Img_Activites/parcours9.jpg"></img><p><b>1</b>-week route</p></div>
         
                     </div>
                 </section>

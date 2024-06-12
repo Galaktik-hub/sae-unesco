@@ -10,7 +10,6 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         />
-        <title>Footer</title>
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Inknut Antiqua:wght@500&display=swap');
             @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
@@ -169,6 +168,30 @@
     </head>
     <body>
 
+    <?php
+            $lang = isset($_GET['lang']) ? $_GET['lang'] : 'en';
+
+            $footerTranslations = [
+                'en' => [
+                    'legal_mentions' => 'Legal Mentions',
+                    'about_us' => 'About Us',
+                    'link' => 'https://whc.unesco.org/en/list/86/'
+                ],
+                'fr' => [
+                    'legal_mentions' => 'Mentions légales',
+                    'about_us' => 'Qui sommes nous ?',
+                    'link' => 'https://whc.unesco.org/fr/list/86/'
+                ],
+                'cn' => [
+                    'legal_mentions' => '法律声明',
+                    'about_us' => '我们是谁？',
+                    'link' => 'https://whc.unesco.org/zh/list/86/'
+                ]
+            ];
+
+            $ft = $footerTranslations[$lang];
+        ?>
+
         <footer>
             <div class="container"> 
                 <div class="social">
@@ -176,7 +199,7 @@
                         <i class="fa-brands fa-instagram"></i>  
                     </a>
                     <a href="https://x.com/MemphisToursEg">
-                        𝕏
+                        <i class="fa-brands fa-x-twitter"></i>
                     </a>
                     <a href="https://www.facebook.com/Ancient.Memphis/">
                         <i class="fa-brands fa-square-facebook"></i>
@@ -186,23 +209,24 @@
                 <div class="links">
                     <ul>
                         <li>
-                            <a href="">Mentions légales</a>
+                            <a href="mentions_legales.php?lang=<?php echo $lang; ?>"><?php echo $ft['legal_mentions']; ?></a>
                         </li>
                         <li>
-                            <a href="">Qui sommes nous ?</a>
+                            <a href="qui_sommes_nous.php?lang=<?php echo $lang; ?>"><?php echo $ft['about_us']; ?></a>
                         </li>
                     </ul>
                 </div>
                 <div class="logos">
                     <img src="../logo/logo_MCN_blanc.png" alt="Logo MCN" class="mcn">
-                    <a href="https://whc.unesco.org/fr/list/86/" class="link-img" targer="_blank" rel="noopener noreferrer">
+                    <a href=<?php echo $ft['link']; ?> class="link-img" target="_blank" rel="noopener noreferrer">
                         <img src="../logo/png-transparent-unesco-hd-logo-thumbnail.png" alt="Logo UNESCO" class="unesco">
                     </a>
-                    <a href="https://iut.univ-gustave-eiffel.fr/" class="link-img" targer="_blank" rel="noopener noreferrer">
+                    <a href="https://iut.univ-gustave-eiffel.fr/" class="link-img" target="_blank" rel="noopener noreferrer">
                         <img src="../logo/IUT-CMJN-couleurs-300dpi.png" alt="Logo IUT" class="iut">
                     </a>
                 </div>
             </div>
         </footer>
+
     </body>
 </html>

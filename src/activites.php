@@ -1,4 +1,4 @@
-<?php
+    <?php
     if (isset($_GET['lang'])) {
         if ($_GET['lang'] == 'fr') {
             include("../fr/activites.php");

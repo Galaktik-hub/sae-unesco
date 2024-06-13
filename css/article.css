@@ -74,7 +74,6 @@ button:hover {
 
 .img-article img {
     width: 400px;
-    
     height: 400px;
     object-fit: cover;
     object-position: center;
@@ -82,17 +81,25 @@ button:hover {
 
 .content-article {
     text-align: justify;
-    /* margin-left: 3%;
-    margin-right: 3%; */
     margin: 3%;
-    font-family: "Krona One", sans-serif;
-    
 }
 
-h1{
+.content-article h1 {
     font-family: "Inknut Antiqua", sans-serif;
-    font-size: 3vw;
+    font-size: calc(1.5rem + 1.5vw);
     color: #7E603B;
+}
+
+.content-article h2 {
+    font-family: "Krona One", sans-serif;
+    font-size: calc(0.8rem + 0.8vw);
+    margin-bottom: 10px;
+}
+
+.content-article *:not(h1, h2, li) {
+    font-family: "Inter", sans-serif;
+    font-size: calc(0.6rem + 0.8vw);
+    margin-bottom: 20px;
 }
 
 

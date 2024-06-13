@@ -10,7 +10,6 @@
     </head>
     <body>
         <?php
-
             include("../include/connexion.inc.php");
             include("../include/header.inc.php");
         ?>

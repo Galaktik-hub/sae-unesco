@@ -54,7 +54,7 @@
                 </div>
             </div>
             <div class="profil">
-                <img src="../assets/Img_Qui_sommes_nous/photo4.jpg" alt="SEBELON Nathan">
+                <img src="../assets/Img_Qui_sommes_nous/nathan.png" alt="SEBELON Nathan">
                 <p><strong>色本龙(Sebelon) 内森(Nathan)</strong><br>Rôle 4 - Description 4</p>
                 <div class="social-icons">
                     <a href="https://www.linkedin.com/in/nathan-sebelon-956488269/" target="_blank"><i class="fab fa-linkedin"></i></a>

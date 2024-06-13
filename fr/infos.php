@@ -61,7 +61,7 @@
                     </div>
                 </a>
 
-                <a href="https://www.cairotoptours.com/fr/Forfaits-voyage-en-Egypte/Circuits-accessibles-en-fauteuil-roulant-en-Egypte" class="card handicape">
+                <a href="https://www.cairotoptours.com/fr/Forfaits-voyage-en-Egypte/Circuits-accessibles-en-fauteuil-roulant-en-Egypte" target="_blank" class="card handicape">
                     <div class="slide">
                         <img src="../assets/Img_Infos/accès.jpeg"></img>
                     </div>

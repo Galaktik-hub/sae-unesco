@@ -54,8 +54,8 @@ button:hover {
 .titre1 p {
     margin-left: 5%;
     position: relative;
-    font-size: 3vw;
-    font-weight: bold;
+    font-family: "Krona One", sans-serif;
+    font-size: calc(1rem + 1.2vw);
 }
 
 .container {
@@ -189,8 +189,8 @@ button:hover {
 }
 
 .urbanism .container p {
-    font-size: 3vw;
-    font-weight: bold;
+    font-family: "Krona One", sans-serif;
+    font-size: calc(1rem + 1.2vw);
 }
 
 .urbanism .container .line {
@@ -213,7 +213,8 @@ button:hover {
 
 .texte {
     overflow: hidden;
-    font-family: "Inknut Antiqua", sans-serif;
+    font-family: "Inter", sans-serif;
+    font-size: calc(0.6rem + 0.8vw);
 }
 
 .texte p {
@@ -268,8 +269,8 @@ button:hover {
 }
 
 .titre2 p {
-    font-size: 3vw;
-    font-weight: bold;
+    font-family: "Krona One", sans-serif;
+    font-size: calc(1rem + 1.2vw);
 }
 
 /* Section Carrousel */
@@ -341,9 +342,14 @@ custom-slider {
     background: #28180A;
 }
 
+.slide-text h2 {
+    font-family: "Inknut Antiqua", sans-serif;
+    font-size: calc(0.6rem + 0.8vw);
+}
+
 .slide-text p {
-    font-size: 20px;
-    font-weight: normal;
+    font-family: "Inter", sans-serif;
+    font-size: calc(0.4rem + 0.6vw);
 }
 
 .slide-index {

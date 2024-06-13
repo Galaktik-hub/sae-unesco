@@ -45,16 +45,16 @@
                 </div>
             </div>
             <div class="profil">
-                <img src="../assets/Img_Qui_sommes_nous/photo3.jpg" alt="DAVIOT Raphaël">
+                <img src="../assets/Img_Qui_sommes_nous/raphael.png" alt="DAVIOT Raphaël">
                 <p><strong>DAVIOT Raphaël</strong><br>Web designer, front-end developer</p>
                 <div class="social-icons">
                     <a href="https://www.linkedin.com/in/raphael-daviot" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="" target="_blank"><i class="fas fa-globe"></i></a>
+                    <a href="https://github.com/RaphaelDAV" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://etudiant.u-pem.fr/~raphael.daviot/" target="_blank"><i class="fas fa-globe"></i></a>
                 </div>
             </div>
             <div class="profil">
-                <img src="../assets/Img_Qui_sommes_nous/photo4.jpg" alt="SEBELON Nathan">
+                <img src="../assets/Img_Qui_sommes_nous/nathan.png" alt="SEBELON Nathan">
                 <p><strong>SEBELON Nathan</strong><br>Front-end developer</p>
                 <div class="social-icons">
                     <a href="https://www.linkedin.com/in/nathan-sebelon-956488269/" target="_blank"><i class="fab fa-linkedin"></i></a>

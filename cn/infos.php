@@ -61,7 +61,7 @@
                     </div>
                 </a>
 
-                <a href="https://www.cairotoptours.com/Egypt-Day-Tours-and-Excursions/Egypt-Wheelchair-Accessible-Day-Tours" class="card handicape">
+                <a href="https://www.cairotoptours.com/Egypt-Day-Tours-and-Excursions/Egypt-Wheelchair-Accessible-Day-Tours" target="_blank" class="card handicape">
                     <div class="slide">
                         <img src="../assets/Img_Infos/accès.jpeg"></img>
                     </div>

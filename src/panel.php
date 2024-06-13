@@ -94,7 +94,7 @@
         $req = $cnx->prepare("SELECT * FROM contact");
         $req->execute();
         while ($ligne = $req->fetch(PDO::FETCH_OBJ)) {
-            echo '<option value = "'.$ligne->id.'">'.$ligne->id.'</option>';
+            echo $ligne->id." | ".$ligne->nom." | ".$ligne->prenom." | ".$ligne->email." | ".$ligne->contenu."<br>";
         }
     ?>
 </body>

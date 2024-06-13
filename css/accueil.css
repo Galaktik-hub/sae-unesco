@@ -25,12 +25,13 @@ button {
     background-color: #7E603B;
     border-radius: 20px;
     color: white;
-    width: 150px;
-    border: 1px solid white;
+    width: 200px;
+    border: 2px solid white;
     position: relative;
     font-weight: 2;
-    padding: 0.4rem;
+    padding: 0.6rem;
     cursor: pointer;
+    font-family: "Krona One", sans-serif;
 }
 
 button:hover {
@@ -45,8 +46,8 @@ button:hover {
     background-image: url('../assets/Img_Accueil/Title.png');
     background-size: cover;
     display: block;
-    padding: 5%;
-    height: 500px;
+    padding: 10%;
+    height: 50%;
 }
 
 #title button {
@@ -66,14 +67,14 @@ button:hover {
 }
 
 #carrousel #title-map p {
-    font-size: 3vw;
-    font-family: "Inter", sans-serif;
+    font-family: "Inknut Antiqua", sans-serif;
+    font-size: 2.5vw;
     font-weight: 400;
     text-align: center;
     margin: 30px 0;
 }
 
-custom-slider { 
+.custom-slider { 
     display: none;
 }
 
@@ -247,8 +248,8 @@ iframe {
 
 #CoeurCite p {
     position: relative;
-    font-size: 2.5vw;
-    font-weight: bold;
+    font-family: "Krona One", sans-serif;
+    font-size: calc(1rem + 1.2vw);
 }
 
 .container {
@@ -305,7 +306,7 @@ iframe {
     color: black;
     font-family: "Inter", sans-serif;
     font-size: calc(0.6rem + 0.6vw);
-    /* font-weight: bold; */
+    font-weight: bold; 
 }
 
 #infos-pratiques table a:hover i {
@@ -334,7 +335,6 @@ iframe {
     }
 
     button {
-        width: 70px;
         padding: 0.3rem;
         font-size: 2vw;
     }
@@ -343,12 +343,43 @@ iframe {
         font-size: 3.5vw;
     }
 
+     .custom-slider {
+        display: flex;
+        flex-direction: column;   
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .slide-text{
+        top: 20px;
+        width: 90%;
+        position: relative;
+    }
+
+    .slide-img{
+        left: 20%;
+        position: relative;
+    }
+
+    .navigation{
+        right: 10%;
+        width: 90%;
+        position: relative;
+    }
+
+    .slide-container{
+        
+        height: 100%;
+    }
+    
+    
     #CoeurCite #set-images {
         height: 25rem;
     }
 
     #CoeurCite #title-coeurcite p {
-        font-size: 3vw;
+        font-size: 6vw;
     }
 
     #infos-pratiques p {
@@ -356,11 +387,11 @@ iframe {
     }
 
     #infos-pratiques table a {
-        font-size: 2.2vw;
+        font-size: 4vw;
     }
 
     #infos-pratiques table a i {
-        font-size: 2vw;
+        font-size: 4vw;
     }
 
     #infos-pratiques #container-infos-pratiques {
@@ -370,4 +401,6 @@ iframe {
     #infos-pratiques #container-infos-pratiques img {
         min-width: 250px;
     }
+
+    
 }

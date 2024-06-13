@@ -269,7 +269,7 @@
                             <img class="slide-img" src="../assets/Img_Histoire/article1.jpg">
                         </a>
                         <div class="slide-text">
-                            <div>Archéologie</div>
+                            <h2>Archéologie</h2>
                             <p>Découverte d'une momie de 4300 ans enveloppée d’or</p>
                         </div>
                     </div>
@@ -278,7 +278,7 @@
                             <img class="slide-img" src="../assets/Img_Histoire/article2.jpg">
                         </a>
                         <div class="slide-text">
-                            <div>Recherche</div>
+                            <h2>Recherche</h2>
                             <p>Des scientifiques "déballent" numériquement la momie d'Amenhotep Ier pour la première fois en 3000 ans</p>
                         </div>
                     </div>
@@ -287,7 +287,7 @@
                             <img class="slide-img" src="../assets/Img_Histoire/article3.png">
                         </a>
                         <div class="slide-text">
-                            <div>Découverte</div>
+                            <h2>Découverte</h2>
                             <p>Trois momies avec une langue en or découvertes en Egypte</p>
                         </div>
                     </div>

@@ -26,7 +26,7 @@ button {
     border: 1px solid white;
     position: relative;
     font-weight: 2;
-    padding: 0.4rem;
+    font-family: "Krona One", sans-serif;
 }
 
 button:hover {
@@ -70,27 +70,28 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
     color: #fdf2e9;
+    font-family: "Inter", sans-serif;
+    font-size: calc(0.6rem + 0.8vw);
 }
 
-.r1{top: 80px;}
-.r2{top: 530px;}
-.r3{top: 1030px;}
-.r4{top: 1580px;}
-.r5{top: 2030px;}
-.r6{top: 2480px;}
-.r7{top: 2960px;}
-.r8{top: 3410px;}
-.r9{top: 3860px;}
-.r10{top: 4310px;}
-.r11{top: 4760px;}
-.r12{top: 5230px;}
-.r13{top: 5680px;}
-.r14{top: 6130px;}
-.r15{top: 6580px;}
-.r16{top: 7030px;}
-.r17{top: 7480px;}
+.r1 { top: 80px; }
+.r2 { top: 530px; }
+.r3 { top: 1030px; }
+.r4 { top: 1610px; }
+.r5 { top: 2060px; }
+.r6 { top: 2510px; }
+.r7 { top: 2990px; }
+.r8 { top: 3440px; }
+.r9 { top: 3890px; }
+.r10 { top: 4340px; }
+.r11 { top: 4790px; }
+.r12 { top: 5260px; }
+.r13 { top: 5710px; }
+.r14 { top: 6160px; }
+.r15 { top: 6610px; }
+.r16 { top: 7060px; }
+.r17 { top: 7510px; }
 
 .box {
     color: #fdf2e9;
@@ -128,66 +129,76 @@ button:hover {
     left: calc(50% - 470px);
 }
 .b4 {
-    top: 1580px;
+    top: 1610px; 
     left: calc(50% + 70px);
 }
-
 .b5 {
-    top: 2030px;
+    top: 2060px; 
     left: calc(50% - 470px);
 }
 .b6 {
-    top: 2480px;
+    top: 2510px; 
     left: calc(50% + 70px);
 }
 .b7 {
-    top: 2960px;
+    top: 2990px; 
     left: calc(50% - 470px);
 }
 .b8 {
-    top: 3410px;
+    top: 3440px; 
     left: calc(50% + 70px);
 }
 .b9 {
-    top: 3860px;
+    top: 3890px;
     left: calc(50% - 470px);
 }
 .b10 {
-    top: 4310px;
+    top: 4340px;
     left: calc(50% + 70px);
 }
 .b11 {
-    top: 4760px;
+    top: 4790px;
     left: calc(50% - 470px);
 }
 .b12 {
-    top: 5230px;
+    top: 5260px; 
     left: calc(50% + 70px);
 }
 .b13 {
-    top: 5680px;
+    top: 5710px;
     left: calc(50% - 470px);
 }
 .b14 {
-    top: 6130px;
+    top: 6160px; 
     left: calc(50% + 70px);
 }
 .b15 {
-    top: 6580px;
+    top: 6610px; 
     left: calc(50% - 470px);
 }
 .b16 {
-    top: 7030px;
+    top: 7060px; 
     left: calc(50% + 70px);
 }
 .b17 {
-    top: 7480px;
+    top: 7510px;
     left: calc(50% - 470px);
+}
+
+.box h2 {
+    font-family: "Krona One", sans-serif;
+    font-size: calc(0.6rem + 1vw);
+    font-weight: 500;
+}
+
+.box p {
+    font-family: "Inter", sans-serif;
+    font-size: calc(0.6rem + 0.6vw);
 }
 
 .box p {
     line-height: 20px;
-    font-size: 20px;
+    /* font-size: 20px; */
     margin: 10px 0 20px 0;
     text-align: justify;
 }
@@ -235,13 +246,13 @@ button:hover {
     padding: 5%;
 }
 
-.monarques p {
+.monarques h1 {
     position: relative;
-    font-size: 3vw;
-    font-weight: bold;
+    font-family: "Krona One", sans-serif;
+    font-size: calc(1rem + 1.2vw);
 }
 
-.monarques p::before {
+.monarques h1::before {
     position: absolute;
     content: "";
     background-color: #fdf2e9;
@@ -252,6 +263,7 @@ button:hover {
 }
 
 .carrousel {
+    margin-top: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -384,8 +396,8 @@ input[type=radio] {
 }
 
 .nom{
-    font-weight: bold;
-    font-size: 40px;
+    font-family: "Inknut Antiqua", sans-serif;
+    font-size: 2rem;
     color:#fdf2e9;
 }
 
@@ -410,65 +422,64 @@ input[type=radio] {
 }
   
 .text {
-    font-weight: bold;
-    font-size: 25px;
-    width: calc(100% - 52px);
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
     display: block;
     color: black;
 }
   
 .info-area {
-    width: 100%;
     position: absolute;
     top: 0;
-    left: 30px;
+    margin: 0 10px;
+    text-align: justify;
     transition: transform .4s ease-in;
 }
   
 .info-area label {
-    padding-bottom: 300px;
+    padding-bottom: 200px;
 }
 
 
   
 #item-1:checked ~ .footer-container #test {
-    transform: translateY(20);
+    transform: translateY(20px);
 }
   
 #item-2:checked ~ .footer-container #test  {
-    transform: translateY(-430px); /* Changer les valeurs une fois les textes finis */
+    transform: translateY(-320px); /* Changer les valeurs une fois les textes finis */
 }
   
 #item-3:checked ~ .footer-container #test  {
-    transform: translateY(-880px); /* Changer les valeurs une fois les textes finis */
+    transform: translateY(-670px); /* Changer les valeurs une fois les textes finis */
 }
   
 #item-4:checked ~ .footer-container #test  {
-    transform: translateY(-1320px); /* Changer les valeurs une fois les textes finis */
+    transform: translateY(-1010px); /* Changer les valeurs une fois les textes finis */
 }
 
 #item-5:checked ~ .footer-container #test  {
-    transform: translateY(-1780px); /* Changer les valeurs une fois les textes finis */
+    transform: translateY(-1370px); /* Changer les valeurs une fois les textes finis */
 }
 
 #item-1:checked ~ .nom-container .info-area-nom {
-    transform: translateY(0);
+    transform: translateY(-25px);
 }
 
 #item-2:checked ~ .nom-container .info-area-nom {
-    transform: translateY(-45px);
+    transform: translateY(-110px);
 }
 
 #item-3:checked ~ .nom-container .info-area-nom {
-    transform: translateY(-93px);
+    transform: translateY(-190px);
 }
 
 #item-4:checked ~ .nom-container .info-area-nom {
-    transform: translateY(-135px);
+    transform: translateY(-270px);
 }
 
 #item-5:checked ~ .nom-container .info-area-nom {
-    transform: translateY(-190px);
+    transform: translateY(-355px);
 }
 
 /* Image de transition */
@@ -559,6 +570,19 @@ input[type=radio] {
 
 .A_lire{
     background-color: #181009;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.line {
+    flex-grow: 1;
+    height: 1px; 
+    background-color: #ffffff; 
+    margin-left: 10px; 
 }
 
 .titre2 {
@@ -686,7 +710,7 @@ custom-slider {
     transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover { 
+.slide-dot .active, .dot:hover { 
     background-color: #fdf2e9; 
 }
 
@@ -704,13 +728,33 @@ custom-slider {
 /* Responsive */
 
 @media only screen and (max-width: 700px) {
-    body {
-        padding-top: 80px;
-    }
 
     button {
         width: 70px;
         padding: 0.3rem;
         font-size: 2vw;
+    }
+
+    .texte p,
+    #moreText,
+    #moreText2 {
+        font-size: 3vw;
+    }
+
+    .cadre {
+        width: 90%;
+        padding: 10px;
+        font-size: 1vw;
+    }
+    
+    .slide-text {
+        margin-top:-60% ;
+        font-size: 3vw;
+        width: 75%;
+        margin-left: 100%;
+    }
+
+    .slide-text p {
+        font-size: 3vw;
     }
 }

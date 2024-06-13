@@ -14,7 +14,6 @@ body {
     background-color: #fdf2e9;
 }
 
-
 /* Boutons */
 
 button {
@@ -26,7 +25,7 @@ button {
     border: 1px solid white;
     position: relative;
     font-weight: 2;
-    padding: 0.4rem;
+    font-family: "Krona One", sans-serif;
 }
 
 button:hover {
@@ -34,249 +33,138 @@ button:hover {
     background-color: #28180A;
 }
 
-
 /* Section Monuments */
 
-.monuments {
-    background-color: var(--primary);
+.section_monument {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #28180A;
+}
+
+.section_monument .container .line {
+    background-color: #ffffff; 
+}
+
+.titre1 {
     color: #fdf2e9;
     padding: 5%;
 }
 
-.monuments p {
+.titre1 p {
+    margin-left: 5%;
     position: relative;
     font-size: 3vw;
     font-weight: bold;
 }
 
-.monuments p::before {
-    position: absolute;
-    content: "";
-    background-color: #fdf2e9;
-    width: 50%;
-    height: 2px;
-    opacity: 0.5;
-    right: 5%;
-}
-
-.carrousel {
+.container {
     display: flex;
     align-items: center;
-    justify-content: center;
-    transition: background .4s ease-in;
-
-    height: 800px;
-    /* background-color: #fdf2e9; */
-}
-  
-input[type=radio] {
-    display: none;
-}
-  
-.card {
-    position: absolute;
-    max-width: 39%;
-    width: 100%;
-    max-height: 500px;
-    height: 100%;
-    left: 0;
-    right: 0;
-    margin: auto;
-    transition: transform .4s ease;
-    cursor: pointer;
+    margin-bottom: 5%;
+    width: 90%;
 }
 
-.card:hover {
-    opacity: 0.7;
-    transition: 0.3s;
+.container .line {
+    flex-grow: 1;
+    height: 1px; 
+    margin-left: 10px; 
 }
-  
-.container {
-    width: 100%;
-    max-width: 800px;
-    height: 100%;
-    transform-style: preserve-3d;
+
+.row_monument {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.monument {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #444;
+    padding-bottom: 20px;
+    max-width: 400px;
+    width: 100%;
+    align-items: center;
+    overflow: hidden;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.monument:nth-child(even) {
+    flex-direction: column-reverse;
+}
+
+.monument img {
+    max-width: 390px;
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.monument:hover img {
+    filter: brightness(25%); 
+    transform: scale(0.99);
+}
+
+.monument:nth-child(even) img {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.monument-content {
+    position: relative;
+    padding: 10px;
+    background-color: #ffffff;
+    width: 100%;
+    max-height: 450px;
+    height: 100%;
+    display: flex;
     flex-direction: column;
     align-items: center;
-}
-  
-.cards {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-  
-.monuments img {
-    width: 100%;
-    height: 100%;
-    border: solid;
-    border-width: 10px;
-    border-color: #181009;
-    border-radius: 10px;
-    object-fit: cover;
-    border-color: #181009;
-}
-  
-#item-1:checked ~ .cards #song-4,
-#item-2:checked ~ .cards #song-5,
-#item-3:checked ~ .cards #song-1,
-#item-4:checked ~ .cards #song-2,
-#item-5:checked ~ .cards #song-3 {
-    transform: translatex(-120%) scale(.6);
-    z-index: -1;
-}
-  
-#item-1:checked ~ .cards #song-5,
-#item-2:checked ~ .cards #song-1,
-#item-3:checked ~ .cards #song-2,
-#item-4:checked ~ .cards #song-3,
-#item-5:checked ~ .cards #song-4 {
-    transform: translatex(-60%) scale(.8);
-    z-index: 0;
-}
-  
-#item-1:checked ~ .cards #song-1,
-#item-2:checked ~ .cards #song-2,
-#item-3:checked ~ .cards #song-3,
-#item-4:checked ~ .cards #song-4,
-#item-5:checked ~ .cards #song-5 {
-    transform: translatex(0) scale(1);
-    z-index: 1;
-    
-    img {
-      box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
-    }
-}
-  
-#item-1:checked ~ .cards #song-2,
-#item-2:checked ~ .cards #song-3,
-#item-3:checked ~ .cards #song-4,
-#item-4:checked ~ .cards #song-5,
-#item-5:checked ~ .cards #song-1 {
-    transform: translatex(60%) scale(.8);
-    z-index: 0;
-}
-  
-#item-1:checked ~ .cards #song-3,
-#item-2:checked ~ .cards #song-4,
-#item-3:checked ~ .cards #song-5,
-#item-4:checked ~ .cards #song-1,
-#item-5:checked ~ .cards #song-2 {
-    transform: translatex(120%) scale(.6);
-    z-index: -1;
-}
-
-.nom-container {
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0);
-    border-radius: 8px;
-    width: 80%;
-    height: 100px;
-    padding: 16px 10px;
-    margin-left: 30%;
-    margin-top: 10%;
-}
-
-.info-area-nom {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 30px;
-    transition: transform .4s ease-in;
-}
-
-.info-area-nom label {
-    padding-bottom: 30px;
-}
-
-.nom{
-    font-weight: bold;
-    font-size: 37px;
-    color:#fdf2e9;
-}
-
-.footer-container {
-    border: solid;
-    border-width: 5px;
-    border-color: #7E603B;
-    background-color: #fff;
-    border-radius: 8px;
-    width: 100%;
-    height: 400px;
-    padding: 16px 10px;
-}
-  
-.scrolling-text {
-    border-radius: 15px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    height: 100%;
     overflow: hidden;
 }
-  
-.text {
-    font-weight: bold;
-    font-size: 23px;
-    width: calc(100% - 52px);
-    display: block;
-    color: black;
+
+.monument-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #7E603B;
+    font-family: "Krona One", sans-serif;
 }
-  
-.info-area {
-    width: 100%;
+
+.monument-description {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1em;
+    line-height: 1.5;
+    color: #ffffff;
+    text-align: justify;
+    font-family: "Inknut Antiqua", sans-serif;
+}
+
+.monument-content::before {
+    content: attr(data-text);
     position: absolute;
-    top: 0;
-    left: 30px;
-    transition: transform .4s ease-in;
-}
-  
-.info-area label {
-    padding-bottom: 100px;
-}
-
-
-  
-#item-1:checked ~ .footer-container #test {
-    transform: translateY(0);
-}
-  
-#item-2:checked ~ .footer-container #test  {
-    transform: translateY(-250px); /* Changer les valeurs une fois les textes finis */
-}
-  
-#item-3:checked ~ .footer-container #test  {
-    transform: translateY(-500px); /* Changer les valeurs une fois les textes finis */
-}
-  
-#item-4:checked ~ .footer-container #test  {
-    transform: translateY(-750px); /* Changer les valeurs une fois les textes finis */
+    top: 15%;
+    left: 10%;
+    right: 10%;
+    color: #ffffff;
+    padding: 10px;
+    text-align: justify;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    z-index: 10;
+    font-family: "Krona One", sans-serif;
+    font-size: 1em;
 }
 
-#item-5:checked ~ .footer-container #test  {
-    transform: translateY(-990px); /* Changer les valeurs une fois les textes finis */
-}
-
-#item-1:checked ~ .nom-container .info-area-nom {
-    transform: translateY(0);
-}
-
-#item-2:checked ~ .nom-container .info-area-nom {
-    transform: translateY(-42px);
-}
-
-#item-3:checked ~ .nom-container .info-area-nom {
-    transform: translateY(-85px);
-}
-
-#item-4:checked ~ .nom-container .info-area-nom {
-    transform: translateY(-127px);
-}
-
-#item-5:checked ~ .nom-container .info-area-nom {
-    transform: translateY(-175px);
+.monument:hover .monument-content::before {
+    opacity: 1;
 }
 
 /* Image de transition */
@@ -288,31 +176,26 @@ input[type=radio] {
     display: block;
     padding: 10%;
 }
+
 /* Urbanisme et patrimoine */
 
-.urbanism{
+.urbanism {
     background-color: #fdf2e9;
 }
-.urbanism .titre {
+
+.urbanism .container {
     color: #28180A;
     padding: 5%;
 }
 
-.urbanism .titre p {
-    margin-left: 5%;
-    position: relative;
+.urbanism .container p {
     font-size: 3vw;
     font-weight: bold;
 }
 
-.urbanism .titre p::before {
-    position: absolute;
-    content: "";
+.urbanism .container .line {
     background-color: #28180A;
-    width: 50%;
-    height: 2px;
-    opacity: 0.5;
-    right: 5%;
+    margin-left: 20px;
 }
 
 .cadre {
@@ -330,18 +213,21 @@ input[type=radio] {
 
 .texte {
     overflow: hidden;
+    font-family: "Inknut Antiqua", sans-serif;
 }
 
-.urbanism .texte p{
-    font-size: 25px;
+.texte p {
+    font-size: 1.5vw;
 }
 
-#moreText {  
+#moreText {
     display: none;
+    font-size: 1.5vw;
 }
 
-#moreText2 {  
+#moreText2 {
     display: none;
+    font-size: 1.5vw;
 }
 
 #lirePlusBtnContainer {
@@ -368,40 +254,35 @@ input[type=radio] {
 
 /* A lire aussi */
 
-.A_lire{
+.A_lire {
     background-color: #181009;
 }
+
 .titre2 {
     color: #fdf2e9;
     padding: 5%;
 }
 
+.A_lire .container .line {
+    background-color: #ffffff;
+}
+
 .titre2 p {
-    margin-left: 5%;
-    position: relative;
     font-size: 3vw;
     font-weight: bold;
 }
 
-.titre2 p::before {
-    position: absolute;
-    content: "";
-    background-color: #fdf2e9;
-    width: 50%;
-    height: 2px;
-    opacity: 0.5;
-    right: 5%;
-}
-
 /* Section Carrousel */
+
 #carrousel #title-map p {
     font-size: 3vw;
     font-weight: bold;
     text-align: center;
 }
 
-custom-slider { 
-    display: none;
+custom-slider {
+    display: flex;
+    flex-direction: row;
 }
 
 .slide-container {
@@ -414,7 +295,7 @@ custom-slider {
 
 .prev, .next {
     cursor: pointer;
-    position: absolute;        
+    position: absolute;
     top: 50%;
     transform: translateY(-50%);
     width: 60px;
@@ -425,20 +306,20 @@ custom-slider {
     border-radius: 50%;
     color: white;
     font-size: 30px;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
     transition: background-color 0.6s ease;
 }
 
-.prev{ 
-    left: 15px; 
+.prev {
+    left: 15px;
 }
 
-.next { 
-    right: 15px; 
+.next {
+    right: 15px;
 }
 
 .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .slide-text {
@@ -447,20 +328,23 @@ custom-slider {
     font-weight: bold;
     font-size: 25px;
     padding: 15px;
-    bottom: 10; 
+    bottom: 10;
     width: 50%;
     text-align: center;
-    background: rgba(0, 0, 0, 0.7); /* Ajouter un fond semi-transparent */
     margin-bottom: 10%;
     margin-left: 110%;
     margin-top: -50%;
+    border-radius: 10px;
+    border: solid;
+    border-width: 5px;
+    border-color: #7E603B;
+    background: #28180A;
 }
 
-.slide-text p{
+.slide-text p {
     font-size: 20px;
     font-weight: normal;
 }
-
 
 .slide-index {
     color: #ffffff;
@@ -477,8 +361,8 @@ custom-slider {
     object-position: center;
 }
 
-.slide-dot{ 
-    text-align: center; 
+.slide-dot {
+    text-align: center;
 }
 
 .dot {
@@ -492,8 +376,8 @@ custom-slider {
     transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover { 
-    background-color: #fdf2e9; 
+.slide-dot .active, .dot:hover {
+    background-color: #fdf2e9;
 }
 
 .fade {
@@ -502,20 +386,59 @@ custom-slider {
 }
 
 @keyframes fade {
-    from {opacity: 0} 
-    to {opacity: 1}
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
 }
 
 /* Responsive */
 
 @media only screen and (max-width: 700px) {
-    body {
-        padding-top: 80px;
+
+
+    .titre1 p,
+    .urbanism .container p,
+    .titre2 p,
+    #carrousel #title-map p {
+        font-size: 5vw;
     }
 
-    button {
-        width: 70px;
-        padding: 0.3rem;
-        font-size: 2vw;
+
+    .monument-title {
+        font-size: 3vw;
+    }
+    .monument-content::before{
+        top: 10%;
+        font-size: 1.5vw;
+    }
+
+    .monument-description {
+        font-size: 2.5vw;
+    }
+
+    .texte p,
+    #moreText,
+    #moreText2 {
+        font-size: 3vw;
+    }
+
+    .cadre {
+        width: 90%;
+        padding: 10px;
+        font-size: 1vw;
+    }
+
+    .slide-text {
+        margin-top:-60% ;
+        font-size: 3vw;
+        width: 75%;
+        margin-left: 100%;
+    }
+
+    .slide-text p {
+        font-size: 3vw;
     }
 }

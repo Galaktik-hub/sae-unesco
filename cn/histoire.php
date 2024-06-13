@@ -3,7 +3,7 @@
 <html lang="français">
     <head>
         <meta charset="utf-8">
-        <title>Memphis | Histoire</title>
+        <title>孟非斯 | 历史</title>
         <link rel="icon" type="image/png" href="../assets/Header-Footer/pyramide.png">
         <link rel="stylesheet" href="../css/histoire.css">        
     </head>
@@ -36,106 +36,106 @@
 
 
                 <div class="box b1" data-aos="fade-down">
-                    <h2>Fondation de Memphis</h2>
+                    <h2>孟菲斯的建立</h2>
                     <p>
-                        Memphis est fondée par le roi Narmer, unifiant la Haute et la Basse-Égypte. La ville devient rapidement le centre politique et économique de l'empire naissant.                    </p>
+                    孟菲斯由那尔迈国王建立，统一了上埃及和下埃及。这座城市迅速成为新兴帝国的政治和经济中心。                    </p>
                         <img src="../assets/Img_Histoire/frise1.jpg" alt="song">
                 </div>
                 <div class="box b2" data-aos="fade-down">
-                    <h2>Construction de la Grande Enceinte de Memphis</h2>
+                    <h2>孟菲斯大围墙护结构的建造</h2>
                     <p>
-                        Sous le règne du pharaon Djoser, la construction de la Grande Enceinte débute, établissant une muraille défensive autour de la cité, marquant un jalon dans l'urbanisation égyptienne.                    </p>
+                        在法老左赛尔统治时期，开始建造大围墙，在城市周围建立防御墙，标志着埃及城市化的里程碑。                    </p>
                         <img src="../assets/Img_Histoire/frise2.gif" alt="song">
                 </div>
                 <div class="box b3" data-aos="fade-down">
-                    <h2>Construction des premières Pyramides </h2>
+                    <h2>第一座金字塔的建造 </h2>
                     <p>
-                        L'architecte Imhotep conçoit la première pyramide à degrés pour le pharaon Djoser. Cette structure révolutionnaire préfigure les pyramides ultérieures de l'Ancien Empire. Par la suite, construite vers 2560 av. J.-C., la Pyramide de Khéops à Gizeh incarne l'apogée de l'architecture égyptienne antique, érigée sous le règne du pharaon Khéops en tant que monument funéraire.                    </p>
+                        建筑师伊姆霍特普为法老左塞尔设计了第一级金字塔。这种革命性的结构预示着后来古王国的金字塔。随后，于公元前2560年左右建成。公元前，吉萨的胡夫金字塔体现了古埃及建筑的顶峰，建于法老胡夫统治时期，作为陪葬纪念碑。                    </p>
                         <img src="../assets/Img_Histoire/frise3.jpg" alt="song">
                 </div>
                 <div class="box b4" data-aos="fade-down">
-                    <h2>Règne de Pépi II</h2>
+                    <h2>佩皮二世统治时期</h2>
                     <p>
-                        Pépi II devient le dernier pharaon de la VIe dynastie, marquant la fin de l'Ancien Empire. Cela ouvre la voie à une période d'instabilité et de déclin.                    </p>
+                        佩皮二世成为第六王朝的最后一位法老，标志着古王国的终结。这为一段不稳定和衰落的时期奠定了基础。                    </p>
                     </p>
                     <img src="../assets/Img_Histoire/frise4.jpg" alt="song">
                 </div>
                 <div class="box b5" data-aos="fade-down">
-                    <h2> Période d'instabilité </h2>
+                    <h2> 不稳定时期 </h2>
                     <p>
-                        Memphis perd de son importance politique pendant la Première Période intermédiaire, marquée par des luttes internes et des invasions étrangères.  </p>
+                        孟菲斯在第一个中间时期失去了其政治重要性，其特点是内部斗争和外国入侵。  </p>
                         <img src="../assets/Img_Histoire/frise5.jpg" alt="song">
                     </div>
                 <div class="box b6" data-aos="fade-down">
-                    <h2>Réunification de l'Égypte par Mentuhotep II </h2>
+                    <h2>曼图霍特普二世统一埃及 </h2>
                     <p>
-                        Le pharaon Mentuhotep II rétablit l'unité en égypte et consolide le pouvoir central, inaugurant le Moyen Empire et redonnant à Memphis son rôle central.                    </p>
+                        法老曼图霍特普二世恢复了埃及的统一，巩固了中央权力，建立了中央王国，并恢复了孟菲斯的中心地位。                    </p>
                         <img src="../assets/Img_Histoire/frise6.jpg" alt="song">
                 </div>
                 <div class="box b7" data-aos="fade-down">
-                    <h2>Akhénaton et le culte d'Aton</h2>
+                    <h2>埃赫那吞和阿顿崇拜</h2>
                     <p>
-                        Akhénaton déplace la capitale à Amarna, délaissant brièvement Memphis pour Aton, marquant une période de transition religieuse et politique dans l'histoire égyptienne.                    </p>
+                        埃赫那吞将首都迁往阿玛纳，短暂放弃孟菲斯而投奔阿顿，标志着埃及历史上的一个宗教和政治转型时期。                    </p>
                         <img src="../assets/Img_Histoire/frise7.jpg" alt="song">
                 </div>
                 <div class="box b8" data-aos="fade-down">
-                    <h2>Règne de Ramsès II</h2>
+                    <h2>拉美西斯二世统治</h2>
                     <p>
-                        Ramsès II, l'un des pharaons les plus puissants, étend l'empire et construit des monuments impressionnants à Memphis, dont le célèbre temple de Ptah.                    </p>
+                        拉美西斯二世是最强大的法老之一，他扩张了帝国，并在孟菲斯建造了令人印象深刻的纪念碑，包括著名的普塔神庙。                    </p>
                         <img src="../assets/Img_Histoire/frise8.jpg" alt="song">
                 </div>
                 <div class="box b9" data-aos="fade-down">
-                    <h2> Invasion assyrienne</h2>
+                    <h2> 亚述入侵</h2>
                     <p>
-                        Memphis est brièvement conquise par les Assyriens sous le règne d'Ashurbanipal, marquant une période de turbulence et d'instabilité.                    </p>
+                        在亚述巴尼拔统治期间，孟菲斯被亚述人短暂征服，标志着一个动荡和不稳定的时期。                    </p>
                         <img src="../assets/Img_Histoire/frise9.jpg" alt="song">
                 </div>
                 <div class="box b10" data-aos="fade-down">
-                    <h2>Invasion perse</h2>
+                    <h2>波斯入侵</h2>
                     <p>
-                        Memphis tombe sous la domination perse après la conquête de Cambyse II, entraînant des changements culturels et politiques dans la région.                    </p>
+                        冈比西斯二世征服后，孟菲斯落入波斯统治之下，导致该地区的文化和政治发生变化。                    </p>
                         <img src="../assets/Img_Histoire/frise10.jpg" alt="song">
                 </div>
                 <div class="box b11" data-aos="fade-down">
-                    <h2>Conquête d'Alexandre le Grand</h2>
+                    <h2>亚历山大大帝的征服</h2>
                     <p>
-                        Memphis est prise par Alexandre le Grand, marquant le début de la période hellénistique en Égypte. La ville continue de jouer un rôle important sous la domination grecque.                    </p>
+                        亚历山大大帝占领孟菲斯，标志着埃及希腊化时期的开始。这座城市在希腊统治下继续发挥重要作用。                    </p>
                         <img src="../assets/Img_Histoire/frise11.jpg" alt="song">
                 </div>
                 <div class="box b12" data-aos="fade-down">
-                    <h2>Règne d'Auguste</h2>
+                    <h2>奥古斯都统治</h2>
                     <p>
-                        Memphis prospère sous le règne de l'empereur romain Auguste, témoignant de l'importance continue de la ville dans le commerce et la culture régionale.                    </p>
+                        孟菲斯在罗马皇帝奥古斯都统治期间繁荣发展，证明了该城市在地区商业和文化中的持续重要性。                    </p>
                         <img src="../assets/Img_Histoire/frise12.jpeg" alt="song">
                 </div>
                 <div class="box b13" data-aos="fade-down">
-                    <h2>Conquête musulmane</h2>
+                    <h2>穆斯林的征服</h2>
                     <p>
-                        Memphis est capturée par les forces arabes menées par Amr ibn al-As, marquant le début de l'ère islamique en Égypte et le déclin progressif de Memphis.                    </p>
+                        孟菲斯被阿姆鲁·本·阿斯领导的阿拉伯军队占领，标志着埃及伊斯兰时代的开始，孟菲斯逐渐衰落。                    </p>
                         <img src="../assets/Img_Histoire/frise13.jpg" alt="song">
                 </div>
                 <div class="box b14" data-aos="fade-down">
-                    <h2>Fondation du Fustat </h2>
+                    <h2>福斯塔特基金会 </h2>
                     <p>
-                        La ville voisine de Fustat est fondée, marquant le début du déclin de Memphis en tant que centre urbain majeur au profit d'autres cités égyptiennes.                    </p>
+                        邻近城市福斯塔特的建立，标志着孟菲斯作为主要城市中心的地位开始衰落，取而代之的是其他埃及城市。                    </p>
                         <img src="../assets/Img_Histoire/frise14.jpg" alt="song">
                 </div>
                 <div class="box b15" data-aos="fade-down">
-                    <h2>Destruction par les croisés</h2>
+                    <h2>十字军的破坏</h2>
                     <p>
-                        Les croisés détruisent partiellement Memphis lors de la Deuxième croisade, marquant un autre coup pour la ville déjà en déclin.                    </p>
+                        在第二次十字军东征期间，十字军部分摧毁了孟菲斯，这对这座已经衰落的城市造成了又一次打击。                    </p>
                         <img src="../assets/Img_Histoire/frise15.jpg" alt="song">
                 </div>
                 <div class="box b16" data-aos="fade-down">
-                    <h2>Déclin continu</h2>
+                    <h2>持续下降</h2>
                     <p>
-                        Memphis continue de décliner en importance au profit du Caire, établi par les Fatimides, signalant la fin de son statut de grande cité égyptienne.                    </p>
+                        孟菲斯的重要性持续下降，取而代之的是法蒂玛王朝建立的开罗，标志着其作为埃及伟大城市地位的终结。                    </p>
                         <img src="../assets/Img_Histoire/frise16.jpg" alt="song">
                 </div>
                 <div class="box b17" data-aos="fade-down">
-                    <h2>Occupation ottomane</h2>
+                    <h2>奥斯曼占领</h2>
                     <p>
-                        L'Empire ottoman prend le contrôle de l'Égypte, scellant le destin de Memphis en tant que ville majeure. La région continue de jouer un rôle historique, mais plus en tant que site archéologique que centre urbain vibrant.                    </p>
+                        奥斯曼帝国控制了埃及，决定了孟菲斯作为主要城市的命运。该地区继续发挥着历史作用，但更多的是作为一个考古遗址，而不是一个充满活力的城市中心。                    </p>
                         <img src="../assets/Img_Histoire/frise17.jpg" alt="song">
                 </div>
 
@@ -143,7 +143,7 @@
         </section>
 
         <section class="monarques">
-            <p>LES PRINCIPAUX <br> MONARQUES</p>
+            <h1>主要君主</h1>
             <div class="carrousel">
                 <div class="container">
                     <input type="radio" name="slider" id="item-1" checked>
@@ -174,23 +174,23 @@
                         <div class="scrolling-text">
                             <div class="info-area-nom" id="test">
                                 <label class="nom" id="text-1">
-                                    <div class="nom">Narmer</div>
+                                    <div class="nom">那尔迈</div>
                                 </label>
 
                                 <label class="nom" id="text-2">
-                                    <div class="nom">Djoser</div>
+                                    <div class="nom">左赛尔</div>
                                 </label>
 
                                 <label class="nom" id="text-3">
-                                    <div class="nom">Ramses II</div>
+                                    <div class="nom">拉美西斯二世</div>
                                 </label>
 
                                 <label class="nom" id="text-4">
-                                    <div class="nom">Akhénaton</div>
+                                    <div class="nom">埃赫那吞</div>
                                 </label>
 
                                 <label class="nom" id="text-5">
-                                    <div class="nom">Cléopâtre</div>
+                                    <div class="nom">克利奥帕特拉</div>
                                 </label>
                                 
                             </div>
@@ -202,23 +202,23 @@
                             <div class="info-area" id="test">
 
                                 <label class="text" id="text-1">
-                                    <div class="title">Narmer, également connu sous le nom de Ménès, est considéré comme le fondateur de Memphis. Vers 3100 av. J.-C., il réussit à unifier la Haute et la Basse-Égypte, établissant ainsi les fondations de l'empire égyptien. Memphis devient la première capitale de cette nouvelle nation unifiée sous son règne.</div>
+                                    <div class="title">那尔迈，也被称为梅内斯，被认为是孟菲斯的创始人。公元前3100年左右。公元前，他成功地统一了上埃及和下埃及，从而奠定了埃及帝国的基础。孟菲斯成为他统治下这个新统一国家的第一个首都。</div>
                                 </label>
 
                                 <label class="text" id="text-2">
-                                    <div class="title">Le pharaon Djoser est particulièrement célèbre pour avoir ordonné la construction de la Pyramide à degrés de Saqqarah, conçue par l'architecte Imhotep. Cette structure novatrice marque une étape cruciale dans l'évolution des pyramides égyptiennes et renforce le statut de Memphis comme centre architectural majeur.</div>
+                                    <div class="title">法老左塞尔因下令建造由建筑师伊姆霍特普设计的萨卡拉阶梯金字塔而闻名。这一创新结构标志着埃及金字塔演变过程中的关键一步，并巩固了孟菲斯作为主要建筑中心的地位。</div>
                                 </label>
 
                                 <label class="text" id="text-3">
-                                    <div class="title">Ramsès II, également connu sous le nom de Ramsès le Grand, règne pendant la XIXe dynastie et laisse un héritage impressionnant à Memphis. Il étend l'empire égyptien, construit des temples et des monuments, dont le célèbre temple de Ptah à Memphis, consolidant la ville en tant que centre religieux et politique.</div>
+                                    <div class="title">拉美西斯二世，也称为拉美西斯大帝，统治第十九王朝，在孟菲斯留下了令人印象深刻的遗产。他扩张了埃及帝国，建造了寺庙和纪念碑，包括孟菲斯著名的卜塔神庙，巩固了这座城市作为宗教和政治中心的地位。</div>
                                 </label>
 
                                 <label class="text" id="text-4">
-                                    <div class="title">Akhénaton, souvent associé à la révolution religieuse de l'Égypte ancienne, déplace brièvement la capitale à Amarna. Bien que sa période de règne soit courte, ses actions ont des répercussions significatives sur Memphis en perturbant les traditions religieuses établies.</div>
+                                    <div class="title">埃赫那吞经常与古埃及的宗教革命联系在一起，他曾短暂地将首都迁往阿玛纳。尽管他的统治时间很短，但他的行为扰乱了既定的宗教传统，对孟菲斯产生了重大影响。</div>
                                 </label>
 
                                 <label class="text" id="text-5">
-                                    <div class="title">Cléopâtre, la dernière reine de l'Égypte ptolémaïque, a également joué un rôle dans l'histoire de Memphis. Elle était connue pour son intelligence politique et sa liaison avec les dirigeants romains, notamment Jules César et Marc Antoine. Bien que son règne marque la fin de l'indépendance de l'Égypte, il a une influence notable sur l'histoire de Memphis et de l'Égypte antique.</div>
+                                    <div class="title">埃及托勒密王朝最后一位女王克利奥帕特拉在孟菲斯的历史上也发挥过重要作用。她以其政治智慧以及与罗马领导人（包括凯撒大帝和马克·安托万）的联络而闻名。尽管他的统治标志着埃及独立的结束，但他对孟菲斯和古埃及的历史产生了显着的影响。</div>
                                 </label>
                                 
                             </div>
@@ -235,20 +235,20 @@
 
 
         <section class="fouilles">
-            <div class="titre"><p>LES FOUILLES ET <br> DÉCOUVERTES</p></div>
+            <div class="titre"><p>搜索和发现</p></div>
             
             <div class="cadre">
                 <div class="texte">
                     <p>
-                        Memphis, l'antique cité égyptienne, se dresse comme un joyau dans le temps, révélant son histoire à travers des décennies de recherches archéologiques. Les fouilles effectuées sur le site de Memphis ont apporté à la lumière des découvertes qui transcendent les époques, jetant un éclairage précieux sur la grandeur passée de cette cité emblématique.                    </p>
+                    孟菲斯这座古埃及城市就像一颗时间的宝石，通过数十年的考古研究揭示了它的历史。孟菲斯遗址的发掘带来了超越时间的发现，为这座标志性城市过去的辉煌提供了宝贵的线索。                    </p>
                     <p id="moreText">
-                        <br>L'histoire de Memphis, étroitement liée à l'Égypte antique, s'étend sur des millénaires, offrant une fenêtre unique sur les développements culturels, politiques et religieux de cette civilisation légendaire. Les principales recherches menées sur le site ont révélé un éventail impressionnant de trésors, réaffirmant l'importance de Memphis dans l'histoire mondiale. 
-                        Les archéologues ont mis au jour les vestiges imposants du temple de Ptah, dédié au dieu créateur Ptah, attestant de l'importance religieuse de Memphis. Des inscriptions, statues et stèles découvertes dans cette région offrent un aperçu des croyances et pratiques religieuses de l'Égypte ancienne. 
-                        Une des découvertes les plus emblématiques est le Sphinx d'Albâtre, représentant le pharaon Amenhotep II. Ce colossal sphinx en albâtre, actuellement exposé au musée égyptien du Caire, témoigne de la grandeur artistique et architecturale de Memphis à l'époque du Nouvel Empire. 
-                        <br><br>Les nécropoles de Memphis ont également livré des trésors archéologiques, avec des milliers de sépultures, mastabas et tombes royales. Ces découvertes ont jeté une lumière précieuse sur les pratiques funéraires et la vie après la mort dans l'Égypte antique. 
-                        Au-delà de l'Antiquité, les archives diplomatiques découvertes sur différents sites révèlent les échanges entre Memphis et d'autres civilisations. Les lettres d'Amarna, les archives de Boğazkale et d'autres documents témoignent des relations internationales dynamiques de la cité, reflétant son statut politique et commercial. 
-                        La mention fréquente et détaillée de Memphis dans les écrits de voyageurs tels qu'Hérodote et Diodore de Sicile atteste de la fascination continue pour cette cité à travers les âges. Leurs récits, remontant au Ve siècle avant notre ère, contribuent à la préservation de la mémoire de Memphis au-delà de son déclin politique. 
-                        En conclusion, les recherches sur le site de Memphis ont ouvert une fenêtre sur l'Égypte antique, dévoilant des trésors qui transcendent le temps. Des temples majestueux aux témoignages diplomatiques, en passant par les mystères des nécropoles, chaque découverte façonne un récit captivant de la grandeur passée de Memphis, rappelant son rôle central dans l'histoire ancienne. Ces recherches continuent de nous livrer des clés pour comprendre et apprécier l'héritage exceptionnel de cette cité légendaire.                    </p>
+                        <br>孟菲斯的历史与古埃及密切相关，跨越数千年，为了解这一传奇文明的文化、政治和宗教发展提供了独特的窗口。该遗址的主要研究揭示了一系列令人印象深刻的宝藏，再次证实了孟菲斯在世界历史上的重要性。
+                        考古学家发掘了普塔神庙的宏伟遗迹，供奉造物主普塔神，证明了孟菲斯的宗教重要性。在该地区发现的铭文、雕像和石碑让我们深入了解古埃及的宗教信仰和习俗。
+                        最具代表性的发现之一是代表法老阿蒙霍特普二世的雪花石膏狮身人面像。这座巨大的雪花石膏狮身人面像目前在开罗埃及博物馆展出，证明了新王国时期孟菲斯的艺术和建筑宏伟。 
+                        <br><br>孟菲斯的墓地还产出了考古宝藏，有数千座墓葬、马斯塔巴和皇家陵墓。这些发现为古埃及的埋葬习俗和死后生命提供了宝贵的启示。 
+                        除了古代之外，在不同地点发现的外交档案揭示了孟菲斯与其他文明之间的交流。阿玛纳信件、博阿兹卡莱档案和其他文件证明了该城市充满活力的国际关系，反映了其政治和商业地位。 
+                        希罗多德和西西里的狄奥多鲁斯等旅行家的著作中经常详细提到孟菲斯，这证明了这座城市在各个时代的持续魅力。他们的记载可以追溯到公元前 5 世纪，有助于保留孟菲斯在政治衰落之后的记忆。 
+                        总之，对孟菲斯遗址的研究为我们打开了一扇了解古埃及的窗口，揭示了跨越时空的宝藏。从雄伟的神庙到外交证词，再到神秘的墓地，每一项发现都为孟菲斯过去的辉煌谱写了动人的叙事，提醒我们它在古代历史中的核心作用。这项研究将继续为我们提供了解和欣赏这座传奇城市非凡遗产的钥匙。                    </p>
                     <div id="lirePlusBtnContainer">
                         <button id="lirePlusBtn" onclick="afficherTexteComplet()">Lire plus</button>
                     </div>
@@ -258,38 +258,35 @@
 
         <section class="A_lire">
             <div class="titre2">
-                <p>A LIRE AUSSI</p>
+                <p>另请阅读</p>
             </div>
             <div id="title-map">
                 <div class="slide-container">
                     <div class="custom-slider fade">
-                        <div class="slide-index">1 / 3</div>
-                        <a href=#>
+                        <a href="https://www.nationalgeographic.fr/histoire/2023/02/une-deuxieme-momie-couverte-dor-decouverte-dans-la-necropole-de-saqqarah#:~:text=Deux%20momies%20ont%20%C3%A9t%C3%A9%20d%C3%A9couvertes,d'environ%204%20300%20ans.&text=La%20n%C3%A9cropole%20de%20Saqqarah%20a,ans%20par%20la%20civilisation%20%C3%A9gyptienne." target="_blank">
                             <img class="slide-img" src="../assets/Img_Histoire/article1.jpg">
                         </a>
                         <div class="slide-text">
-                            <div>Archéologie</div>
-                            <p>Découverte d'une momie de 4300 ans enveloppée d’or</p>
+                            <div>考古学</div>
+                            <p>发现一具 4,300 年前包裹着黄金的木乃伊</p>
                         </div>
                     </div>
                     <div class="custom-slider fade">
-                        <div class="slide-index">2 / 3</div>
-                        <a href="#">
+                        <a href="https://www.geo.fr/histoire/des-scientifiques-egyptiens-deballent-numeriquement-la-momie-du-pharaon-amenhotep-ier-pour-la-premiere-fois-en-3-000-ans-207649#:~:text=Pour%20la%20premi%C3%A8re%20fois%20en%20trois%20mill%C3%A9naires%2C%20des%20scientifiques%20%C3%A9gyptiens,2021%20dans%20Frontiers%20in%20Medicine." target="_blank">
                             <img class="slide-img" src="../assets/Img_Histoire/article2.jpg">
                         </a>
                         <div class="slide-text">
-                            <div>Recherche</div>
-                            <p>Des scientifiques "déballent" numériquement la momie d'Amenhotep Ier pour la première fois en 3000 ans</p>
+                            <div>研究</div>
+                            <p>科学家3000年来首次以数字方式“打开”阿蒙霍特普一世的木乃伊</p>
                         </div>
                     </div>
                     <div class="custom-slider fade">
-                        <div class="slide-index">3 / 3</div>
-                        <a href="#">
+                        <a href="https://www.geo.fr/histoire/trois-momies-avec-une-langue-en-or-decouverte-en-egypte-207453" target="_blank">
                             <img class="slide-img" src="../assets/Img_Histoire/article3.png">
                         </a>
                         <div class="slide-text">
-                            <div>Découverte</div>
-                            <p>Trois momies avec une langue en or découvertes en Egypte</p>
+                            <div>发现</div>
+                            <p>在埃及发现了三个有黄金舌头的木乃伊</p>
                         </div>
                     </div>
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>

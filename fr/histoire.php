@@ -38,7 +38,7 @@
                 <div class="box b1" data-aos="fade-down">
                     <h2>Fondation de Memphis</h2>
                     <p>
-                        Memphis est fondée par le roi Narmer, unifiant la Haute et la Basse-Égypte. La ville devient rapidement le centre politique et économique de l'empire naissant.                    </p>
+                        Memphis est fondée par le roi Narmer, unifiant la Haute et la Basse-Egypte. La ville devient rapidement le centre politique et économique de l'empire naissant.                    </p>
                         <img src="../assets/Img_Histoire/frise1.jpg" alt="song">
                 </div>
                 <div class="box b2" data-aos="fade-down">
@@ -143,7 +143,7 @@
         </section>
 
         <section class="monarques">
-            <p>LES PRINCIPAUX <br> MONARQUES</p>
+            <h1>LES PRINCIPAUX <br> MONARQUES</h1>
             <div class="carrousel">
                 <div class="container">
                     <input type="radio" name="slider" id="item-1" checked>
@@ -257,14 +257,15 @@
         </section>
 
         <section class="A_lire">
-            <div class="titre2">
-                <p>A LIRE AUSSI</p>
-            </div>
+            <!-- <div class="container"> -->
+                <div class="titre2"><p>A LIRE AUSSI</p></div>
+                <!-- <div class="line"></div> -->
+            <!-- </div> -->
+            
             <div id="title-map">
                 <div class="slide-container">
                     <div class="custom-slider fade">
-                        <div class="slide-index">1 / 3</div>
-                        <a href=#>
+                        <a href="https://www.nationalgeographic.fr/histoire/2023/02/une-deuxieme-momie-couverte-dor-decouverte-dans-la-necropole-de-saqqarah#:~:text=Deux%20momies%20ont%20%C3%A9t%C3%A9%20d%C3%A9couvertes,d'environ%204%20300%20ans.&text=La%20n%C3%A9cropole%20de%20Saqqarah%20a,ans%20par%20la%20civilisation%20%C3%A9gyptienne." target="_blank">
                             <img class="slide-img" src="../assets/Img_Histoire/article1.jpg">
                         </a>
                         <div class="slide-text">
@@ -273,8 +274,7 @@
                         </div>
                     </div>
                     <div class="custom-slider fade">
-                        <div class="slide-index">2 / 3</div>
-                        <a href="#">
+                        <a href="https://www.geo.fr/histoire/des-scientifiques-egyptiens-deballent-numeriquement-la-momie-du-pharaon-amenhotep-ier-pour-la-premiere-fois-en-3-000-ans-207649#:~:text=Pour%20la%20premi%C3%A8re%20fois%20en%20trois%20mill%C3%A9naires%2C%20des%20scientifiques%20%C3%A9gyptiens,2021%20dans%20Frontiers%20in%20Medicine." target="_blank">
                             <img class="slide-img" src="../assets/Img_Histoire/article2.jpg">
                         </a>
                         <div class="slide-text">
@@ -283,8 +283,7 @@
                         </div>
                     </div>
                     <div class="custom-slider fade">
-                        <div class="slide-index">3 / 3</div>
-                        <a href="#">
+                        <a href="https://www.geo.fr/histoire/trois-momies-avec-une-langue-en-or-decouverte-en-egypte-207453" target="_blank">
                             <img class="slide-img" src="../assets/Img_Histoire/article3.png">
                         </a>
                         <div class="slide-text">

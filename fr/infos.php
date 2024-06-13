@@ -13,39 +13,67 @@
         <?php
             include("../include/header.inc.php");
         ?>
-        <section class="main">
+        <main>
             <h2>Informations pratiques</h2>
             <hr>
-                <div class="carousel-container3">
-                    <div class="sous-carrousel2">
-                        <div class="carousel-slide3"><img src="../assets/Img_Infos/lieux.jpg"></img></div>
-                        <a href="carte.php?lang=fr"> Les lieux <i class="fa-solid fa-arrow-right"></i></a>
+            <div class="container">
+                <a href="carte.php?lang=fr" class="card lieux">
+                    <div class="slide">
+                        <img src="../assets/Img_Infos/lieux.jpg"></img>
                     </div>
-                    
-                    <div class="sous-carrousel1">
-                        <div class="carousel-slide3"><img src="../assets/Img_Infos/gastronomie.jpg"></img> </div>
-                        <a href="../fr/gastronomie.html"><i class="fa-solid fa-arrow-left"></i> Gastronomie </a>
+                    <div class="text"> 
+                        <i class="fa-solid fa-arrow-up" id="up-arrow"></i>
+                        Les lieux 
+                        <i class="fa-solid fa-arrow-right" id="arrow-horizontal"></i>
                     </div>
+                </a>
+                
+                <a href="activites.php?lang=fr#gastronomie" class="card gastronomie">
+                    <div class="slide">
+                        <img src="../assets/Img_Infos/gastronomie.jpg"></img>
+                    </div>
+                    <div class="text">
+                        <i class="fa-solid fa-arrow-left" id="arrow-horizontal"></i>
+                        <i class="fa-solid fa-arrow-up" id="up-arrow"></i>
+                        Gastronomie 
+                    </div>
+                </a>
 
-                    <div class="sous-carrousel2">
-                        <div class="carousel-slide3"><img src="../assets/Img_Infos/parcours.jpeg"></img></div>
-                        <a href="activites?lang=fr"> Parcours <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="activites.php?lang=fr#parcours" class="card parcours">
+                    <div class="slide">
+                        <img src="../assets/Img_Infos/parcours.jpeg"></img>
                     </div>
-                    
-                    <div class="sous-carrousel1">
-                        <div class="carousel-slide3"><img src="../assets/Img_Infos/loger.jpg"></img> </div>
-                        <a href="../fr/loger.html"><i class="fa-solid fa-arrow-left"></i> Se loger </a>
+                    <div class="text">
+                        <i class="fa-solid fa-arrow-up" id="up-arrow"></i>
+                        Parcours 
+                        <i class="fa-solid fa-arrow-right" id="arrow-horizontal"></i>
                     </div>
+                </a>
+                
+                <a href="https://fr.hotels.com/de10514200/hotel-quartier-memphis-gizeh-egypte/" class="card loger" target="_blank">
+                    <div class="slide">
+                        <img src="../assets/Img_Infos/loger.jpg"></img>
+                    </div>
+                    <div class="text">
+                        <i class="fa-solid fa-arrow-left" id="arrow-horizontal"></i>
+                        <i class="fa-solid fa-arrow-up" id="up-arrow"></i>
+                        Se loger
+                    </div>
+                </a>
 
-                    <div class="sous-carrousel2">
-                        <div class="carousel-slide3"><img src="../assets/Img_Infos/accès.jpeg"></img> </div>
-                        <a href="../fr/accès.html"> Accès handicapé <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="https://www.cairotoptours.com/fr/Forfaits-voyage-en-Egypte/Circuits-accessibles-en-fauteuil-roulant-en-Egypte" class="card handicape">
+                    <div class="slide">
+                        <img src="../assets/Img_Infos/accès.jpeg"></img>
                     </div>
-    
-                </div>
-        </section>
-            
+                    <div class="text">
+                        <i class="fa-solid fa-arrow-up" id="up-arrow"></i>
+                        Accès handicapé
+                        <i class="fa-solid fa-arrow-right" id="arrow-horizontal"></i>
+                    </div>
+                </a>
 
+            </div>
+        </main>
         <?php
             include("../include/footer.inc.php");
         ?>

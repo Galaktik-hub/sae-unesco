@@ -15,7 +15,7 @@
             @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
 
             :root {
-                --primary: #28180A;
+                --primary: #181009;
                 --background: #191919;
                 --slider: rgba(252, 191, 80, 0.877);
                 --navbar-height: 80px;
@@ -23,6 +23,13 @@
 
             * {
                 margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            html, body {
+                width: 100%;
+                overflow-x: hidden;
             }
 
             /**** Header ****/
@@ -147,9 +154,14 @@
 
             /* Header - Responsive */
             @media (max-width: 1100px) {
+                * {
+                    margin: 0;
+                    padding: 0; 
+                    box-sizing: border-box;
+                }
                 nav {
                     justify-content: space-between;
-                    padding: 0 20px 0 20px;
+                    padding: 0 20px;
                 }
                 #icons {
                     display: block;
@@ -191,10 +203,10 @@
                 nav .menu .flags-responsive li {
                     padding: 0 5px;
                 }
-                .langue {
+                header .langue {
                     display: none;
                 }
-                .line {
+                header .line {
                     display: none;
                 }
                 nav.active ul {
@@ -242,17 +254,29 @@
             </div>
             <ul class="menu">
                 <ul class="flags-responsive">
-                    <a href="?lang=fr" class="flag" id="fr">
+                    <a href="?lang=fr<?php 
+                        if (isset($_GET['id'])) {
+                            echo "&id=".$_GET['id'];
+                        }
+                    ?>" class="flag" id="fr">
                         <li>
                             <img src="../assets/Header-Footer/Fr.png" alt="Drapeau Français">
                         </li>
                     </a>
-                    <a href="?lang=en" class="flag" id="en">
+                    <a href="?lang=en<?php 
+                        if (isset($_GET['id'])) {
+                            echo "&id=".$_GET['id'];
+                        }
+                    ?>" class="flag" id="en">
                         <li>
                             <img src="../assets/Header-Footer/En.png" alt="Drapeau Anglais">
                         </li>
                     </a>
-                    <a href="?lang=cn" class="flag" id="cn">
+                    <a href="?lang=cn<?php 
+                        if (isset($_GET['id'])) {
+                            echo "&id=".$_GET['id'];
+                        }
+                    ?>" class="flag" id="cn">
                         <li>
                             <img src="../assets/Header-Footer/Cn.png" alt="Drapeau Chinois">
                         </li>
@@ -294,13 +318,25 @@
                 </a>
             </ul>
                 <div class="langue">
-                    <a href="?lang=fr" id="fr">
+                    <a href="?lang=fr<?php 
+                        if (isset($_GET['id'])) {
+                            echo "&id=".$_GET['id'];
+                        }
+                    ?>" id="fr">
                         <img src="../assets/Header-Footer/Fr.png" alt="Drapeau Français">
                     </a>
-                    <a href="?lang=en" id="en">
+                    <a href="?lang=en<?php 
+                        if (isset($_GET['id'])) {
+                            echo "&id=".$_GET['id'];
+                        }
+                    ?>" id="en">
                         <img src="../assets/Header-Footer/En.png" alt="Drapeau Anglais">
                     </a>
-                    <a href="?lang=cn" id="cn">
+                    <a href="?lang=cn<?php 
+                        if (isset($_GET['id'])) {
+                            echo "&id=".$_GET['id'];
+                        }
+                    ?>" id="cn">
                         <img src="../assets/Header-Footer/Cn.png" alt="Drapeau Chinois">
                     </a>
                 </div>

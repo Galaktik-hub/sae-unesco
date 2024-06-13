@@ -17,7 +17,7 @@
 ?>
 <link rel="stylesheet" href="../css/contact.css">
 <div id="wrapper">
-    <form action="contact.php" method="post">
+    <form action="" method="post">
         <h1>Nous contacter</h1>
         <table>
             <tr><td><label for="nom">Nom*</label></td><td><input type="text" name="nom" maxlength="30" required/></td></tr>
@@ -27,7 +27,7 @@
         </table>
         <br />
         <input type="reset" class="button" name="reset" value="Effacer" /> 
-        <input type="submit" class="button" name="submit" value="Valider" />
+        <input type="submit" class="button" name="submit" value="Envoyer" />
         <p>* Champ obligatoire</p>
     </form>
 </div>

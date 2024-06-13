@@ -18,48 +18,58 @@
         <section id="title">
             <article>
                 <p>MEMPHIS : PREMIERE <br> CAPITALE D'ÉGYPTE</p>
+                <a href="activites.php?lang=fr#parcours">
                 <div class="bouton">
-                    <button type="button" href="activites#parcours.php?lang=fr"> Découvrez nos parcours</button>
+                    <button type="button"> Découvrez nos parcours</button>
                 </div>
+                </a>
             </article>
         </section>
         
         <section id="carrousel">
             <div id="title-map">
                 <p>Découvrir</p>
-                <div class="slide-container">
-                    <div class="custom-slider fade">
-                        <div class="slide-index">1 / 3</div>
-                        <a href="../article_gastro.html">
-                            <img class="slide-img" src="../assets/Img_Accueil/Caroussel_gastronomie.jpg">
-                        </a>
-                        <div class="slide-text">Découvrez la gastronomie égyptienne</div>
+            </div>
+            <div class="slide-container">
+                <div class="custom-slider fade">
+                    <a href="architecture.php?lang=fr">
+                        <img class="slide-img" src="../assets/Img_Accueil/Caroussel_sphinx.jpg">
+                    </a>
+                    <div class="slide-text">
+                        <h2>Sphinx d'Âlbatre</h2>
+                        Plongez dans l'histoire ancienne en explorant l'imposant Sphinx d'Âlbatre, gardien silencieux des mystères de l'Égypte.
                     </div>
-                    <div class="custom-slider fade">
-                        <div class="slide-index">2 / 3</div>
-                        <a href="#monument_sphinx">
-                            <img class="slide-img" src="../assets/Img_Accueil/Caroussel_sphinx.jpg">
-                        </a>
-                        <div class="slide-text">Sphinx d'Âlbatre</div>
+                </div>
+                <div class="custom-slider fade">
+                    <a href="activites.php?lang=fr#gastronomie">
+                        <img class="slide-img" src="../assets/Img_Accueil/Caroussel_gastronomie.jpg">
+                    </a>
+                    <div class="slide-text">
+                        <h2>Gastronomie</h2>
+                        Éveillez vos papilles avec les saveurs authentiques de la gastronomie égyptienne, une aventure culinaire inoubliable.
                     </div>
-                    <div class="custom-slider fade">
-                        <div class="slide-index">3 / 3</div>
-                        <a href="#parcours">
-                            <img class="slide-img" src="../assets/Img_Accueil/Caroussel_chameau.jpg">
-                        </a>
-                        <div class="slide-text">Découvrez les balades à dos de chameaux</div>
+                </div>
+                <div class="custom-slider fade">
+                    <a href="activites.php?lang=fr#parcours">
+                        <img class="slide-img" src="../assets/Img_Accueil/Caroussel_chameau.jpg">
+                    </a>
+                    <div class="slide-text">
+                        <h2>Parcours</h2>
+                        Partez à l'aventure et découvrez des balades à dos de chameaux, une expérience unique au cœur des paysages égyptiens.
                     </div>
+                </div>
+                <div class="navigation">
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <div class="slide-dot">
+                        <span class="dot" onclick="currentSlide(1)"></span> 
+                        <span class="dot" onclick="currentSlide(2)"></span> 
+                        <span class="dot" onclick="currentSlide(3)"></span> 
+                    </div>
                     <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                </div>
-                <br>
-                <div class="slide-dot">
-                    <span class="dot" onclick="currentSlide(1)"></span> 
-                    <span class="dot" onclick="currentSlide(2)"></span> 
-                    <span class="dot" onclick="currentSlide(3)"></span> 
-                </div>
+                </div>                    
             </div>
         </section>
+
         <section id="map">
             <div id="google-map">
                 <article id="title-google-map">
@@ -84,28 +94,39 @@
         </section>
         <section id="CoeurCite">
             <article id="title-coeurcite">
-                <p>AU COEUR DE LA CITÉ</p>
+                <div class="container">
+                    <p>AU COEUR DE LA CITÉ</p>
+                    <div class="line"></div>
+                </div>
             </article>
+                
+            </div>
+
             <article id="set-images">
+                <a href="architecture.php?lang=fr">
                 <button type="button">En voir plus</button>
+                </a>
             </article>
         </section>
 
         <section id="infos-pratiques">
-            <p>Informations pratiques</p>
+                <div class="container">
+                    <p>Informations pratiques</p>
+                    <div class="line"></div>
+                </div>
             <div id="container-infos-pratiques">
                 <table id="menu-liste" cellpadding="20" cellspacing="20">
                     <tr>
-                        <td><a href="#">Les lieux <i class="fa-solid fa-arrow-right"></i></a></td>
-                        <td><a href="#">Locations <i class="fa-solid fa-arrow-right"></i></a></td>
+                        <td><a href="carte.php?lang=fr">Les lieux <i class="fa-solid fa-arrow-right"></i></a></td>
+                        <td><a href="https://fr.hotels.com/de10514200/hotel-quartier-memphis-gizeh-egypte/" class="card loger" target="_blank">Se loger <i class="fa-solid fa-arrow-right"></i></a></td>
                         
                     </tr>
                     <tr>
-                        <td><a href="../php/article.php">Gastronomie <i class="fa-solid fa-arrow-right"></i></a></td>
-                        <td><a href="#">Accès handicapés <i class="fa-solid fa-arrow-right"></i></a></td>
+                        <td><a href="activites.php?lang=fr#gastronomie">Gastronomie <i class="fa-solid fa-arrow-right"></i></a></td>
+                        <td><a href="https://www.cairotoptours.com/fr/Forfaits-voyage-en-Egypte/Circuits-accessibles-en-fauteuil-roulant-en-Egypte">Accès handicapés <i class="fa-solid fa-arrow-right"></i></a></td>
                     </tr>
                     <tr>
-                        <td><a href="#">Parcours <i class="fa-solid fa-arrow-right"></i></a></td>
+                        <td><a href="activites.php?lang=fr#parcours">Parcours <i class="fa-solid fa-arrow-right"></i></a></td>
                     </tr>
                 </table>
                 <img src="../assets/Img_Accueil/Infos_pratiques.jpg" alt="Image de touristes">

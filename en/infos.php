@@ -13,36 +13,66 @@
         <?php
             include("../include/header.inc.php");
         ?>
-        <section class="main">
+        <main>
             <h2>Practical informations</h2>
             <hr>
-                <div class="carousel-container3">
-                    <div class="sous-carrousel2">
-                        <div class="carousel-slide3"><img src="../assets/Img_Infos/lieux.jpg"></img></div>
-                        <a href="carte.php?lang=en"> Locations <i class="fa-solid fa-arrow-right"></i></a>
+            <div class="container">
+                <a href="carte.php?lang=fr" class="card lieux">
+                    <div class="slide">
+                        <img src="../assets/Img_Infos/lieux.jpg"></img>
                     </div>
-                    
-                    <div class="sous-carrousel1">
-                        <div class="carousel-slide3"><img src="../assets/Img_Infos/gastronomie.jpg"></img> </div>
-                        <a href="../fr/gastronomie.html"><i class="fa-solid fa-arrow-left"></i> Gastronomy </a>
+                    <div class="text"> 
+                        <i class="fa-solid fa-arrow-up" id="up-arrow"></i>
+                        Locations 
+                        <i class="fa-solid fa-arrow-right" id="arrow-horizontal"></i>
                     </div>
+                </a>
+                
+                <a href="activites.php?lang=fr#gastronomie" class="card gastronomie">
+                    <div class="slide">
+                        <img src="../assets/Img_Infos/gastronomie.jpg"></img>
+                    </div>
+                    <div class="text">
+                        <i class="fa-solid fa-arrow-left" id="arrow-horizontal"></i>
+                        <i class="fa-solid fa-arrow-up" id="up-arrow"></i>
+                        Gastronomy 
+                    </div>
+                </a>
 
-                    <div class="sous-carrousel2">
-                        <div class="carousel-slide3"><img src="../assets/Img_Infos/parcours.jpeg"></img></div>
-                        <a href="activites.php?lang=en"> Routes <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="activites.php?lang=fr#parcours" class="card parcours">
+                    <div class="slide">
+                        <img src="../assets/Img_Infos/parcours.jpeg"></img>
                     </div>
-                    
-                    <div class="sous-carrousel1">
-                        <div class="carousel-slide3"><img src="../assets/Img_Infos/loger.jpg"></img> </div>
-                        <a href="../fr/loger.html"><i class="fa-solid fa-arrow-left"></i> Accommodation </a>
+                    <div class="text">
+                        <i class="fa-solid fa-arrow-up" id="up-arrow"></i>
+                        Routes 
+                        <i class="fa-solid fa-arrow-right" id="arrow-horizontal"></i>
                     </div>
+                </a>
+                
+                <a href="https://fr.hotels.com/de10514200/hotel-quartier-memphis-gizeh-egypte/" class="card loger" target="_blank">
+                    <div class="slide">
+                        <img src="../assets/Img_Infos/loger.jpg"></img>
+                    </div>
+                    <div class="text">
+                        <i class="fa-solid fa-arrow-left" id="arrow-horizontal"></i>
+                        <i class="fa-solid fa-arrow-up" id="up-arrow"></i>
+                        Accommodation
+                    </div>
+                </a>
 
-                    <div class="sous-carrousel2">
-                        <div class="carousel-slide3"><img src="../assets/Img_Infos/accès.jpeg"></img> </div>
-                        <a href="../fr/accès.html"> Disabled access <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="https://www.cairotoptours.com/Egypt-Day-Tours-and-Excursions/Egypt-Wheelchair-Accessible-Day-Tours" class="card handicape">
+                    <div class="slide">
+                        <img src="../assets/Img_Infos/accès.jpeg"></img>
                     </div>
-                </div>
-        </section>
+                    <div class="text">
+                        <i class="fa-solid fa-arrow-up" id="up-arrow"></i>
+                        Disabled access
+                        <i class="fa-solid fa-arrow-right" id="arrow-horizontal"></i>
+                    </div>
+                </a>
+            </div>
+        </main>
             
 
         <?php

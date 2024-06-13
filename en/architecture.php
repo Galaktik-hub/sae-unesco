@@ -13,178 +13,139 @@
             include("../include/header.inc.php");
         ?>
 
-        <section class="urbanism">
-            <div class="titre"><p>STYLE ET <br> ARCHITECTURE</p></div>
-            
-            <div class="cadre">
-                <div class="texte">
-                    <p>
-                        L'architecture de Memphis, berceau de l'Égypte antique, fascine par son style majestueux et sa grandeur intemporelle. </p>
-                    <p id="moreText">
-                        <br>Les monuments de cette ancienne capitale se distinguent par leurs formes monumentales et leurs structures imposantes.
-                        Une symétrie rigoureuse caractérise les temples et les palais, témoignant d'une conception architecturale équilibrée et harmonieuse. 
-                        Richement décorés de sculptures et de reliefs, ces édifices arborent des motifs symboliques chargés de sens religieux et politique. 
-                        <br><br> La pierre calcaire, abondamment utilisée dans la région, confère aux monuments une solidité et une durabilité remarquables. 
-                        Chaque structure raconte une histoire captivante de pouvoir et de spiritualité, reflétant l'ingéniosité des anciens Égyptiens. 
-                        Les hiéroglyphes gravés dans la pierre permettent de perpétuer le récit de cette civilisation avancée. 
-                        Aujourd'hui encore, l'architecture de Memphis continue d'impressionner et d'inspirer, offrant aux visiteurs un voyage inoubliable dans l'histoire de l'humanité.
-                        
-                    <div id="lirePlusBtnContainer">
-                        <button class="lirePlusBtn" id="lirePlusBtn" onclick="afficherTexteComplet()">Lire plus</button>
+        <div class="section_monument">
+            <div class="container">
+                <div class="titre1"><p>MONUMENTS</p></div>
+                <div class="line"></div>
+            </div>
+
+            <div class="row_monument">
+                <div class="monument">                    
+                    <div class="monument-content" data-text="The Great Pyramid of Cheops is the oldest of the Seven Wonders of the World and the only one to have survived almost intact.">
+                        <img src="../assets/Img_Architecture/archi1.png" alt="Pyramides de Gizeh">
+                        <div class="monument-title">Pyramids of Giza</div>
                     </div>
-        </section>
+                    <div class="monument-description">
+                        The Pyramids of Giza, among the Seven Wonders of the Ancient World, remain the most famous structures in Memphis. Built to house the tombs of the pharaohs Khufu, Khafren and Mykerinos, they are masterpieces of ancient Egyptian architecture.
+                    </div>                
+                </div>
 
-
-        <section class="monuments">
-            <p>LES PRINCIPAUX <br> MONUMENTS</p>
-            <div class="carrousel">
-                <div class="container">
-                    <input type="radio" name="slider" id="item-1" checked>
-                    <input type="radio" name="slider" id="item-2">
-                    <input type="radio" name="slider" id="item-3">
-                    <input type="radio" name="slider" id="item-4">
-                    <input type="radio" name="slider" id="item-5">
-                    
-                    <div class="cards">
-                        <label class="card" for="item-1" id="song-1">
-                            <img src="../assets/Img_Architecture/image_1.jpg" alt="song">
-                        </label>
-                        <label class="card" for="item-2" id="song-2">
-                            <img src="../assets/Img_Architecture/image_2.jpg" alt="song">
-                        </label>
-                        <label class="card" for="item-3" id="song-3">
-                            <img src="../assets/Img_Architecture/image_3.jpeg" alt="song">
-                        </label>
-                        <label class="card" for="item-4" id="song-4">
-                            <img src="../assets/Img_Architecture/image_4.jpg" alt="song">
-                        </label>
-                        <label class="card" for="item-5" id="song-5">
-                            <img src="../assets/Img_Architecture/image_5.JPG" alt="song">
-                        </label>
+                <div class="monument">                    
+                    <div class="monument-content" data-text="A legend tells that the Sphinx poses an enigma to all those who wish to enter the necropolis, and only those who answer correctly can pass.">
+                        <img src="../assets/Img_Architecture/archi2.png" alt="Sphinx de Gizeh">
+                        <div class="monument-title">Sphinx of Giza</div>
                     </div>
-                    
-                    <div class="nom-container">
-                        <div class="scrolling-text">
-                            <div class="info-area-nom" id="test">
-                                <label class="nom" id="text-1">
-                                    <div class="nom">Le Sphinx de Gizeh</div>
-                                </label>
-
-                                <label class="nom" id="text-2">
-                                    <div class="nom">Les Pyramides de Gizeh</div>
-                                </label>
-
-                                <label class="nom" id="text-3">
-                                    <div class="nom">Le Musée de Memphis</div>
-                                </label>
-
-                                <label class="nom" id="text-4">
-                                    <div class="nom">Le Temple de Ptah</div>
-                                </label>
-
-                                <label class="nom" id="text-5">
-                                    <div class="nom">Le Serapeum de Saqqarah </div>
-                                </label>
-                                
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="footer-container">
-                        <div class="scrolling-text">
-                            <div class="info-area" id="test">
-
-                                <label class="text" id="text-1">
-                                    <div class="title">Le Sphinx de Gizeh, une imposante sculpture au corps de lion et à la tête de pharaon, est l'un des symboles les plus emblématiques de l'Égypte ancienne. Gardien silencieux des pyramides de Gizeh, il mesure 73 mètres de long et 20 mètres de haut, témoignant de l'ingéniosité architecturale des anciens Égyptiens. Cet énigmatique gardien de la nécropole continue d'inspirer admiration et mystère.</div>
-                                </label>
-
-                                <label class="text" id="text-2">
-                                    <div class="title">Les Pyramides de Gizeh, parmi les Sept Merveilles du Monde antique, demeurent les structures les plus célèbres de Memphis. Construites pour abriter les tombeaux des pharaons Khéops, Khéphren et Mykérinos, ces monuments massifs, avec leurs blocs de calcaire parfaitement taillés, sont des chefs-d'œuvre de l'architecture égyptienne antique, fascinant les visiteurs du monde entier depuis des millénaires.</div>
-                                </label>
-
-                                <label class="text" id="text-3">
-                                    <div class="title">Le Musée de Memphis, situé sur le site archéologique, offre une immersion captivante dans l'histoire de la ville. Abritant des artefacts tels que des statues, des bijoux et des objets rituels, le musée retrace l'évolution de Memphis, de son statut de capitale à son déclin, offrant aux visiteurs une compréhension approfondie de la civilisation égyptienne.</div>
-                                </label>
-
-                                <label class="text" id="text-4">
-                                    <div class="title">Le Temple de Ptah, dédié au dieu créateur, est un autre trésor de Memphis. Construit au cœur de la ville, il symbolise la dévotion religieuse et la puissance politique de l'ancienne Égypte. Les vestiges de ce temple révèlent des salles de cérémonie richement ornées, soulignant l'importance du culte de Ptah dans la vie quotidienne des anciens Égyptiens.</div>
-                                </label>
-
-                                <label class="text" id="text-5">
-                                    <div class="title">Le Serapeum de Saqqarah, à proximité de Memphis, est un complexe souterrain qui abritait les sépultures sacrées des taureaux Apis, vénérés en tant que manifestations du dieu Ptah. Les vastes galeries souterraines, creusées dans la roche, présentent des sarcophages monumentaux en granit, témoignant du respect religieux et de la dévotion accordés à ces animaux sacrés.</div>
-                                </label>
-                                
-                            </div>
-                        </div>
+                    <div class="monument-description">
+                        The Sphinx of Giza, an imposing sculpture with the body of a lion and the head of a pharaoh, is one of the most emblematic symbols of ancient Egypt. The silent guardian of the Giza pyramids, it measures 73 metres long and 20 metres high.
                     </div>
                 </div>
             </div>
-            
-        </section>
+
+            <div class="row_monument">
+                <div class="monument">                    
+                    <div class="monument-content" data-text="The Temple of Ptah was once surrounded by lush gardens and sacred pools, where priests performed purification rituals.">
+                        <img src="../assets/Img_Architecture/archi3.png" alt="Temple de Ptah">
+                        <div class="monument-title">Temple of Ptah</div>
+                    </div>
+                    <div class="monument-description">
+                        The Temple of Ptah, dedicated to the creator god, is another Memphis treasure. Built in the heart of the city, it symbolizes the religious devotion and political power of ancient Egypt.
+                    </div>                
+                </div>
+
+                <div class="monument">            
+                    <div class="monument-content" data-text="The Serapeum was discovered by Egyptologist Auguste Mariette in 1850, after he followed a lead found in ancient texts.">
+                        <img src="../assets/Img_Architecture/archi4.png" alt="Serapeum de Saqqarah">
+                        <div class="monument-title">Saqqara Serapeum</div>
+                    </div>
+                    <div class="monument-description">
+                        The Serapeum at Saqqara is an underground complex that housed the sacred tombs of the Apis bulls, worshipped as manifestations of the god Ptah. The vast galleries feature monumental granite sarcophagi.
+                    </div>
+                </div>
+            </div>
+
+            <div class="row_monument">
+                <div class="monument">                
+                    <div class="monument-content" data-text="This 10-metre-high statue was moved in 1955 from the Temple of Ptah to the Memphis Museum to protect it from flooding.">
+                        <img src="../assets/Img_Architecture/archi5.png" alt="Colossus of Ramses II">
+                        <div class="monument-title">Colossus of Ramses II</div>
+                    </div>
+                    <div class="monument-description">
+                        The Colossus of Ramses II, a huge statue of the pharaoh, once stood at the entrance to the Temple of Ptah. It embodies the power and authority of the pharaoh.
+                    </div>                    
+                </div>
+
+                <div class="monument">            
+                    <div class="monument-content" data-text="The enclosures feature stone reproductions of the reed pavilions and wooden structures previously used, symbolizing the transition to more sustainable architecture.">
+                        <img src="../assets/Img_Architecture/archi6.png" alt="Enceintes de Djoser">
+                        <div class="monument-title">Djoser's enclosures</div>
+                    </div>
+                    <div class="monument-description">
+                        The Djoser Enclosures are a complex of walls and buildings built around the Step Pyramid of Djoser. They represent one of the earliest examples of monumental stone architecture.
+                    </div>
+                </div>
+            </div>
+        </div>
         
-        <section id="img-transition">
-        </section>
-
-
+        <section id="img-transition"></section>
 
         <section class="urbanism">
-            <div class="titre"><p>URBANISME ET <br> PATRIMOINE</p></div>
+            <div class="container">
+                <div class="titre"><p>URBANISM AND <br> HERITAGE</p></div>
+                <div class="line"></div>
+            </div>
             
             <div class="cadre">
                 <div class="texte">
                     <p>
-                        À Memphis, en Égypte, l'urbanisme et le patrimoine s'entrelacent dans une danse intemporelle, reflétant les millénaires d'histoire qui ont façonné cette ancienne cité. 
+                    In Memphis, Egypt, urban planning and heritage intertwine in a timeless dance, reflecting the millennia of history that have shaped this ancient city. 
                     </p>
                     <p id="moreText2">
-                        <br>Fondée il y a plus de 4 000 ans, Memphis fut la capitale de l'Égypte antique, berceau de la civilisation pharaonique. 
-                        Aujourd'hui, ses ruines et vestiges archéologiques témoignent de son passé glorieux. 
-                        L'urbanisme à Memphis se traduit par les vestiges du grand temple de Ptah, dédié au dieu créateur, et par l'alignement majestueux des sphinx qui jadis bordaient l'entrée de la ville. 
-                        <br><br> Ces structures imposantes racontent l'histoire de l'urbanisme planifié et de l'ingéniosité architecturale qui caractérisaient l'Égypte antique. 
-                        Le patrimoine de Memphis est palpable dans le musée en plein air qu'est devenu le site archéologique, abritant des statues colossales, des stèles gravées et des sépultures royales. 
-                        Chaque pierre, chaque hiéroglyphe, évoque la grandeur passée de Memphis en tant que centre politique, religieux et culturel. 
-                        Ainsi, l'urbanisme et le patrimoine de Memphis se conjuguent pour offrir aux visiteurs une plongée captivante dans les racines de la civilisation égyptienne.
+                        <br>Founded over 4,000 years ago, Memphis was the capital of ancient Egypt, the cradle of Pharaonic civilization. 
+                        Today, its ruins and archaeological remains bear witness to its glorious past. 
+                        Urban planning in Memphis can be seen in the remains of the great temple of Ptah, dedicated to the creator god, and in the majestic alignment of sphinxes that once lined the entrance to the city. 
+                        <br><br> These imposing structures tell the story of the planned urbanism and architectural ingenuity that characterized ancient Egypt. 
+                        The heritage of Memphis is palpable in the open-air museum that has become the archaeological site, housing colossal statues, engraved stelae and royal tombs. 
+                        Every stone, every hieroglyph evokes the past grandeur of Memphis as a political, religious and cultural center. 
+                        Memphis' urban planning and heritage combine to offer visitors a captivating plunge into the roots of Egyptian civilization.
                     </p> 
                     <div id="lirePlusBtnContainer">
-                        <button class="lirePlusBtn" id="lirePlusBtn2" onclick="afficherTexteComplet2()">Lire plus</button>
+                        <button class="lirePlusBtn" id="lirePlusBtn2" onclick="afficherTexteCompletEn()">Read more</button>
                     </div>
                 </div>
             </div>
         </section>
 
         <section class="A_lire">
-            <div class="titre2">
-                <p>A LIRE AUSSI</p>
+            <div class="container">
+                <div class="titre2"><p>ALSO READ</p></div>
+                <div class="line"></div>
             </div>
             <div id="title-map">
                 <div class="slide-container">
                     <div class="custom-slider fade">
-                        <div class="slide-index">1 / 3</div>
-                        <a href=#>
+                        <a href="https://www.nationalgeographic.fr/histoire/2023/02/une-deuxieme-momie-couverte-dor-decouverte-dans-la-necropole-de-saqqarah#:~:text=Deux%20momies%20ont%20%C3%A9t%C3%A9%20d%C3%A9couvertes,d'environ%204%20300%20ans.&text=La%20n%C3%A9cropole%20de%20Saqqarah%20a,ans%20par%20la%20civilisation%20%C3%A9gyptienne." target="_blank">
                             <img class="slide-img" src="../assets/Img_Histoire/article1.jpg">
                         </a>
                         <div class="slide-text">
-                            <div>Archéologie</div>
-                            <p>Découverte d'une momie de 4300 ans enveloppée d’or</p>
+                            <div>Archeology</div>
+                            <p>Discovery of a 4,300-year-old mummy wrapped in gold</p>
                         </div>
                     </div>
                     <div class="custom-slider fade">
-                        <div class="slide-index">2 / 3</div>
-                        <a href="#">
-                            <img class="slide-img" src="../assets/Img_Histoire/article2.jpg">
+                    <a href="https://www.geo.fr/histoire/des-scientifiques-egyptiens-deballent-numeriquement-la-momie-du-pharaon-amenhotep-ier-pour-la-premiere-fois-en-3-000-ans-207649#:~:text=Pour%20la%20premi%C3%A8re%20fois%20en%20trois%20mill%C3%A9naires%2C%20des%20scientifiques%20%C3%A9gyptiens,2021%20dans%20Frontiers%20in%20Medicine." target="_blank">                            <img class="slide-img" src="../assets/Img_Histoire/article2.jpg">
                         </a>
                         <div class="slide-text">
-                            <div>Recherche</div>
-                            <p>Des scientifiques "déballent" numériquement la momie d'Amenhotep Ier pour la première fois en 3000 ans</p>
+                            <div>Research</div>
+                            <p>Scientists digitally "unpack" the mummy of Amenhotep I for the first time in 3,000 years</p>
                         </div>
                     </div>
                     <div class="custom-slider fade">
-                        <div class="slide-index">3 / 3</div>
-                        <a href="#">
+                        <a href="https://www.geo.fr/histoire/trois-momies-avec-une-langue-en-or-decouverte-en-egypte-207453" target="_blank">
                             <img class="slide-img" src="../assets/Img_Histoire/article3.png">
                         </a>
                         <div class="slide-text">
-                            <div>Découverte</div>
-                            <p>Trois momies avec une langue en or découvertes en Egypte</p>
+                            <div>Discoveries</div>
+                            <p>Three mummies with golden tongues discovered in Egypt</p>
                         </div>
                     </div>
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -202,69 +163,6 @@
             include("../include/footer.inc.php");
         ?>
 
-        <script>
-            function afficherTexteComplet() {
-                var moreText = document.getElementById("moreText");
-                var btn = document.getElementById("lirePlusBtn");
-
-                if (moreText.style.display === "none" || moreText.style.display === "") {
-                    moreText.style.display = "block";
-                    btn.innerHTML = "Lire moins";
-                } else {
-                    moreText.style.display = "none";
-                    btn.innerHTML = "Lire plus";
-                }
-            }
-
-            function afficherTexteComplet2() {
-                var moreText = document.getElementById("moreText2");
-                var btn = document.getElementById("lirePlusBtn2");
-
-                if (moreText.style.display === "none" || moreText.style.display === "") {
-                    moreText.style.display = "block";
-                    btn.innerHTML = "Lire moins";
-                } else {
-                    moreText.style.display = "none";
-                    btn.innerHTML = "Lire plus";
-                }
-            }
-        var slideIndex = 1;
-
-    function showSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("custom-slider");
-        var dots = document.getElementsByClassName("dot");
-        var texts = document.querySelectorAll('.slide-text .text-item');
-
-        if (n > slides.length) {
-            slideIndex = 1
-        }
-        if (n < 1) {
-            slideIndex = slides.length
-        }
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        for (i = 0; i < texts.length; i++) {
-            texts[i].classList.remove("active");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
-        texts[slideIndex - 1].classList.add("active");
-    }
-
-    function plusSlides(n) {
-        showSlides(slideIndex += n);
-    }
-
-    function currentSlide(n) {
-        showSlides(slideIndex = n);
-    }
-
-    showSlides(slideIndex);
-        </script>
+        <script src="../js/architecture.js"></script>
     </body>
 </html>

@@ -12,7 +12,7 @@ Ce site a été développé dans le cadre d’un projet en partenariat avec l’
 
 ### Ressources utilisées
 
-- **Langages de programmation :** HTML, CSS
+- **Langages de programmation :** HTML, CSS, PHP, JS
 - **Plateforme de collaboration :** Google Drive
 - **Source des informations touristiques :** Site du patrimoine mondial de l’UNESCO
 - **Charte graphique :** Contre proposition crée par notre groupe

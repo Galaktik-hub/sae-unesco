@@ -17,7 +17,7 @@
             <h2>有用信息</h2>
             <hr>
             <div class="container">
-                <a href="carte.php?lang=fr" class="card lieux">
+                <a href="carte.php?lang=cn" class="card lieux">
                     <div class="slide">
                         <img src="../assets/Img_Infos/lieux.jpg"></img>
                     </div>
@@ -28,7 +28,7 @@
                     </div>
                 </a>
 
-                <a href="activites.php?lang=fr#gastronomie" class="card gastronomie">
+                <a href="activites.php?lang=cn#gastronomie" class="card gastronomie">
                     <div class="slide">
                         <img src="../assets/Img_Infos/gastronomie.jpg"></img>
                     </div>
@@ -39,7 +39,7 @@
                     </div>
                 </a>
 
-                <a href="activites.php?lang=fr#parcours" class="card parcours">
+                <a href="activites.php?lang=cn#parcours" class="card parcours">
                     <div class="slide">
                         <img src="../assets/Img_Infos/parcours.jpeg"></img>
                     </div>

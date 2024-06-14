@@ -44,7 +44,7 @@ button:hover {
     background-position: center;
     background-attachment: fixed;
     height: 100%;
-    margin-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 .article {
@@ -82,6 +82,8 @@ button:hover {
 .content-article {
     text-align: justify;
     margin: 3%;
+    margin-bottom: 0;
+    padding-bottom: 40px;
 }
 
 .content-article h1 {
@@ -93,13 +95,13 @@ button:hover {
 .content-article h2 {
     font-family: "Krona One", sans-serif;
     font-size: calc(0.8rem + 0.8vw);
-    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .content-article *:not(h1, h2, li) {
     font-family: "Inter", sans-serif;
     font-size: calc(0.6rem + 0.8vw);
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 

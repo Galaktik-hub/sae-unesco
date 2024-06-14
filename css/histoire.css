@@ -689,6 +689,7 @@ custom-slider {
 .slide-text h2 {
     font-family: "Inknut Antiqua", sans-serif;
     font-size: calc(0.6rem + 0.8vw);
+    line-height: 30px;
 }
 
 .slide-text p {

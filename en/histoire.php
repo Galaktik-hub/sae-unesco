@@ -244,21 +244,58 @@
             </div>
             <div id="title-map">
                 <div class="slide-container">
+                    <?php
+                        include("../include/connexion.inc.php");
+                        global $cnx;
+                        $req = $cnx->query("SELECT id FROM article_fr");
+                        $id_array = [];
+                        // Récupération de tous les ids d'articles dispos
+                        while ($ligne = $req->fetch(PDO::FETCH_OBJ)) {
+                            $id_array[] = $ligne->id;
+                        }
+                        // On en prend trois au pif
+                        $random_ids = array_rand($id_array, 3);
+                        $article1 = $id_array[$random_ids[0]];
+                        $article2 = $id_array[$random_ids[1]];
+                        $article3 = $id_array[$random_ids[2]];
+
+                        // On récupère les titres des articles
+                        $req = $cnx->query("SELECT titre FROM article_en WHERE id=$article1");
+                        $ligne = $req->fetch(PDO::FETCH_OBJ);
+                        $titre1 = $ligne->titre;
+
+                        $req = $cnx->query("SELECT titre FROM article_en WHERE id=$article2");
+                        $ligne = $req->fetch(PDO::FETCH_OBJ);
+                        $titre2 = $ligne->titre;
+
+                        $req = $cnx->query("SELECT titre FROM article_en WHERE id=$article3");
+                        $ligne = $req->fetch(PDO::FETCH_OBJ);
+                        $titre3 = $ligne->titre;
+                    ?>
                     <div class="custom-slider fade">
-                        <a href="https://www.nationalgeographic.fr/histoire/2023/02/une-deuxieme-momie-couverte-dor-decouverte-dans-la-necropole-de-saqqarah#:~:text=Deux%20momies%20ont%20%C3%A9t%C3%A9%20d%C3%A9couvertes,d'environ%204%20300%20ans.&text=La%20n%C3%A9cropole%20de%20Saqqarah%20a,ans%20par%20la%20civilisation%20%C3%A9gyptienne." target="_blank">
-                            <img class="slide-img" src="../assets/Img_Histoire/article1.jpg">
+                        <a href="article.php?lang=en&id=<?php echo $article1;?>">
+                            <img class="slide-img" src="../assets/Img_Article/<?php echo $article1;?>.jpg">
                         </a>
                         <div class="slide-text">
-                            <div>Archaeology</div>
-                            <p>Discovery of a 4,300-year-old mummy wrapped in gold</p>
+                            <h2><?php echo $titre1;?></h2>
                         </div>
                     </div>
+
                     <div class="custom-slider fade">
-                    <a href="https://www.geo.fr/histoire/des-scientifiques-egyptiens-deballent-numeriquement-la-momie-du-pharaon-amenhotep-ier-pour-la-premiere-fois-en-3-000-ans-207649#:~:text=Pour%20la%20premi%C3%A8re%20fois%20en%20trois%20mill%C3%A9naires%2C%20des%20scientifiques%20%C3%A9gyptiens,2021%20dans%20Frontiers%20in%20Medicine." target="_blank">                            <img class="slide-img" src="../assets/Img_Histoire/article2.jpg">
+                        <a href="article.php?lang=en&id=<?php echo $article2;?>">
+                            <img class="slide-img" src="../assets/Img_Article/<?php echo $article2;?>.jpg">
                         </a>
                         <div class="slide-text">
-                            <div>Research</div>
-                            <p>Scientists digitally "unpack" the mummy of Amenhotep I for the first time in 3,000 years</p>
+                            <h2><?php echo $titre2;?></h2>
+                        </div>
+                    </div>
+
+                    <div class="custom-slider fade">
+                        <a href="article.php?lang=en&id=<?php echo $article3;?>">
+                            <img class="slide-img" src="../assets/Img_Article/<?php echo $article3;?>.jpg">
+                        </a>
+                        <div class="slide-text">
+                            <h2><?php echo $titre3;?></h2>
                         </div>
                     </div>
                     <div class="custom-slider fade">
@@ -276,7 +313,8 @@
                 <div class="slide-dot">
                     <span class="dot" onclick="currentSlide(1)"></span> 
                     <span class="dot" onclick="currentSlide(2)"></span> 
-                    <span class="dot" onclick="currentSlide(3)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
                 </div>
             </div>
         </section>         

@@ -1,4 +1,8 @@
 <?php
+session_start();
+if(!isset($_SESSION["connected"])) {
+  header("location: login.php");
+}
 $target_dir = "../assets/Img_Article/";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;

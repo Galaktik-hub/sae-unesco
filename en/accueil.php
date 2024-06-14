@@ -36,8 +36,8 @@
                         <img class="slide-img" src="../assets/Img_Accueil/Caroussel_sphinx.jpg">
                     </a>
                     <div class="slide-text">
-                        <h2>Âlbatre sphinx</h2>
-                        Immerse yourself in ancient history as you explore the imposing Sphinx d'Âlbatre, silent guardian of Egypt's mysteries.
+                        <h2>Albatre sphinx</h2>
+                        Immerse yourself in ancient history as you explore the imposing Sphinx d'Albatre, silent guardian of Egypt's mysteries.
                     </div>
                 </div>
                 <div class="custom-slider fade">
@@ -117,7 +117,7 @@
                     </tr>
                     <tr>
                         <td><a href="activites.php?lang=en#gastronomie">Gastronomy <i class="fa-solid fa-arrow-right"></i></a></td>
-                        <td><a href="https://www.cairotoptours.com/Egypt-Day-Tours-and-Excursions/Egypt-Wheelchair-Accessible-Day-Tours">Reduced mobility access <i class="fa-solid fa-arrow-right"></i></a></td>
+                        <td><a href="https://www.cairotoptours.com/Egypt-Day-Tours-and-Excursions/Egypt-Wheelchair-Accessible-Day-Tours" target="_blank">Reduced mobility access <i class="fa-solid fa-arrow-right"></i></a></td>
                     </tr>
                     <tr>
                         <td><a href="activites.php?lang=en#parcours">Routes <i class="fa-solid fa-arrow-right"></i></a></td>

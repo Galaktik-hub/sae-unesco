@@ -36,8 +36,8 @@
                         <img class="slide-img" src="../assets/Img_Accueil/Caroussel_sphinx.jpg">
                     </a>
                     <div class="slide-text">
-                        <h2>Sphinx d'Âlbatre</h2>
-                        Plongez dans l'histoire ancienne en explorant l'imposant Sphinx d'Âlbatre, gardien silencieux des mystères de l'Égypte.
+                        <h2>Sphinx d'Albâtre</h2>
+                        Plongez dans l'histoire ancienne en explorant l'imposant Sphinx d'Albâtre, gardien silencieux des mystères de l'Égypte.
                     </div>
                 </div>
                 <div class="custom-slider fade">
@@ -123,7 +123,7 @@
                     </tr>
                     <tr>
                         <td><a href="activites.php?lang=fr#gastronomie">Gastronomie <i class="fa-solid fa-arrow-right"></i></a></td>
-                        <td><a href="https://www.cairotoptours.com/fr/Forfaits-voyage-en-Egypte/Circuits-accessibles-en-fauteuil-roulant-en-Egypte">Accès handicapés <i class="fa-solid fa-arrow-right"></i></a></td>
+                        <td><a href="https://www.cairotoptours.com/fr/Forfaits-voyage-en-Egypte/Circuits-accessibles-en-fauteuil-roulant-en-Egypte" target="_blank">Accès handicapés <i class="fa-solid fa-arrow-right"></i></a></td>
                     </tr>
                     <tr>
                         <td><a href="activites.php?lang=fr#parcours">Parcours <i class="fa-solid fa-arrow-right"></i></a></td>

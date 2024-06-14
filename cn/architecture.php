@@ -123,6 +123,60 @@
             </div>
             <div id="title-map">
                 <div class="slide-container">
+                    <?php
+                        include("../include/connexion.inc.php");
+                        global $cnx;
+                        $req = $cnx->query("SELECT id FROM article_fr");
+                        $id_array = [];
+                        // Récupération de tous les ids d'articles dispos
+                        while ($ligne = $req->fetch(PDO::FETCH_OBJ)) {
+                            $id_array[] = $ligne->id;
+                        }
+                        // On en prend trois au pif
+                        $random_ids = array_rand($id_array, 3);
+                        $article1 = $id_array[$random_ids[0]];
+                        $article2 = $id_array[$random_ids[1]];
+                        $article3 = $id_array[$random_ids[2]];
+
+                        // On récupère les titres des articles
+                        $req = $cnx->query("SELECT titre FROM article_cn WHERE id=$article1");
+                        $ligne = $req->fetch(PDO::FETCH_OBJ);
+                        $titre1 = $ligne->titre;
+
+                        $req = $cnx->query("SELECT titre FROM article_cn WHERE id=$article2");
+                        $ligne = $req->fetch(PDO::FETCH_OBJ);
+                        $titre2 = $ligne->titre;
+
+                        $req = $cnx->query("SELECT titre FROM article_cn WHERE id=$article3");
+                        $ligne = $req->fetch(PDO::FETCH_OBJ);
+                        $titre3 = $ligne->titre;
+                    ?>
+                    <div class="custom-slider fade">
+                        <a href="article.php?lang=cn&id=<?php echo $article1;?>">
+                            <img class="slide-img" src="../assets/Img_Article/<?php echo $article1;?>.jpg">
+                        </a>
+                        <div class="slide-text">
+                            <h2><?php echo $titre1;?></h2>
+                        </div>
+                    </div>
+
+                    <div class="custom-slider fade">
+                        <a href="article.php?lang=cn&id=<?php echo $article2;?>">
+                            <img class="slide-img" src="../assets/Img_Article/<?php echo $article2;?>.jpg">
+                        </a>
+                        <div class="slide-text">
+                            <h2><?php echo $titre2;?></h2>
+                        </div>
+                    </div>
+
+                    <div class="custom-slider fade">
+                        <a href="article.php?lang=cn&id=<?php echo $article3;?>">
+                            <img class="slide-img" src="../assets/Img_Article/<?php echo $article3;?>.jpg">
+                        </a>
+                        <div class="slide-text">
+                            <h2><?php echo $titre3;?></h2>
+                        </div>
+                    </div>
                     <div class="custom-slider fade">
                         <a href="https://www.nationalgeographic.fr/histoire/2023/02/une-deuxieme-momie-couverte-dor-decouverte-dans-la-necropole-de-saqqarah#:~:text=Deux%20momies%20ont%20%C3%A9t%C3%A9%20d%C3%A9couvertes,d'environ%204%20300%20ans.&text=La%20n%C3%A9cropole%20de%20Saqqarah%20a,ans%20par%20la%20civilisation%20%C3%A9gyptienne." target="_blank">
                             <img class="slide-img" src="../assets/Img_Histoire/article1.jpg">
@@ -140,22 +194,15 @@
                             <p>科学家3000年来首次以数字方式“打开”阿蒙霍特普一世的木乃伊</p>
                         </div>
                     </div>
-                    <div class="custom-slider fade">
-                        <a href="https://www.geo.fr/histoire/trois-momies-avec-une-langue-en-or-decouverte-en-egypte-207453" target="_blank">
-                            <img class="slide-img" src="../assets/Img_Histoire/article3.png">
-                        </a>
-                        <div class="slide-text">
-                            <div>发现</div>
-                            <p>在埃及发现了三个有黄金舌头的木乃伊</p>
-                        </div>
-                    </div>
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
                 <div class="slide-dot">
                     <span class="dot" onclick="currentSlide(1)"></span> 
                     <span class="dot" onclick="currentSlide(2)"></span> 
-                    <span class="dot" onclick="currentSlide(3)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
                 </div>
             </div>
         </section>         

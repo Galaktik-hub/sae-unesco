@@ -25,7 +25,7 @@ if (isset($_POST['email']) && isset($_POST['contenu']) && isset($_POST['nom']) &
 ?>
 <link rel="stylesheet" href="../css/contact.css">
 <section id="contact">
-    <form action="../fr/contact.php" method="post">
+    <form action="qui_sommes_nous.php?lang=fr#contact" method="post">
         <h1>Nous contacter</h1>
         <label for="nom">Nom*</label>
         <input type="text" name="nom" maxlength="30" required/>
@@ -37,8 +37,7 @@ if (isset($_POST['email']) && isset($_POST['contenu']) && isset($_POST['nom']) &
         <input type="email" name="email" maxlength="320" required/>
         
         <label for="contenu">Contenu du message*</label>
-        <input type="text" name="contenu" maxlength="300" required/>
-        <!-- <textarea name="contenu" maxlength="1000" required></textarea> -->
+        <textarea name="contenu" maxlength="1000" required></textarea>
         
         <div class="form-buttons">
             <input type="reset" class="button" name="reset" value="Effacer" /> 

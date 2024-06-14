@@ -28,7 +28,7 @@
         
         <section id="carrousel">
         <div id="title-map">
-                <p>Découvrir</p>
+                <p>发现</p>
             </div>
             <div class="slide-container">
                 <div class="custom-slider fade">
@@ -113,7 +113,7 @@
                     </tr>
                     <tr>
                         <td><a href="activites.php?lang=cn#gastronomie">美食 <i class="fa-solid fa-arrow-right"></i></a></td>
-                        <td><a href="https://www.cairotoptours.com/Egypt-Day-Tours-and-Excursions/Egypt-Wheelchair-Accessible-Day-Tours">残疾人通道 <i class="fa-solid fa-arrow-right"></i></a></td>
+                        <td><a href="https://www.cairotoptours.com/Egypt-Day-Tours-and-Excursions/Egypt-Wheelchair-Accessible-Day-Tours" target="_blank">残疾人通道 <i class="fa-solid fa-arrow-right"></i></a></td>
                     </tr>
                     <tr>
                         <td><a href="activites.php?lang=cn#parcours">行程路线 <i class="fa-solid fa-arrow-right"></i></a></td>

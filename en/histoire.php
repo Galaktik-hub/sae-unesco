@@ -196,11 +196,11 @@
                                 </label>
 
                                 <label class="text" id="text-4">
-                                    <div class="title">Akhenaten, often associated with ancient Egypt's religious revolution, briefly moved the capital to Amarna. Although his reign was short, his actions had a significant impact on Memphis, disrupting established religious traditions.</div>
+                                    <div class="title"><br>Akhenaten, often associated with ancient Egypt's religious revolution, briefly moved the capital to Amarna. Although his reign was short, his actions had a significant impact on Memphis, disrupting established religious traditions.</div>
                                 </label>
 
                                 <label class="text" id="text-5">
-                                    <div class="title">Cleopatra, the last queen of Ptolemaic Egypt, also played a role in the history of Memphis. She was known for her political intelligence and her liaison with Roman rulers, notably Julius Caesar and Mark Antony. Although her reign marked the end of Egypt's independence, it had a notable influence on the history of Memphis and ancient Egypt.</div>
+                                    <div class="title"><br>Cleopatra, the last queen of Ptolemaic Egypt, also played a role in the history of Memphis. She was known for her political intelligence and her liaison with Roman rulers, notably Julius Caesar and Mark Antony. Although her reign marked the end of Egypt's independence, it had a notable influence on the history of Memphis and ancient Egypt.</div>
                                 </label>
                                 
                             </div>
@@ -232,7 +232,7 @@
                         The frequent and detailed mention of Memphis in the writings of travellers such as Herodotus and Diodorus of Sicily attests to the city's continuing fascination throughout the ages. Their accounts, dating back to the 5th century BC, help to preserve the memory of Memphis beyond its political decline. 
                         In conclusion, research on the Memphis site has opened a window on ancient Egypt, revealing treasures that transcend time. From majestic temples to diplomatic testimonies and the mysteries of necropolises, each discovery shapes a captivating narrative of Memphis' past grandeur, reminding us of its central role in ancient history. This research continues to provide us with the keys to understanding and appreciating the exceptional heritage of this legendary city.                    </p>
                     <div id="lirePlusBtnContainer">
-                        <button id="lirePlusBtn" onclick="afficherTexteComplet()">Read more</button>
+                        <button id="lirePlusBtn" onclick="afficherTexteCompletEn()">Read more</button>
                     </div>
                 </div>
             </div>
@@ -287,59 +287,9 @@
 
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="../js/histoire.js"></script>
         <script defer>
             AOS.init();
-
-            
-            function afficherTexteComplet() {
-                var moreText = document.getElementById("moreText");
-                var btn = document.getElementById("lirePlusBtn");
-
-                if (moreText.style.display == "inline") {
-                    moreText.style.display = "none";
-                    btn.innerHTML = "Lire plus";
-                } else {
-                    moreText.style.display = "inline";
-                    btn.innerHTML = "Lire moins";
-                }
-            }
-            var slideIndex = 1;
-
-            function showSlides(n) {
-                var i;
-                var slides = document.getElementsByClassName("custom-slider");
-                var dots = document.getElementsByClassName("dot");
-                var texts = document.querySelectorAll('.slide-text .text-item');
-
-                if (n > slides.length) {
-                    slideIndex = 1
-                }
-                if (n < 1) {
-                    slideIndex = slides.length
-                }
-                for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";
-                }
-                for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" active", "");
-                }
-                for (i = 0; i < texts.length; i++) {
-                    texts[i].classList.remove("active");
-                }
-                slides[slideIndex - 1].style.display = "block";
-                dots[slideIndex - 1].className += " active";
-                texts[slideIndex - 1].classList.add("active");
-            }
-
-            function plusSlides(n) {
-                showSlides(slideIndex += n);
-            }
-
-            function currentSlide(n) {
-                showSlides(slideIndex = n);
-            }
-
-            showSlides(slideIndex);
         </script>
     </body>
 </html>

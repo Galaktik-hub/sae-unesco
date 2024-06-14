@@ -37,7 +37,7 @@
             </div>
             <div class="profil">
                 <img src="../assets/Img_Qui_sommes_nous/julien.png" alt="SYNAEVE Julien">
-                <p><strong>斯纳艾维(Synaeve) 朱利安(Julien)</strong><br>Chef de développement Front End</p>
+                <p><strong>斯纳艾维(Synaeve) 朱利安(Julien)</strong><br>前端开发经理</p>
                 <div class="social-icons">
                     <a href="https://www.linkedin.com/in/julien-synaeve" target="_blank"><i class="fab fa-linkedin"></i></a>
                     <a href="https://github.com/JulienS-Code" target="_blank"><i class="fab fa-github"></i></a>
@@ -46,7 +46,7 @@
             </div>
             <div class="profil">
                 <img src="../assets/Img_Qui_sommes_nous/raphael.png" alt="DAVIOT Raphaël">
-                <p><strong>大历欧(Daviot) 拉斐尔(Raphaël)</strong><br>Rôle 3 - Description 3</p>
+                <p><strong>大历欧(Daviot) 拉斐尔(Raphaël)</strong><br>网页设计师和前端开发人员</p>
                 <div class="social-icons">
                     <a href="https://www.linkedin.com/in/raphael-daviot" target="_blank"><i class="fab fa-linkedin"></i></a>
                     <a href="https://github.com/RaphaelDAV" target="_blank"><i class="fab fa-github"></i></a>
@@ -55,7 +55,7 @@
             </div>
             <div class="profil">
                 <img src="../assets/Img_Qui_sommes_nous/nathan.png" alt="SEBELON Nathan">
-                <p><strong>色本龙(Sebelon) 内森(Nathan)</strong><br>Rôle 4 - Description 4</p>
+                <p><strong>色本龙(Sebelon) 内森(Nathan)</strong><br>前端开发人员</p>
                 <div class="social-icons">
                     <a href="https://www.linkedin.com/in/nathan-sebelon-956488269/" target="_blank"><i class="fab fa-linkedin"></i></a>
                     <a href="https://github.com/Nathan-sbl" target="_blank"><i class="fab fa-github"></i></a>

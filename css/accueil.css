@@ -379,15 +379,16 @@ iframe {
     }
 
     #CoeurCite #title-coeurcite p {
-        font-size: 6vw;
+        font-size: 2.5vw;
     }
 
     #infos-pratiques p {
-        font-size: 2.5vw;
+        font-size: 3.5vw;
     }
 
     #infos-pratiques table a {
         font-size: 4vw;
+        color: #ffffff;
     }
 
     #infos-pratiques table a i {
@@ -395,11 +396,35 @@ iframe {
     }
 
     #infos-pratiques #container-infos-pratiques {
+        position: relative; /* Ajoutez cette ligne pour que le pseudo-élément soit positionné par rapport au conteneur */
         flex-direction: column;
+        background-image: url('../assets/Img_Accueil/Infos_pratiques.jpg');
+        background-size: cover;
+        background-position: center;
+        padding: 10%;
+        border-radius: 2%;
+        z-index: 1; /* Pour que le contenu du conteneur soit au-dessus du pseudo-élément */
     }
-
+    
+    #infos-pratiques #container-infos-pratiques::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: inherit; /* Utilise la même image de fond */
+        filter: brightness(50%);
+        z-index: -1; /* Positionne le pseudo-élément derrière le contenu du conteneur */
+        border-radius: 2%; /* Applique le même rayon de bordure */
+    }
+    
     #infos-pratiques #container-infos-pratiques img {
         min-width: 250px;
+    }
+    
+    #infos-pratiques img {
+        display: none;
     }
 
     

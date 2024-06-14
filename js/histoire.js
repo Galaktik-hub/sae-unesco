@@ -1,6 +1,6 @@
 function afficherTexteCompletFr() {
-    var moreText = document.getElementById("moreText2");
-    var btn = document.getElementById("lirePlusBtn2");
+    var moreText = document.getElementById("moreText");
+    var btn = document.getElementById("lirePlusBtn");
 
     if (moreText.style.display === "none" || moreText.style.display === "") {
         moreText.style.display = "block";
@@ -12,8 +12,8 @@ function afficherTexteCompletFr() {
 }
 
 function afficherTexteCompletEn() {
-    var moreText = document.getElementById("moreText2");
-    var btn = document.getElementById("lirePlusBtn2");
+    var moreText = document.getElementById("moreText");
+    var btn = document.getElementById("lirePlusBtn");
 
     if (moreText.style.display === "none" || moreText.style.display === "") {
         moreText.style.display = "block";
@@ -25,8 +25,8 @@ function afficherTexteCompletEn() {
 }
 
 function afficherTexteCompletCn() {
-    var moreText = document.getElementById("moreText2");
-    var btn = document.getElementById("lirePlusBtn2");
+    var moreText = document.getElementById("moreText");
+    var btn = document.getElementById("lirePlusBtn");
 
     if (moreText.style.display === "none" || moreText.style.display === "") {
         moreText.style.display = "block";

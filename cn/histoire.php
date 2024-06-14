@@ -206,19 +206,19 @@
                                 </label>
 
                                 <label class="text" id="text-2">
-                                    <div class="title">法老左塞尔因下令建造由建筑师伊姆霍特普设计的萨卡拉阶梯金字塔而闻名。这一创新结构标志着埃及金字塔演变过程中的关键一步，并巩固了孟菲斯作为主要建筑中心的地位。</div>
+                                    <div class="title"><br><br>法老左塞尔因下令建造由建筑师伊姆霍特普设计的萨卡拉阶梯金字塔而闻名。这一创新结构标志着埃及金字塔演变过程中的关键一步，并巩固了孟菲斯作为主要建筑中心的地位。</div>
                                 </label>
 
                                 <label class="text" id="text-3">
-                                    <div class="title">拉美西斯二世，也称为拉美西斯大帝，统治第十九王朝，在孟菲斯留下了令人印象深刻的遗产。他扩张了埃及帝国，建造了寺庙和纪念碑，包括孟菲斯著名的卜塔神庙，巩固了这座城市作为宗教和政治中心的地位。</div>
+                                    <div class="title"><br><br>拉美西斯二世，也称为拉美西斯大帝，统治第十九王朝，在孟菲斯留下了令人印象深刻的遗产。他扩张了埃及帝国，建造了寺庙和纪念碑，包括孟菲斯著名的卜塔神庙，巩固了这座城市作为宗教和政治中心的地位。</div>
                                 </label>
 
                                 <label class="text" id="text-4">
-                                    <div class="title">埃赫那吞经常与古埃及的宗教革命联系在一起，他曾短暂地将首都迁往阿玛纳。尽管他的统治时间很短，但他的行为扰乱了既定的宗教传统，对孟菲斯产生了重大影响。</div>
+                                    <div class="title"><br>埃赫那吞经常与古埃及的宗教革命联系在一起，他曾短暂地将首都迁往阿玛纳。尽管他的统治时间很短，但他的行为扰乱了既定的宗教传统，对孟菲斯产生了重大影响。</div>
                                 </label>
 
                                 <label class="text" id="text-5">
-                                    <div class="title">埃及托勒密王朝最后一位女王克利奥帕特拉在孟菲斯的历史上也发挥过重要作用。她以其政治智慧以及与罗马领导人（包括凯撒大帝和马克·安托万）的联络而闻名。尽管他的统治标志着埃及独立的结束，但他对孟菲斯和古埃及的历史产生了显着的影响。</div>
+                                    <div class="title"><br>埃及托勒密王朝最后一位女王克利奥帕特拉在孟菲斯的历史上也发挥过重要作用。她以其政治智慧以及与罗马领导人（包括凯撒大帝和马克·安托万）的联络而闻名。尽管他的统治标志着埃及独立的结束，但他对孟菲斯和古埃及的历史产生了显着的影响。</div>
                                 </label>
                                 
                             </div>
@@ -250,7 +250,7 @@
                         希罗多德和西西里的狄奥多鲁斯等旅行家的著作中经常详细提到孟菲斯，这证明了这座城市在各个时代的持续魅力。他们的记载可以追溯到公元前 5 世纪，有助于保留孟菲斯在政治衰落之后的记忆。 
                         总之，对孟菲斯遗址的研究为我们打开了一扇了解古埃及的窗口，揭示了跨越时空的宝藏。从雄伟的神庙到外交证词，再到神秘的墓地，每一项发现都为孟菲斯过去的辉煌谱写了动人的叙事，提醒我们它在古代历史中的核心作用。这项研究将继续为我们提供了解和欣赏这座传奇城市非凡遗产的钥匙。                    </p>
                     <div id="lirePlusBtnContainer">
-                        <button id="lirePlusBtn" onclick="afficherTexteComplet()">Lire plus</button>
+                        <button id="lirePlusBtn" onclick="afficherTexteCompletCn()">阅读更多</button>
                     </div>
                 </div>
             </div>
@@ -306,59 +306,9 @@
 
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="../js/histoire.js"></script>
         <script defer>
             AOS.init();
-
-            
-            function afficherTexteComplet() {
-                var moreText = document.getElementById("moreText");
-                var btn = document.getElementById("lirePlusBtn");
-
-                if (moreText.style.display == "inline") {
-                    moreText.style.display = "none";
-                    btn.innerHTML = "Lire plus";
-                } else {
-                    moreText.style.display = "inline";
-                    btn.innerHTML = "Lire moins";
-                }
-            }
-            var slideIndex = 1;
-
-            function showSlides(n) {
-                var i;
-                var slides = document.getElementsByClassName("custom-slider");
-                var dots = document.getElementsByClassName("dot");
-                var texts = document.querySelectorAll('.slide-text .text-item');
-
-                if (n > slides.length) {
-                    slideIndex = 1
-                }
-                if (n < 1) {
-                    slideIndex = slides.length
-                }
-                for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";
-                }
-                for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" active", "");
-                }
-                for (i = 0; i < texts.length; i++) {
-                    texts[i].classList.remove("active");
-                }
-                slides[slideIndex - 1].style.display = "block";
-                dots[slideIndex - 1].className += " active";
-                texts[slideIndex - 1].classList.add("active");
-            }
-
-            function plusSlides(n) {
-                showSlides(slideIndex += n);
-            }
-
-            function currentSlide(n) {
-                showSlides(slideIndex = n);
-            }
-
-            showSlides(slideIndex);
         </script>
     </body>
 </html>

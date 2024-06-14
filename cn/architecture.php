@@ -76,7 +76,7 @@
                 </div>
 
                 <div class="monument">                    
-                    <div class="monument-content" data-text="Les enceintes comportent des reproductions en pierre des pavillons de roseaux et des structures en bois utilisées auparavant, symbolisant la transition vers une architecture plus durable.">
+                    <div class="monument-content" data-text="围墙上的石头是过去使用的芦苇亭和木结构的复制品，象征着向更可持续的建筑过渡。">
                         <img src="../assets/Img_Architecture/archi6.png" alt="Enceintes de Djoser">
                         <div class="monument-title">左塞尔的大围墙</div>
                     </div>
@@ -110,7 +110,7 @@
                         因此，孟菲斯的城市规划和遗产相结合，为游客提供了深入了解埃及文明根源的迷人机会。
                     </p> 
                     <div id="lirePlusBtnContainer">
-                        <button class="lirePlusBtn" id="lirePlusBtn2" onclick="afficherTexteCompletCn()">另请阅读</button>
+                        <button class="lirePlusBtn" id="lirePlusBtn2" onclick="afficherTexteCompletCn()">阅读更多</button>
                     </div>
                 </div>
             </div>

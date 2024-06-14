@@ -250,7 +250,7 @@
                         La mention fréquente et détaillée de Memphis dans les écrits de voyageurs tels qu'Hérodote et Diodore de Sicile atteste de la fascination continue pour cette cité à travers les âges. Leurs récits, remontant au Ve siècle avant notre ère, contribuent à la préservation de la mémoire de Memphis au-delà de son déclin politique. 
                         En conclusion, les recherches sur le site de Memphis ont ouvert une fenêtre sur l'Égypte antique, dévoilant des trésors qui transcendent le temps. Des temples majestueux aux témoignages diplomatiques, en passant par les mystères des nécropoles, chaque découverte façonne un récit captivant de la grandeur passée de Memphis, rappelant son rôle central dans l'histoire ancienne. Ces recherches continuent de nous livrer des clés pour comprendre et apprécier l'héritage exceptionnel de cette cité légendaire.                    </p>
                     <div id="lirePlusBtnContainer">
-                        <button id="lirePlusBtn" onclick="afficherTexteComplet()">Lire plus</button>
+                        <button id="lirePlusBtn" onclick="afficherTexteCompletFr()">Lire plus</button>
                     </div>
                 </div>
             </div>
@@ -308,59 +308,9 @@
 
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="../js/histoire.js"></script>
         <script defer>
             AOS.init();
-
-            
-            function afficherTexteComplet() {
-                var moreText = document.getElementById("moreText");
-                var btn = document.getElementById("lirePlusBtn");
-
-                if (moreText.style.display == "inline") {
-                    moreText.style.display = "none";
-                    btn.innerHTML = "Lire plus";
-                } else {
-                    moreText.style.display = "inline";
-                    btn.innerHTML = "Lire moins";
-                }
-            }
-            var slideIndex = 1;
-
-            function showSlides(n) {
-                var i;
-                var slides = document.getElementsByClassName("custom-slider");
-                var dots = document.getElementsByClassName("dot");
-                var texts = document.querySelectorAll('.slide-text .text-item');
-
-                if (n > slides.length) {
-                    slideIndex = 1
-                }
-                if (n < 1) {
-                    slideIndex = slides.length
-                }
-                for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";
-                }
-                for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" active", "");
-                }
-                for (i = 0; i < texts.length; i++) {
-                    texts[i].classList.remove("active");
-                }
-                slides[slideIndex - 1].style.display = "block";
-                dots[slideIndex - 1].className += " active";
-                texts[slideIndex - 1].classList.add("active");
-            }
-
-            function plusSlides(n) {
-                showSlides(slideIndex += n);
-            }
-
-            function currentSlide(n) {
-                showSlides(slideIndex = n);
-            }
-
-            showSlides(slideIndex);
         </script>
     </body>
 </html>

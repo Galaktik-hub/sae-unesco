@@ -36,8 +36,8 @@
                         <img class="slide-img" src="../assets/Img_Accueil/Caroussel_sphinx.jpg">
                     </a>
                     <div class="slide-text">
-                        <h2>Sphinx d'Âlbatre</h2>
-                        Plongez dans l'histoire ancienne en explorant l'imposant Sphinx d'Âlbatre, gardien silencieux des mystères de l'Égypte.
+                        <h2>阿尔巴特雷狮身人面像</h2>
+                            探索雄伟的狮身人面像--埃及神秘的无声守护者时，沉浸在古老的历史中。
                     </div>
                 </div>
                 <div class="custom-slider fade">
@@ -45,8 +45,8 @@
                         <img class="slide-img" src="../assets/Img_Accueil/Caroussel_gastronomie.jpg">
                     </a>
                     <div class="slide-text">
-                        <h2>Gastronomie</h2>
-                        Éveillez vos papilles avec les saveurs authentiques de la gastronomie égyptienne, une aventure culinaire inoubliable.
+                        <h2>美食</h2>
+                            埃及美食唤醒您的味蕾，这是一次难忘的美食之旅。
                     </div>
                 </div>
                 <div class="custom-slider fade">
@@ -54,8 +54,8 @@
                         <img class="slide-img" src="../assets/Img_Accueil/Caroussel_chameau.jpg">
                     </a>
                     <div class="slide-text">
-                        <h2>Parcours</h2>
-                        Partez à l'aventure et découvrez des balades à dos de chameaux, une expérience unique au cœur des paysages égyptiens.
+                        <h2>行程路线</h2>
+                        踏上探险之旅，体验骑骆驼的乐趣，在埃及风景的中心地带感受独一无二的体验。
                     </div>
                 </div>
                 <div class="navigation">
